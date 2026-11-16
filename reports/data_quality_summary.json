@@ -1,0 +1,25 @@
+{
+  "execution_timestamp": "2026-11-16T05:25:53.503052+00:00",
+  "total_extracted_rows": 1501,
+  "valid_rows_count": 1495,
+  "rejected_rows_count": 6,
+  "reconciliation_passed": true,
+  "data_quality_score_pct": 99.6,
+  "rejection_breakdown": {
+    "missing_required_field": 1,
+    "missing_price": 1,
+    "invalid_date_format": 1,
+    "invalid_quantity": 1,
+    "invalid_discount": 1,
+    "duplicate_transaction": 1
+  },
+  "financial_aggregates": {
+    "total_gross_sales": 2325651.96,
+    "total_net_sales": 2151055.68,
+    "total_profit": 745890.68,
+    "total_units_sold": 8304,
+    "distinct_orders": 751,
+    "average_order_value": 2864.26,
+    "profit_margin_pct": 34.68
+  }
+}

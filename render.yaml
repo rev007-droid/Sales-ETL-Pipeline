@@ -1,0 +1,24 @@
+# render blueprint config
+services:
+  # fastapi backend web service
+  - type: web # web service
+    name: salespulse-backend # service name
+    env: python # python environment
+    buildCommand: pip install -r backend/requirements.txt # build command
+    startCommand: uvicorn backend.app.main:app --host 0.0.0.0 --port $PORT # start command
+    envVars:
+      - key: ENVIRONMENT # environment key
+        value: production # production value
+      - key: DATABASE_URL # database key
+        fromDatabase:
+          name: salespulse-db # db reference
+          property: connectionString # connection string
+      - key: CORS_ORIGINS # cors key
+        value: https://salespulse.vercel.app,https://salespulse-frontend.onrender.com # origins value
+
+# managed postgresql database
+databases:
+  - name: salespulse-db # database name
+    databaseName: salespulse # database catalog
+    user: salespulse # db username
+    plan: free # free tier

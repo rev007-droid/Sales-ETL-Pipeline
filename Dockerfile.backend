@@ -1,0 +1,35 @@
+# python base image
+FROM python:3.11-slim
+
+# set working directory
+WORKDIR /app
+
+# disable bytecode generation
+ENV PYTHONDONTWRITEBYTECODE=1
+# disable stdout buffering
+ENV PYTHONUNBUFFERED=1
+
+# install system dependencies
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    gcc \
+    libpq-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+# copy dependency requirements
+COPY backend/requirements.txt /app/requirements.txt
+
+# install python packages
+RUN pip install --no-cache-dir -r requirements.txt
+
+# copy application code
+COPY backend /app/backend
+COPY src /app/src
+COPY data /app/data
+COPY sql /app/sql
+COPY reports /app/reports
+
+# expose backend port
+EXPOSE 8000
+
+# start uvicorn server
+CMD ["uvicorn", "backend.app.main:app", "--host", "0.0.0.0", "--port", "8000"]

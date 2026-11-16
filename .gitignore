@@ -1,0 +1,53 @@
+# python bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# environment variables secret
+.env
+.env.local
+.env.*.local
+
+# virtual environments folders
+venv/
+.venv/
+env/
+ENV/
+
+# database storage files
+data/*.db
+data/salespulse.db
+*.sqlite
+*.sqlite3
+
+# temporary uploads folder
+data/uploads/*
+!data/uploads/.gitkeep
+
+# node modules dependencies
+node_modules/
+frontend/node_modules/
+
+# frontend build output
+frontend/dist/
+frontend/dist-ssr/
+*.local
+
+# test cache folders
+.pytest_cache/
+.coverage
+htmlcov/
+
+# editor preferences folders
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# os generated files
+.DS_Store
+Thumbs.db
+
+# runtime log files
+logs/*.log
+!logs/.gitkeep

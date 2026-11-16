@@ -1,0 +1,55 @@
+version: '3.8'
+
+services:
+  # postgresql database container
+  db:
+    image: postgres:16-alpine # postgres official image
+    container_name: salespulse-postgres # container name
+    environment:
+      POSTGRES_USER: salespulse # database username
+      POSTGRES_PASSWORD: salespulse_secure_password # database password
+      POSTGRES_DB: salespulse # database name
+    ports:
+      - "5432:5432" # expose port
+    volumes:
+      - postgres_data:/var/lib/postgresql/data # persistent volume
+      - ./sql/schema.sql:/docker-entrypoint-initdb.d/init.sql # init schema script
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U salespulse -d salespulse"] # healthcheck probe
+      interval: 5s # probe interval
+      timeout: 5s # probe timeout
+      retries: 5 # retry limit
+
+  # fastapi backend container
+  backend:
+    build:
+      context: . # project root
+      dockerfile: Dockerfile.backend # backend dockerfile
+    container_name: salespulse-backend # container name
+    environment:
+      ENVIRONMENT: production # production mode
+      DATABASE_URL: postgresql+psycopg2://salespulse:salespulse_secure_password@db:5432/salespulse # postgres url
+      CORS_ORIGINS: http://localhost:5173,http://localhost:3000,http://localhost:80 # allowed origins
+    ports:
+      - "8000:8000" # expose api
+    depends_on:
+      db:
+        condition: service_healthy # wait for db
+    volumes:
+      - ./data:/app/data # bind data
+      - ./reports:/app/reports # bind reports
+
+  # react frontend container
+  frontend:
+    build:
+      context: . # project root
+      dockerfile: Dockerfile.frontend # frontend dockerfile
+    container_name: salespulse-frontend # container name
+    ports:
+      - "80:80" # expose web
+    depends_on:
+      - backend # wait for backend
+
+volumes:
+  # persistent postgres volume
+  postgres_data:

@@ -1,0 +1,1502 @@
+OrderID,OrderDate,CustomerID,CustomerName,Region,Category,Product,Quantity,UnitPrice,CostPrice,Discount,PaymentMethod
+ORD-10001,2025-01-06,CUST-1001,Quinn Jackson,North,Apparel,Corporate Polo Shirt,4,34.99,15.0,0.05,PayPal
+ORD-10001,2025-01-06,CUST-1001,Quinn Jackson,North,Apparel,Lightweight Windbreaker,1,59.99,28.0,0.0,Credit Card
+ORD-10002,2025-08-27,CUST-1102,Liam Jones,Central,Furniture,Ergonomic Mesh Chair,9,279.99,140.0,0.1,PayPal
+ORD-10003,2025-10-12,CUST-1103,Sophia Anderson,North,Electronics,Laptop Pro 15,3,999.99,650.0,0.05,Debit Card
+ORD-10003,2025-10-12,CUST-1103,Sophia Anderson,North,Office Supplies,Heavy-Duty Stapler,6,19.99,8.5,0.1,Debit Card
+ORD-10004,2026-04-16,CUST-1104,Marcus Thompson,Central,Office Supplies,Heavy-Duty Stapler,10,19.99,8.5,0.1,PayPal
+ORD-10005,2025-03-13,CUST-1105,Chloe Lewis,North,Home & Kitchen,Stainless Steel Travel Mug,2,24.99,9.5,0.1,Debit Card
+ORD-10005,2025-03-13,CUST-1105,Chloe Lewis,North,Home & Kitchen,Compact Espresso Machine,6,159.99,90.0,0.05,Debit Card
+ORD-10005,2025-03-13,CUST-1105,Chloe Lewis,North,Apparel,Corporate Polo Shirt,3,34.99,15.0,0.15,Bank Transfer
+ORD-10006,2025-08-13,CUST-1106,Devon Williams,East,Office Supplies,Heavy-Duty Stapler,7,19.99,8.5,0.05,Credit Card
+ORD-10006,2025-08-13,CUST-1106,Devon Williams,East,Apparel,Corporate Polo Shirt,7,34.99,15.0,0.15,PayPal
+ORD-10007,2025-05-23,CUST-1107,Aria Wilson,South,Electronics,Laptop Pro 15,10,999.99,650.0,0.1,Debit Card
+ORD-10007,2025-05-23,CUST-1107,Aria Wilson,South,Electronics,"Ultra HD Monitor 27""",2,349.99,210.0,0.0,Credit Card
+ORD-10008,2025-06-13,CUST-1108,Kai Martin,West,Apparel,Corporate Polo Shirt,10,34.99,15.0,0.15,Debit Card
+ORD-10009,2025-01-12,CUST-1109,Zara Harris,North,Electronics,Laptop Pro 15,2,999.99,650.0,0.05,Bank Transfer
+ORD-10009,2025-01-12,CUST-1109,Zara Harris,North,Office Supplies,Heavy-Duty Stapler,9,19.99,8.5,0.0,Credit Card
+ORD-10009,2025-01-12,CUST-1109,Zara Harris,North,Home & Kitchen,Stainless Steel Travel Mug,3,24.99,9.5,0.2,Credit Card
+ORD-10010,2025-11-28,CUST-1110,Alex Smith,West,Apparel,Corporate Polo Shirt,4,34.99,15.0,0.0,PayPal
+ORD-10010,2025-11-28,CUST-1110,Alex Smith,West,Office Supplies,Heavy-Duty Stapler,2,19.99,8.5,0.2,PayPal
+ORD-10010,2025-11-28,CUST-1110,Alex Smith,West,Home & Kitchen,Stainless Steel Travel Mug,5,24.99,9.5,0.2,Bank Transfer
+ORD-10011,2025-07-25,CUST-1111,Jordan Garcia,East,Electronics,Laptop Pro 15,2,999.99,650.0,0.05,PayPal
+ORD-10012,2025-12-13,CUST-1112,Taylor Hernandez,North,Apparel,Corporate Polo Shirt,1,34.99,15.0,0.0,Credit Card
+ORD-10013,2025-03-11,CUST-1113,Morgan Lee,North,Furniture,Ergonomic Mesh Chair,5,279.99,140.0,0.15,PayPal
+ORD-10014,2025-05-16,CUST-1114,Casey Perez,Central,Office Supplies,Heavy-Duty Stapler,7,19.99,8.5,0.05,Credit Card
+ORD-10014,2025-05-16,CUST-1114,Casey Perez,Central,Home & Kitchen,Stainless Steel Travel Mug,7,24.99,9.5,0.15,Credit Card
+ORD-10014,2025-05-16,CUST-1114,Casey Perez,Central,Apparel,Corporate Polo Shirt,2,34.99,15.0,0.05,PayPal
+ORD-10015,2026-04-05,CUST-1115,Riley Miller,South,Electronics,Laptop Pro 15,4,999.99,650.0,0.0,Bank Transfer
+ORD-10016,2025-04-11,CUST-1116,Avery Taylor,North,Furniture,Ergonomic Mesh Chair,3,279.99,140.0,0.1,Bank Transfer
+ORD-10016,2025-04-11,CUST-1116,Avery Taylor,North,Office Supplies,Heavy-Duty Stapler,3,19.99,8.5,0.1,Credit Card
+ORD-10016,2025-04-11,CUST-1116,Avery Taylor,North,Electronics,Laptop Pro 15,7,999.99,650.0,0.2,Bank Transfer
+ORD-10017,2025-07-14,CUST-1117,Logan White,East,Home & Kitchen,Stainless Steel Travel Mug,6,24.99,9.5,0.0,Credit Card
+ORD-10018,2026-05-04,CUST-1118,Sam Robinson,Central,Apparel,Corporate Polo Shirt,3,34.99,15.0,0.0,Credit Card
+ORD-10018,2026-05-04,CUST-1118,Sam Robinson,Central,Home & Kitchen,Stainless Steel Travel Mug,10,24.99,9.5,0.0,Credit Card
+ORD-10018,2026-05-04,CUST-1118,Sam Robinson,Central,Home & Kitchen,Compact Espresso Machine,6,159.99,90.0,0.05,Debit Card
+ORD-10019,2025-05-15,CUST-1119,Dakota Brown,East,Furniture,Ergonomic Mesh Chair,8,279.99,140.0,0.0,Credit Card
+ORD-10019,2025-05-15,CUST-1119,Dakota Brown,East,Electronics,Laptop Pro 15,3,999.99,650.0,0.1,Credit Card
+ORD-10020,2026-01-14,CUST-1120,Reese Martinez,East,Electronics,Laptop Pro 15,10,999.99,650.0,0.2,Credit Card
+ORD-10021,2025-11-03,CUST-1121,Quinn Jackson,North,Home & Kitchen,Stainless Steel Travel Mug,9,24.99,9.5,0.0,Debit Card
+ORD-10021,2025-11-03,CUST-1121,Quinn Jackson,North,Electronics,Laptop Pro 15,4,999.99,650.0,0.05,Bank Transfer
+ORD-10021,2025-11-03,CUST-1121,Quinn Jackson,North,Home & Kitchen,Compact Espresso Machine,5,159.99,90.0,0.0,Credit Card
+ORD-10022,2025-05-14,CUST-1122,Cameron Clark,East,Electronics,Laptop Pro 15,9,999.99,650.0,0.0,Credit Card
+ORD-10022,2025-05-14,CUST-1122,Cameron Clark,East,Apparel,Corporate Polo Shirt,6,34.99,15.0,0.2,PayPal
+ORD-10023,2025-05-11,CUST-1123,Skyler Johnson,North,Apparel,Corporate Polo Shirt,4,34.99,15.0,0.05,Credit Card
+ORD-10023,2025-05-11,CUST-1123,Skyler Johnson,North,Furniture,Ergonomic Mesh Chair,4,279.99,140.0,0.0,PayPal
+ORD-10024,2025-01-26,CUST-1124,Peyton Rodriguez,South,Furniture,Ergonomic Mesh Chair,5,279.99,140.0,0.0,Credit Card
+ORD-10024,2025-01-26,CUST-1124,Peyton Rodriguez,South,Office Supplies,Heavy-Duty Stapler,4,19.99,8.5,0.15,Debit Card
+ORD-10025,2025-08-22,CUST-1125,Hayden Moore,South,Home & Kitchen,Stainless Steel Travel Mug,5,24.99,9.5,0.0,Debit Card
+ORD-10025,2025-08-22,CUST-1125,Hayden Moore,South,Electronics,Laptop Pro 15,1,999.99,650.0,0.0,Debit Card
+ORD-10026,2025-09-29,CUST-1126,Jesse Gonzalez,North,Home & Kitchen,Stainless Steel Travel Mug,7,24.99,9.5,0.2,Credit Card
+ORD-10027,2025-07-14,CUST-1127,Kendall Hall,East,Furniture,Ergonomic Mesh Chair,6,279.99,140.0,0.1,Credit Card
+ORD-10027,2025-07-14,CUST-1127,Kendall Hall,East,Furniture,"Standing Desk 55""",5,429.99,230.0,0.2,Debit Card
+ORD-10028,2026-02-23,CUST-1128,Harper Davis,East,Furniture,Ergonomic Mesh Chair,4,279.99,140.0,0.1,Bank Transfer
+ORD-10028,2026-02-23,CUST-1128,Harper Davis,East,Apparel,Corporate Polo Shirt,5,34.99,15.0,0.05,PayPal
+ORD-10028,2026-02-23,CUST-1128,Harper Davis,East,Electronics,Laptop Pro 15,8,999.99,650.0,0.05,Bank Transfer
+ORD-10029,2025-06-23,CUST-1129,Rowan Thomas,North,Furniture,Ergonomic Mesh Chair,5,279.99,140.0,0.05,PayPal
+ORD-10029,2025-06-23,CUST-1129,Rowan Thomas,North,Home & Kitchen,Stainless Steel Travel Mug,8,24.99,9.5,0.0,Bank Transfer
+ORD-10029,2025-06-23,CUST-1129,Rowan Thomas,North,Electronics,Laptop Pro 15,8,999.99,650.0,0.1,PayPal
+ORD-10030,2025-01-06,CUST-1130,Revanth Lopez,North,Office Supplies,Heavy-Duty Stapler,1,19.99,8.5,0.2,PayPal
+ORD-10031,2026-04-13,CUST-1131,Elena Walker,South,Electronics,Laptop Pro 15,9,999.99,650.0,0.15,PayPal
+ORD-10032,2026-05-02,CUST-1132,Liam Jones,West,Electronics,Laptop Pro 15,9,999.99,650.0,0.15,PayPal
+ORD-10032,2026-05-02,CUST-1132,Liam Jones,West,Home & Kitchen,Stainless Steel Travel Mug,4,24.99,9.5,0.05,Debit Card
+ORD-10032,2026-05-02,CUST-1132,Liam Jones,West,Furniture,Ergonomic Mesh Chair,4,279.99,140.0,0.1,PayPal
+ORD-10033,2025-08-08,CUST-1133,Sophia Anderson,North,Electronics,Laptop Pro 15,7,999.99,650.0,0.0,PayPal
+ORD-10033,2025-08-08,CUST-1133,Sophia Anderson,North,Furniture,Ergonomic Mesh Chair,10,279.99,140.0,0.1,Bank Transfer
+ORD-10033,2025-08-08,CUST-1133,Sophia Anderson,North,Home & Kitchen,Stainless Steel Travel Mug,7,24.99,9.5,0.2,PayPal
+ORD-10034,2025-08-13,CUST-1134,Marcus Thompson,East,Office Supplies,Heavy-Duty Stapler,6,19.99,8.5,0.1,PayPal
+ORD-10034,2025-08-13,CUST-1134,Marcus Thompson,East,Home & Kitchen,Stainless Steel Travel Mug,7,24.99,9.5,0.0,Credit Card
+ORD-10035,2026-03-15,CUST-1135,Chloe Lewis,South,Office Supplies,Heavy-Duty Stapler,7,19.99,8.5,0.1,PayPal
+ORD-10035,2026-03-15,CUST-1135,Chloe Lewis,South,Electronics,Laptop Pro 15,5,999.99,650.0,0.1,Debit Card
+ORD-10035,2026-03-15,CUST-1135,Chloe Lewis,South,Furniture,Ergonomic Mesh Chair,6,279.99,140.0,0.05,Credit Card
+ORD-10036,2025-02-11,CUST-1136,Devon Williams,North,Apparel,Corporate Polo Shirt,4,34.99,15.0,0.0,Bank Transfer
+ORD-10036,2025-02-11,CUST-1136,Devon Williams,North,Home & Kitchen,Stainless Steel Travel Mug,6,24.99,9.5,0.0,Credit Card
+ORD-10036,2025-02-11,CUST-1136,Devon Williams,North,Home & Kitchen,Compact Espresso Machine,5,159.99,90.0,0.1,Bank Transfer
+ORD-10037,2025-07-23,CUST-1137,Aria Wilson,North,Office Supplies,Heavy-Duty Stapler,10,19.99,8.5,0.0,Credit Card
+ORD-10037,2025-07-23,CUST-1137,Aria Wilson,North,Electronics,Laptop Pro 15,2,999.99,650.0,0.2,Debit Card
+ORD-10037,2025-07-23,CUST-1137,Aria Wilson,North,Office Supplies,Ballpoint Pens (Pack of 50),7,14.99,5.0,0.1,Bank Transfer
+ORD-10038,2025-06-06,CUST-1138,Kai Martin,West,Electronics,Laptop Pro 15,8,999.99,650.0,0.1,Debit Card
+ORD-10038,2025-06-06,CUST-1138,Kai Martin,West,Home & Kitchen,Stainless Steel Travel Mug,8,24.99,9.5,0.05,Bank Transfer
+ORD-10038,2025-06-06,CUST-1138,Kai Martin,West,Office Supplies,Heavy-Duty Stapler,8,19.99,8.5,0.1,PayPal
+ORD-10039,2025-08-06,CUST-1139,Zara Harris,East,Electronics,Laptop Pro 15,9,999.99,650.0,0.0,PayPal
+ORD-10039,2025-08-06,CUST-1139,Zara Harris,East,Home & Kitchen,Stainless Steel Travel Mug,8,24.99,9.5,0.2,PayPal
+ORD-10040,2026-05-03,CUST-1140,Alex Smith,West,Office Supplies,Heavy-Duty Stapler,4,19.99,8.5,0.1,PayPal
+ORD-10040,2026-05-03,CUST-1140,Alex Smith,West,Electronics,Laptop Pro 15,7,999.99,650.0,0.2,Debit Card
+ORD-10040,2026-05-03,CUST-1140,Alex Smith,West,Electronics,"Ultra HD Monitor 27""",5,349.99,210.0,0.05,Credit Card
+ORD-10041,2025-07-17,CUST-1141,Jordan Garcia,East,Apparel,Corporate Polo Shirt,8,34.99,15.0,0.05,Debit Card
+ORD-10041,2025-07-17,CUST-1141,Jordan Garcia,East,Office Supplies,Heavy-Duty Stapler,6,19.99,8.5,0.0,Debit Card
+ORD-10041,2025-07-17,CUST-1141,Jordan Garcia,East,Office Supplies,Ballpoint Pens (Pack of 50),1,14.99,5.0,0.2,Debit Card
+ORD-10042,2025-05-10,CUST-1142,Taylor Hernandez,West,Apparel,Corporate Polo Shirt,8,34.99,15.0,0.15,Bank Transfer
+ORD-10042,2025-05-10,CUST-1142,Taylor Hernandez,West,Home & Kitchen,Stainless Steel Travel Mug,8,24.99,9.5,0.0,Credit Card
+ORD-10042,2025-05-10,CUST-1142,Taylor Hernandez,West,Furniture,Ergonomic Mesh Chair,3,279.99,140.0,0.0,Debit Card
+ORD-10043,2025-09-12,CUST-1143,Morgan Lee,North,Furniture,Ergonomic Mesh Chair,9,279.99,140.0,0.1,Bank Transfer
+ORD-10044,2025-11-01,CUST-1144,Casey Perez,Central,Furniture,Ergonomic Mesh Chair,10,279.99,140.0,0.0,PayPal
+ORD-10044,2025-11-01,CUST-1144,Casey Perez,Central,Home & Kitchen,Stainless Steel Travel Mug,3,24.99,9.5,0.05,PayPal
+ORD-10045,2025-03-18,CUST-1145,Riley Miller,South,Home & Kitchen,Stainless Steel Travel Mug,5,24.99,9.5,0.0,PayPal
+ORD-10045,2025-03-18,CUST-1145,Riley Miller,South,Electronics,Laptop Pro 15,2,999.99,650.0,0.05,Debit Card
+ORD-10045,2025-03-18,CUST-1145,Riley Miller,South,Office Supplies,Heavy-Duty Stapler,9,19.99,8.5,0.05,PayPal
+ORD-10046,2025-05-26,CUST-1146,Avery Taylor,North,Home & Kitchen,Stainless Steel Travel Mug,8,24.99,9.5,0.0,Bank Transfer
+ORD-10046,2025-05-26,CUST-1146,Avery Taylor,North,Electronics,Laptop Pro 15,8,999.99,650.0,0.0,Credit Card
+ORD-10047,2025-11-27,CUST-1147,Logan White,Central,Furniture,Ergonomic Mesh Chair,10,279.99,140.0,0.0,Debit Card
+ORD-10047,2025-11-27,CUST-1147,Logan White,Central,Office Supplies,Heavy-Duty Stapler,9,19.99,8.5,0.15,Debit Card
+ORD-10048,2026-03-23,CUST-1148,Sam Robinson,West,Home & Kitchen,Stainless Steel Travel Mug,6,24.99,9.5,0.1,Credit Card
+ORD-10049,2025-12-04,CUST-1149,Dakota Brown,West,Electronics,Laptop Pro 15,9,999.99,650.0,0.0,Bank Transfer
+ORD-10050,2025-11-19,CUST-1150,Reese Martinez,East,Home & Kitchen,Stainless Steel Travel Mug,9,24.99,9.5,0.15,Bank Transfer
+ORD-10051,2025-07-12,CUST-1151,Quinn Jackson,Central,Electronics,Laptop Pro 15,1,999.99,650.0,0.05,Debit Card
+ORD-10052,2025-05-15,CUST-1152,Cameron Clark,East,Furniture,Ergonomic Mesh Chair,10,279.99,140.0,0.05,PayPal
+ORD-10052,2025-05-15,CUST-1152,Cameron Clark,East,Apparel,Corporate Polo Shirt,2,34.99,15.0,0.05,Credit Card
+ORD-10052,2025-05-15,CUST-1152,Cameron Clark,East,Furniture,"Standing Desk 55""",8,429.99,230.0,0.05,Debit Card
+ORD-10053,2026-05-10,CUST-1153,Skyler Johnson,West,Home & Kitchen,Stainless Steel Travel Mug,7,24.99,9.5,0.05,PayPal
+ORD-10053,2026-05-10,CUST-1153,Skyler Johnson,West,Home & Kitchen,Compact Espresso Machine,9,159.99,90.0,0.05,Credit Card
+ORD-10054,2025-11-02,CUST-1154,Peyton Rodriguez,Central,Office Supplies,Heavy-Duty Stapler,9,19.99,8.5,0.15,Debit Card
+ORD-10054,2025-11-02,CUST-1154,Peyton Rodriguez,Central,Electronics,Laptop Pro 15,4,999.99,650.0,0.05,Bank Transfer
+ORD-10055,2026-02-25,CUST-1155,Hayden Moore,North,Electronics,Laptop Pro 15,7,999.99,650.0,0.0,Bank Transfer
+ORD-10056,2025-05-10,CUST-1156,Jesse Gonzalez,Central,Apparel,Corporate Polo Shirt,2,34.99,15.0,0.2,Bank Transfer
+ORD-10057,2025-05-28,CUST-1157,Kendall Hall,West,Apparel,Corporate Polo Shirt,6,34.99,15.0,0.1,Credit Card
+ORD-10058,2026-01-25,CUST-1158,Harper Davis,East,Furniture,Ergonomic Mesh Chair,4,279.99,140.0,0.05,PayPal
+ORD-10058,2026-01-25,CUST-1158,Harper Davis,East,Furniture,"Standing Desk 55""",8,429.99,230.0,0.0,Debit Card
+ORD-10059,2025-02-17,CUST-1159,Rowan Thomas,East,Home & Kitchen,Stainless Steel Travel Mug,7,24.99,9.5,0.0,PayPal
+ORD-10060,2026-02-26,CUST-1160,Revanth Lopez,Central,Apparel,Corporate Polo Shirt,10,34.99,15.0,0.1,PayPal
+ORD-10060,2026-02-26,CUST-1160,Revanth Lopez,Central,Office Supplies,Heavy-Duty Stapler,5,19.99,8.5,0.15,Debit Card
+ORD-10060,2026-02-26,CUST-1160,Revanth Lopez,Central,Office Supplies,Ballpoint Pens (Pack of 50),2,14.99,5.0,0.15,Debit Card
+ORD-10061,2025-11-03,CUST-1161,Elena Walker,West,Home & Kitchen,Stainless Steel Travel Mug,7,24.99,9.5,0.15,Credit Card
+ORD-10061,2025-11-03,CUST-1161,Elena Walker,West,Electronics,Laptop Pro 15,10,999.99,650.0,0.05,Debit Card
+ORD-10061,2025-11-03,CUST-1161,Elena Walker,West,Office Supplies,Heavy-Duty Stapler,10,19.99,8.5,0.0,Bank Transfer
+ORD-10062,2025-08-24,CUST-1162,Liam Jones,Central,Apparel,Corporate Polo Shirt,10,34.99,15.0,0.05,PayPal
+ORD-10062,2025-08-24,CUST-1162,Liam Jones,Central,Apparel,Lightweight Windbreaker,1,59.99,28.0,0.1,PayPal
+ORD-10063,2025-10-30,CUST-1163,Sophia Anderson,East,Home & Kitchen,Stainless Steel Travel Mug,9,24.99,9.5,0.1,Debit Card
+ORD-10064,2025-09-21,CUST-1164,Marcus Thompson,West,Apparel,Corporate Polo Shirt,2,34.99,15.0,0.0,PayPal
+ORD-10065,2026-02-11,CUST-1165,Chloe Lewis,Central,Home & Kitchen,Stainless Steel Travel Mug,5,24.99,9.5,0.2,Credit Card
+ORD-10065,2026-02-11,CUST-1165,Chloe Lewis,Central,Electronics,Laptop Pro 15,10,999.99,650.0,0.1,Debit Card
+ORD-10065,2026-02-11,CUST-1165,Chloe Lewis,Central,Office Supplies,Heavy-Duty Stapler,10,19.99,8.5,0.2,Debit Card
+ORD-10066,2025-08-15,CUST-1166,Devon Williams,North,Electronics,Laptop Pro 15,2,999.99,650.0,0.0,Credit Card
+ORD-10066,2025-08-15,CUST-1166,Devon Williams,North,Apparel,Corporate Polo Shirt,2,34.99,15.0,0.05,PayPal
+ORD-10066,2025-08-15,CUST-1166,Devon Williams,North,Electronics,"Ultra HD Monitor 27""",10,349.99,210.0,0.0,Bank Transfer
+ORD-10067,2025-04-12,CUST-1167,Aria Wilson,West,Office Supplies,Heavy-Duty Stapler,6,19.99,8.5,0.05,Bank Transfer
+ORD-10067,2025-04-12,CUST-1167,Aria Wilson,West,Office Supplies,Ballpoint Pens (Pack of 50),6,14.99,5.0,0.2,Debit Card
+ORD-10067,2025-04-12,CUST-1167,Aria Wilson,West,Office Supplies,Printer Paper (5 Reams),2,44.99,22.0,0.15,Credit Card
+ORD-10068,2025-08-06,CUST-1168,Kai Martin,Central,Office Supplies,Heavy-Duty Stapler,3,19.99,8.5,0.05,Credit Card
+ORD-10068,2025-08-06,CUST-1168,Kai Martin,Central,Apparel,Corporate Polo Shirt,4,34.99,15.0,0.1,PayPal
+ORD-10068,2025-08-06,CUST-1168,Kai Martin,Central,Office Supplies,Ballpoint Pens (Pack of 50),3,14.99,5.0,0.2,Debit Card
+ORD-10069,2025-04-23,CUST-1169,Zara Harris,North,Office Supplies,Heavy-Duty Stapler,10,19.99,8.5,0.1,Credit Card
+ORD-10070,2025-09-29,CUST-1170,Alex Smith,North,Home & Kitchen,Stainless Steel Travel Mug,2,24.99,9.5,0.15,Bank Transfer
+ORD-10071,2026-06-10,CUST-1171,Jordan Garcia,Central,Furniture,Ergonomic Mesh Chair,10,279.99,140.0,0.0,Debit Card
+ORD-10071,2026-06-10,CUST-1171,Jordan Garcia,Central,Office Supplies,Heavy-Duty Stapler,7,19.99,8.5,0.1,Credit Card
+ORD-10072,2026-03-31,CUST-1172,Taylor Hernandez,North,Furniture,Ergonomic Mesh Chair,2,279.99,140.0,0.0,Debit Card
+ORD-10072,2026-03-31,CUST-1172,Taylor Hernandez,North,Electronics,Laptop Pro 15,8,999.99,650.0,0.2,Bank Transfer
+ORD-10073,2025-04-28,CUST-1173,Morgan Lee,Central,Office Supplies,Heavy-Duty Stapler,7,19.99,8.5,0.1,Bank Transfer
+ORD-10074,2026-03-02,CUST-1174,Casey Perez,North,Electronics,Laptop Pro 15,6,999.99,650.0,0.0,Bank Transfer
+ORD-10074,2026-03-02,CUST-1174,Casey Perez,North,Furniture,Ergonomic Mesh Chair,7,279.99,140.0,0.0,Debit Card
+ORD-10075,2025-03-03,CUST-1175,Riley Miller,Central,Furniture,Ergonomic Mesh Chair,7,279.99,140.0,0.1,Bank Transfer
+ORD-10076,2025-02-22,CUST-1176,Avery Taylor,East,Apparel,Corporate Polo Shirt,10,34.99,15.0,0.2,PayPal
+ORD-10076,2025-02-22,CUST-1176,Avery Taylor,East,Home & Kitchen,Stainless Steel Travel Mug,6,24.99,9.5,0.2,Debit Card
+ORD-10076,2025-02-22,CUST-1176,Avery Taylor,East,Furniture,Ergonomic Mesh Chair,7,279.99,140.0,0.2,Credit Card
+ORD-10077,2025-10-01,CUST-1177,Logan White,North,Electronics,Laptop Pro 15,6,999.99,650.0,0.1,Credit Card
+ORD-10077,2025-10-01,CUST-1177,Logan White,North,Electronics,"Ultra HD Monitor 27""",2,349.99,210.0,0.0,Credit Card
+ORD-10077,2025-10-01,CUST-1177,Logan White,North,Home & Kitchen,Stainless Steel Travel Mug,8,24.99,9.5,0.1,PayPal
+ORD-10078,2025-11-16,CUST-1178,Sam Robinson,East,Furniture,Ergonomic Mesh Chair,3,279.99,140.0,0.0,Credit Card
+ORD-10078,2025-11-16,CUST-1178,Sam Robinson,East,Electronics,Laptop Pro 15,8,999.99,650.0,0.15,Bank Transfer
+ORD-10079,2025-08-09,CUST-1179,Dakota Brown,Central,Apparel,Corporate Polo Shirt,5,34.99,15.0,0.15,Debit Card
+ORD-10079,2025-08-09,CUST-1179,Dakota Brown,Central,Office Supplies,Heavy-Duty Stapler,1,19.99,8.5,0.05,Debit Card
+ORD-10080,2025-05-21,CUST-1180,Reese Martinez,East,Furniture,Ergonomic Mesh Chair,8,279.99,140.0,0.1,PayPal
+ORD-10081,2026-01-25,CUST-1181,Quinn Jackson,Central,Apparel,Corporate Polo Shirt,1,34.99,15.0,0.1,Credit Card
+ORD-10082,2025-03-21,CUST-1182,Cameron Clark,East,Electronics,Laptop Pro 15,7,999.99,650.0,0.05,Credit Card
+ORD-10082,2025-03-21,CUST-1182,Cameron Clark,East,Office Supplies,Heavy-Duty Stapler,10,19.99,8.5,0.15,Debit Card
+ORD-10083,2026-03-24,CUST-1183,Skyler Johnson,North,Electronics,Laptop Pro 15,9,999.99,650.0,0.0,Bank Transfer
+ORD-10084,2025-12-14,CUST-1184,Peyton Rodriguez,South,Apparel,Corporate Polo Shirt,9,34.99,15.0,0.2,PayPal
+ORD-10084,2025-12-14,CUST-1184,Peyton Rodriguez,South,Furniture,Ergonomic Mesh Chair,4,279.99,140.0,0.0,PayPal
+ORD-10085,2025-07-22,CUST-1185,Hayden Moore,South,Apparel,Corporate Polo Shirt,3,34.99,15.0,0.15,Bank Transfer
+ORD-10085,2025-07-22,CUST-1185,Hayden Moore,South,Electronics,Laptop Pro 15,6,999.99,650.0,0.0,Bank Transfer
+ORD-10086,2026-04-26,CUST-1186,Jesse Gonzalez,West,Furniture,Ergonomic Mesh Chair,6,279.99,140.0,0.2,Credit Card
+ORD-10087,2026-04-18,CUST-1187,Kendall Hall,West,Apparel,Corporate Polo Shirt,2,34.99,15.0,0.0,Bank Transfer
+ORD-10087,2026-04-18,CUST-1187,Kendall Hall,West,Office Supplies,Heavy-Duty Stapler,6,19.99,8.5,0.15,PayPal
+ORD-10088,2026-04-07,CUST-1188,Harper Davis,North,Furniture,Ergonomic Mesh Chair,1,279.99,140.0,0.05,Bank Transfer
+ORD-10089,2026-06-21,CUST-1189,Rowan Thomas,Central,Electronics,Laptop Pro 15,5,999.99,650.0,0.1,Bank Transfer
+ORD-10089,2026-06-21,CUST-1189,Rowan Thomas,Central,Apparel,Corporate Polo Shirt,2,34.99,15.0,0.1,Credit Card
+ORD-10090,2026-01-31,CUST-1190,Revanth Lopez,East,Home & Kitchen,Stainless Steel Travel Mug,10,24.99,9.5,0.0,Debit Card
+ORD-10090,2026-01-31,CUST-1190,Revanth Lopez,East,Furniture,Ergonomic Mesh Chair,5,279.99,140.0,0.2,Bank Transfer
+ORD-10090,2026-01-31,CUST-1190,Revanth Lopez,East,Apparel,Corporate Polo Shirt,7,34.99,15.0,0.2,Debit Card
+ORD-10091,2026-01-07,CUST-1191,Elena Walker,East,Electronics,Laptop Pro 15,4,999.99,650.0,0.05,PayPal
+ORD-10092,2025-03-21,CUST-1192,Liam Jones,East,Apparel,Corporate Polo Shirt,10,34.99,15.0,0.0,Bank Transfer
+ORD-10093,2025-06-16,CUST-1193,Sophia Anderson,South,Electronics,Laptop Pro 15,1,999.99,650.0,0.1,Debit Card
+ORD-10094,2025-09-01,CUST-1194,Marcus Thompson,West,Electronics,Laptop Pro 15,4,999.99,650.0,0.2,PayPal
+ORD-10094,2025-09-01,CUST-1194,Marcus Thompson,West,Home & Kitchen,Stainless Steel Travel Mug,10,24.99,9.5,0.15,Bank Transfer
+ORD-10094,2025-09-01,CUST-1194,Marcus Thompson,West,Electronics,"Ultra HD Monitor 27""",3,349.99,210.0,0.05,PayPal
+ORD-10095,2025-02-23,CUST-1195,Chloe Lewis,West,Furniture,Ergonomic Mesh Chair,5,279.99,140.0,0.0,PayPal
+ORD-10095,2025-02-23,CUST-1195,Chloe Lewis,West,Furniture,"Standing Desk 55""",7,429.99,230.0,0.0,PayPal
+ORD-10096,2025-12-24,CUST-1196,Devon Williams,North,Home & Kitchen,Stainless Steel Travel Mug,4,24.99,9.5,0.1,Credit Card
+ORD-10096,2025-12-24,CUST-1196,Devon Williams,North,Home & Kitchen,Compact Espresso Machine,2,159.99,90.0,0.1,PayPal
+ORD-10097,2025-02-09,CUST-1197,Aria Wilson,East,Electronics,Laptop Pro 15,8,999.99,650.0,0.0,Credit Card
+ORD-10098,2025-09-20,CUST-1198,Kai Martin,South,Office Supplies,Heavy-Duty Stapler,4,19.99,8.5,0.05,Credit Card
+ORD-10099,2025-09-02,CUST-1199,Zara Harris,West,Furniture,Ergonomic Mesh Chair,8,279.99,140.0,0.2,Credit Card
+ORD-10100,2026-06-12,CUST-1200,Alex Smith,Central,Electronics,Laptop Pro 15,1,999.99,650.0,0.1,PayPal
+ORD-10100,2026-06-12,CUST-1200,Alex Smith,Central,Furniture,Ergonomic Mesh Chair,9,279.99,140.0,0.1,Credit Card
+ORD-10100,2026-06-12,CUST-1200,Alex Smith,Central,Apparel,Corporate Polo Shirt,1,34.99,15.0,0.1,Debit Card
+ORD-10101,2025-01-17,CUST-1201,Jordan Garcia,East,Furniture,Ergonomic Mesh Chair,10,279.99,140.0,0.1,PayPal
+ORD-10101,2025-01-17,CUST-1201,Jordan Garcia,East,Home & Kitchen,Stainless Steel Travel Mug,3,24.99,9.5,0.15,Bank Transfer
+ORD-10102,2025-07-06,CUST-1202,Taylor Hernandez,South,Office Supplies,Heavy-Duty Stapler,4,19.99,8.5,0.0,PayPal
+ORD-10102,2025-07-06,CUST-1202,Taylor Hernandez,South,Home & Kitchen,Stainless Steel Travel Mug,9,24.99,9.5,0.15,Debit Card
+ORD-10102,2025-07-06,CUST-1202,Taylor Hernandez,South,Home & Kitchen,Compact Espresso Machine,1,159.99,90.0,0.1,Debit Card
+ORD-10103,2026-01-12,CUST-1203,Morgan Lee,West,Electronics,Laptop Pro 15,3,999.99,650.0,0.15,Bank Transfer
+ORD-10104,2026-06-16,CUST-1204,Casey Perez,East,Office Supplies,Heavy-Duty Stapler,10,19.99,8.5,0.0,Debit Card
+ORD-10104,2026-06-16,CUST-1204,Casey Perez,East,Home & Kitchen,Stainless Steel Travel Mug,5,24.99,9.5,0.05,Bank Transfer
+ORD-10105,2026-03-13,CUST-1205,Riley Miller,South,Home & Kitchen,Stainless Steel Travel Mug,6,24.99,9.5,0.1,Debit Card
+ORD-10105,2026-03-13,CUST-1205,Riley Miller,South,Apparel,Corporate Polo Shirt,6,34.99,15.0,0.2,PayPal
+ORD-10105,2026-03-13,CUST-1205,Riley Miller,South,Home & Kitchen,Compact Espresso Machine,1,159.99,90.0,0.0,Credit Card
+ORD-10106,2026-01-11,CUST-1206,Avery Taylor,East,Furniture,Ergonomic Mesh Chair,8,279.99,140.0,0.1,Debit Card
+ORD-10107,2025-03-20,CUST-1207,Logan White,Central,Electronics,Laptop Pro 15,5,999.99,650.0,0.05,Credit Card
+ORD-10107,2025-03-20,CUST-1207,Logan White,Central,Home & Kitchen,Stainless Steel Travel Mug,9,24.99,9.5,0.0,Debit Card
+ORD-10108,2026-04-02,CUST-1208,Sam Robinson,South,Electronics,Laptop Pro 15,4,999.99,650.0,0.0,PayPal
+ORD-10108,2026-04-02,CUST-1208,Sam Robinson,South,Office Supplies,Heavy-Duty Stapler,2,19.99,8.5,0.1,Debit Card
+ORD-10109,2025-03-08,CUST-1209,Dakota Brown,Central,Apparel,Corporate Polo Shirt,3,34.99,15.0,0.1,PayPal
+ORD-10109,2025-03-08,CUST-1209,Dakota Brown,Central,Apparel,Lightweight Windbreaker,8,59.99,28.0,0.0,Debit Card
+ORD-10109,2025-03-08,CUST-1209,Dakota Brown,Central,Apparel,Canvas Laptop Backpack,10,49.99,21.0,0.0,Credit Card
+ORD-10110,2026-02-12,CUST-1210,Reese Martinez,West,Office Supplies,Heavy-Duty Stapler,3,19.99,8.5,0.1,Credit Card
+ORD-10110,2026-02-12,CUST-1210,Reese Martinez,West,Electronics,Laptop Pro 15,3,999.99,650.0,0.2,PayPal
+ORD-10111,2026-03-20,CUST-1211,Quinn Jackson,Central,Furniture,Ergonomic Mesh Chair,5,279.99,140.0,0.0,PayPal
+ORD-10112,2025-08-19,CUST-1212,Cameron Clark,East,Apparel,Corporate Polo Shirt,4,34.99,15.0,0.2,Debit Card
+ORD-10112,2025-08-19,CUST-1212,Cameron Clark,East,Home & Kitchen,Stainless Steel Travel Mug,9,24.99,9.5,0.0,PayPal
+ORD-10113,2025-12-12,CUST-1213,Skyler Johnson,Central,Furniture,Ergonomic Mesh Chair,10,279.99,140.0,0.05,PayPal
+ORD-10114,2026-03-03,CUST-1214,Peyton Rodriguez,Central,Home & Kitchen,Stainless Steel Travel Mug,5,24.99,9.5,0.15,PayPal
+ORD-10114,2026-03-03,CUST-1214,Peyton Rodriguez,Central,Home & Kitchen,Compact Espresso Machine,1,159.99,90.0,0.0,Bank Transfer
+ORD-10114,2026-03-03,CUST-1214,Peyton Rodriguez,Central,Office Supplies,Heavy-Duty Stapler,6,19.99,8.5,0.0,Debit Card
+ORD-10115,2025-11-23,CUST-1215,Hayden Moore,East,Office Supplies,Heavy-Duty Stapler,6,19.99,8.5,0.05,Bank Transfer
+ORD-10115,2025-11-23,CUST-1215,Hayden Moore,East,Apparel,Corporate Polo Shirt,3,34.99,15.0,0.0,Credit Card
+ORD-10115,2025-11-23,CUST-1215,Hayden Moore,East,Electronics,Laptop Pro 15,4,999.99,650.0,0.0,Debit Card
+ORD-10116,2025-11-17,CUST-1216,Jesse Gonzalez,South,Electronics,Laptop Pro 15,8,999.99,650.0,0.05,Bank Transfer
+ORD-10116,2025-11-17,CUST-1216,Jesse Gonzalez,South,Apparel,Corporate Polo Shirt,4,34.99,15.0,0.05,Debit Card
+ORD-10116,2025-11-17,CUST-1216,Jesse Gonzalez,South,Apparel,Lightweight Windbreaker,10,59.99,28.0,0.15,Debit Card
+ORD-10117,2025-01-09,CUST-1217,Kendall Hall,North,Electronics,Laptop Pro 15,7,999.99,650.0,0.1,Credit Card
+ORD-10117,2025-01-09,CUST-1217,Kendall Hall,North,Furniture,Ergonomic Mesh Chair,6,279.99,140.0,0.2,Debit Card
+ORD-10117,2025-01-09,CUST-1217,Kendall Hall,North,Home & Kitchen,Stainless Steel Travel Mug,9,24.99,9.5,0.05,Credit Card
+ORD-10118,2025-04-10,CUST-1218,Harper Davis,West,Electronics,Laptop Pro 15,3,999.99,650.0,0.05,Bank Transfer
+ORD-10119,2025-02-11,CUST-1219,Rowan Thomas,North,Home & Kitchen,Stainless Steel Travel Mug,8,24.99,9.5,0.2,Bank Transfer
+ORD-10119,2025-02-11,CUST-1219,Rowan Thomas,North,Electronics,Laptop Pro 15,3,999.99,650.0,0.1,Debit Card
+ORD-10119,2025-02-11,CUST-1219,Rowan Thomas,North,Electronics,"Ultra HD Monitor 27""",10,349.99,210.0,0.05,Bank Transfer
+ORD-10120,2026-01-13,CUST-1220,Revanth Lopez,East,Home & Kitchen,Stainless Steel Travel Mug,1,24.99,9.5,0.15,Debit Card
+ORD-10121,2025-08-22,CUST-1221,Elena Walker,North,Office Supplies,Heavy-Duty Stapler,3,19.99,8.5,0.05,Credit Card
+ORD-10121,2025-08-22,CUST-1221,Elena Walker,North,Furniture,Ergonomic Mesh Chair,8,279.99,140.0,0.1,Bank Transfer
+ORD-10121,2025-08-22,CUST-1221,Elena Walker,North,Home & Kitchen,Stainless Steel Travel Mug,7,24.99,9.5,0.2,Bank Transfer
+ORD-10122,2025-03-05,CUST-1222,Liam Jones,South,Electronics,Laptop Pro 15,8,999.99,650.0,0.2,Bank Transfer
+ORD-10122,2025-03-05,CUST-1222,Liam Jones,South,Electronics,"Ultra HD Monitor 27""",9,349.99,210.0,0.1,Debit Card
+ORD-10122,2025-03-05,CUST-1222,Liam Jones,South,Furniture,Ergonomic Mesh Chair,5,279.99,140.0,0.2,Debit Card
+ORD-10123,2025-11-01,CUST-1223,Sophia Anderson,East,Electronics,Laptop Pro 15,6,999.99,650.0,0.2,Debit Card
+ORD-10124,2025-05-05,CUST-1224,Marcus Thompson,Central,Electronics,Laptop Pro 15,3,999.99,650.0,0.05,Credit Card
+ORD-10124,2025-05-05,CUST-1224,Marcus Thompson,Central,Apparel,Corporate Polo Shirt,5,34.99,15.0,0.15,PayPal
+ORD-10125,2025-10-05,CUST-1225,Chloe Lewis,Central,Apparel,Corporate Polo Shirt,4,34.99,15.0,0.0,PayPal
+ORD-10126,2025-08-27,CUST-1226,Devon Williams,North,Home & Kitchen,Stainless Steel Travel Mug,2,24.99,9.5,0.0,Credit Card
+ORD-10126,2025-08-27,CUST-1226,Devon Williams,North,Electronics,Laptop Pro 15,8,999.99,650.0,0.05,Debit Card
+ORD-10126,2025-08-27,CUST-1226,Devon Williams,North,Furniture,Ergonomic Mesh Chair,2,279.99,140.0,0.05,Credit Card
+ORD-10127,2026-03-04,CUST-1227,Aria Wilson,South,Office Supplies,Heavy-Duty Stapler,5,19.99,8.5,0.0,Credit Card
+ORD-10128,2025-04-20,CUST-1228,Kai Martin,East,Electronics,Laptop Pro 15,3,999.99,650.0,0.2,Bank Transfer
+ORD-10128,2025-04-20,CUST-1228,Kai Martin,East,Home & Kitchen,Stainless Steel Travel Mug,3,24.99,9.5,0.15,Debit Card
+ORD-10129,2025-07-10,CUST-1229,Zara Harris,North,Furniture,Ergonomic Mesh Chair,3,279.99,140.0,0.1,Bank Transfer
+ORD-10129,2025-07-10,CUST-1229,Zara Harris,North,Apparel,Corporate Polo Shirt,2,34.99,15.0,0.0,PayPal
+ORD-10129,2025-07-10,CUST-1229,Zara Harris,North,Furniture,"Standing Desk 55""",5,429.99,230.0,0.1,PayPal
+ORD-10130,2025-10-01,CUST-1230,Alex Smith,East,Apparel,Corporate Polo Shirt,4,34.99,15.0,0.0,Credit Card
+ORD-10130,2025-10-01,CUST-1230,Alex Smith,East,Home & Kitchen,Stainless Steel Travel Mug,9,24.99,9.5,0.05,Credit Card
+ORD-10131,2025-10-30,CUST-1231,Jordan Garcia,East,Apparel,Corporate Polo Shirt,8,34.99,15.0,0.0,Bank Transfer
+ORD-10131,2025-10-30,CUST-1231,Jordan Garcia,East,Electronics,Laptop Pro 15,9,999.99,650.0,0.05,PayPal
+ORD-10131,2025-10-30,CUST-1231,Jordan Garcia,East,Apparel,Lightweight Windbreaker,9,59.99,28.0,0.1,Credit Card
+ORD-10132,2025-04-25,CUST-1232,Taylor Hernandez,North,Apparel,Corporate Polo Shirt,3,34.99,15.0,0.1,Bank Transfer
+ORD-10132,2025-04-25,CUST-1232,Taylor Hernandez,North,Home & Kitchen,Stainless Steel Travel Mug,2,24.99,9.5,0.2,Bank Transfer
+ORD-10132,2025-04-25,CUST-1232,Taylor Hernandez,North,Office Supplies,Heavy-Duty Stapler,8,19.99,8.5,0.0,Bank Transfer
+ORD-10133,2025-11-12,CUST-1233,Morgan Lee,North,Furniture,Ergonomic Mesh Chair,10,279.99,140.0,0.0,Credit Card
+ORD-10133,2025-11-12,CUST-1233,Morgan Lee,North,Furniture,"Standing Desk 55""",9,429.99,230.0,0.0,Credit Card
+ORD-10133,2025-11-12,CUST-1233,Morgan Lee,North,Home & Kitchen,Stainless Steel Travel Mug,3,24.99,9.5,0.0,Bank Transfer
+ORD-10134,2026-01-27,CUST-1234,Casey Perez,West,Furniture,Ergonomic Mesh Chair,6,279.99,140.0,0.0,PayPal
+ORD-10134,2026-01-27,CUST-1234,Casey Perez,West,Furniture,"Standing Desk 55""",4,429.99,230.0,0.0,Credit Card
+ORD-10135,2026-04-20,CUST-1235,Riley Miller,Central,Furniture,Ergonomic Mesh Chair,8,279.99,140.0,0.1,PayPal
+ORD-10135,2026-04-20,CUST-1235,Riley Miller,Central,Apparel,Corporate Polo Shirt,1,34.99,15.0,0.1,Credit Card
+ORD-10136,2025-07-31,CUST-1236,Avery Taylor,North,Office Supplies,Heavy-Duty Stapler,4,19.99,8.5,0.0,Bank Transfer
+ORD-10137,2025-08-28,CUST-1237,Logan White,Central,Office Supplies,Heavy-Duty Stapler,4,19.99,8.5,0.1,Debit Card
+ORD-10137,2025-08-28,CUST-1237,Logan White,Central,Home & Kitchen,Stainless Steel Travel Mug,7,24.99,9.5,0.05,Debit Card
+ORD-10138,2025-06-29,CUST-1238,Sam Robinson,West,Office Supplies,Heavy-Duty Stapler,7,19.99,8.5,0.2,Debit Card
+ORD-10139,2026-03-03,CUST-1239,Dakota Brown,West,Apparel,Corporate Polo Shirt,9,34.99,15.0,0.15,PayPal
+ORD-10139,2026-03-03,CUST-1239,Dakota Brown,West,Home & Kitchen,Stainless Steel Travel Mug,8,24.99,9.5,0.0,Bank Transfer
+ORD-10139,2026-03-03,CUST-1239,Dakota Brown,West,Office Supplies,Heavy-Duty Stapler,5,19.99,8.5,0.05,Debit Card
+ORD-10140,2025-03-22,CUST-1240,Reese Martinez,West,Furniture,Ergonomic Mesh Chair,1,279.99,140.0,0.05,Bank Transfer
+ORD-10140,2025-03-22,CUST-1240,Reese Martinez,West,Furniture,"Standing Desk 55""",10,429.99,230.0,0.2,PayPal
+ORD-10140,2025-03-22,CUST-1240,Reese Martinez,West,Electronics,Laptop Pro 15,1,999.99,650.0,0.05,PayPal
+ORD-10141,2025-05-01,CUST-1241,Quinn Jackson,West,Office Supplies,Heavy-Duty Stapler,9,19.99,8.5,0.1,Debit Card
+ORD-10141,2025-05-01,CUST-1241,Quinn Jackson,West,Electronics,Laptop Pro 15,5,999.99,650.0,0.05,Debit Card
+ORD-10141,2025-05-01,CUST-1241,Quinn Jackson,West,Office Supplies,Ballpoint Pens (Pack of 50),8,14.99,5.0,0.1,PayPal
+ORD-10142,2025-11-17,CUST-1242,Cameron Clark,West,Apparel,Corporate Polo Shirt,1,34.99,15.0,0.05,Bank Transfer
+ORD-10142,2025-11-17,CUST-1242,Cameron Clark,West,Home & Kitchen,Stainless Steel Travel Mug,4,24.99,9.5,0.1,PayPal
+ORD-10143,2025-12-12,CUST-1243,Skyler Johnson,East,Office Supplies,Heavy-Duty Stapler,6,19.99,8.5,0.0,PayPal
+ORD-10143,2025-12-12,CUST-1243,Skyler Johnson,East,Furniture,Ergonomic Mesh Chair,9,279.99,140.0,0.0,Credit Card
+ORD-10144,2025-02-19,CUST-1244,Peyton Rodriguez,North,Home & Kitchen,Stainless Steel Travel Mug,2,24.99,9.5,0.0,Credit Card
+ORD-10144,2025-02-19,CUST-1244,Peyton Rodriguez,North,Office Supplies,Heavy-Duty Stapler,10,19.99,8.5,0.15,Bank Transfer
+ORD-10144,2025-02-19,CUST-1244,Peyton Rodriguez,North,Apparel,Corporate Polo Shirt,1,34.99,15.0,0.0,Debit Card
+ORD-10145,2025-10-21,CUST-1245,Hayden Moore,North,Furniture,Ergonomic Mesh Chair,2,279.99,140.0,0.2,PayPal
+ORD-10145,2025-10-21,CUST-1245,Hayden Moore,North,Electronics,Laptop Pro 15,6,999.99,650.0,0.05,Bank Transfer
+ORD-10145,2025-10-21,CUST-1245,Hayden Moore,North,Home & Kitchen,Stainless Steel Travel Mug,10,24.99,9.5,0.05,PayPal
+ORD-10146,2025-03-24,CUST-1246,Jesse Gonzalez,North,Home & Kitchen,Stainless Steel Travel Mug,9,24.99,9.5,0.15,Credit Card
+ORD-10146,2025-03-24,CUST-1246,Jesse Gonzalez,North,Office Supplies,Heavy-Duty Stapler,7,19.99,8.5,0.1,Credit Card
+ORD-10147,2025-02-13,CUST-1247,Kendall Hall,South,Office Supplies,Heavy-Duty Stapler,2,19.99,8.5,0.05,Credit Card
+ORD-10147,2025-02-13,CUST-1247,Kendall Hall,South,Home & Kitchen,Stainless Steel Travel Mug,10,24.99,9.5,0.0,Bank Transfer
+ORD-10147,2025-02-13,CUST-1247,Kendall Hall,South,Furniture,Ergonomic Mesh Chair,10,279.99,140.0,0.1,Debit Card
+ORD-10148,2025-05-24,CUST-1248,Harper Davis,North,Furniture,Ergonomic Mesh Chair,7,279.99,140.0,0.05,Credit Card
+ORD-10148,2025-05-24,CUST-1248,Harper Davis,North,Home & Kitchen,Stainless Steel Travel Mug,5,24.99,9.5,0.15,Bank Transfer
+ORD-10149,2025-12-31,CUST-1249,Rowan Thomas,Central,Office Supplies,Heavy-Duty Stapler,2,19.99,8.5,0.05,PayPal
+ORD-10150,2025-03-17,CUST-1250,Revanth Lopez,North,Home & Kitchen,Stainless Steel Travel Mug,7,24.99,9.5,0.1,Debit Card
+ORD-10150,2025-03-17,CUST-1250,Revanth Lopez,North,Office Supplies,Heavy-Duty Stapler,8,19.99,8.5,0.1,Debit Card
+ORD-10150,2025-03-17,CUST-1250,Revanth Lopez,North,Apparel,Corporate Polo Shirt,7,34.99,15.0,0.15,Bank Transfer
+ORD-10151,2025-01-27,CUST-1251,Elena Walker,North,Apparel,Corporate Polo Shirt,7,34.99,15.0,0.0,Debit Card
+ORD-10152,2026-02-02,CUST-1252,Liam Jones,North,Apparel,Corporate Polo Shirt,7,34.99,15.0,0.0,PayPal
+ORD-10152,2026-02-02,CUST-1252,Liam Jones,North,Electronics,Laptop Pro 15,3,999.99,650.0,0.0,PayPal
+ORD-10153,2025-10-10,CUST-1253,Sophia Anderson,West,Home & Kitchen,Stainless Steel Travel Mug,5,24.99,9.5,0.05,Bank Transfer
+ORD-10153,2025-10-10,CUST-1253,Sophia Anderson,West,Office Supplies,Heavy-Duty Stapler,3,19.99,8.5,0.05,Credit Card
+ORD-10154,2025-12-07,CUST-1254,Marcus Thompson,Central,Electronics,Laptop Pro 15,7,999.99,650.0,0.0,Debit Card
+ORD-10154,2025-12-07,CUST-1254,Marcus Thompson,Central,Electronics,"Ultra HD Monitor 27""",3,349.99,210.0,0.1,Debit Card
+ORD-10155,2026-05-18,CUST-1255,Chloe Lewis,Central,Electronics,Laptop Pro 15,7,999.99,650.0,0.1,Credit Card
+ORD-10155,2026-05-18,CUST-1255,Chloe Lewis,Central,Apparel,Corporate Polo Shirt,9,34.99,15.0,0.0,Bank Transfer
+ORD-10156,2025-08-03,CUST-1256,Devon Williams,West,Apparel,Corporate Polo Shirt,3,34.99,15.0,0.05,PayPal
+ORD-10156,2025-08-03,CUST-1256,Devon Williams,West,Electronics,Laptop Pro 15,7,999.99,650.0,0.0,Bank Transfer
+ORD-10156,2025-08-03,CUST-1256,Devon Williams,West,Electronics,"Ultra HD Monitor 27""",9,349.99,210.0,0.2,Bank Transfer
+ORD-10157,2025-02-07,CUST-1257,Aria Wilson,East,Furniture,Ergonomic Mesh Chair,6,279.99,140.0,0.0,Credit Card
+ORD-10157,2025-02-07,CUST-1257,Aria Wilson,East,Electronics,Laptop Pro 15,2,999.99,650.0,0.0,Credit Card
+ORD-10157,2025-02-07,CUST-1257,Aria Wilson,East,Apparel,Corporate Polo Shirt,8,34.99,15.0,0.1,Bank Transfer
+ORD-10158,2026-05-28,CUST-1258,Kai Martin,South,Home & Kitchen,Stainless Steel Travel Mug,5,24.99,9.5,0.1,Credit Card
+ORD-10158,2026-05-28,CUST-1258,Kai Martin,South,Home & Kitchen,Compact Espresso Machine,6,159.99,90.0,0.15,PayPal
+ORD-10159,2026-05-10,CUST-1259,Zara Harris,East,Home & Kitchen,Stainless Steel Travel Mug,6,24.99,9.5,0.0,Debit Card
+ORD-10159,2026-05-10,CUST-1259,Zara Harris,East,Office Supplies,Heavy-Duty Stapler,2,19.99,8.5,0.0,PayPal
+ORD-10159,2026-05-10,CUST-1259,Zara Harris,East,Apparel,Corporate Polo Shirt,6,34.99,15.0,0.2,Bank Transfer
+ORD-10160,2025-08-26,CUST-1260,Alex Smith,West,Electronics,Laptop Pro 15,7,999.99,650.0,0.0,PayPal
+ORD-10160,2025-08-26,CUST-1260,Alex Smith,West,Office Supplies,Heavy-Duty Stapler,4,19.99,8.5,0.05,Debit Card
+ORD-10161,2025-03-06,CUST-1261,Jordan Garcia,Central,Home & Kitchen,Stainless Steel Travel Mug,4,24.99,9.5,0.15,Credit Card
+ORD-10161,2025-03-06,CUST-1261,Jordan Garcia,Central,Electronics,Laptop Pro 15,10,999.99,650.0,0.1,Bank Transfer
+ORD-10161,2025-03-06,CUST-1261,Jordan Garcia,Central,Apparel,Corporate Polo Shirt,8,34.99,15.0,0.0,Debit Card
+ORD-10162,2025-03-28,CUST-1262,Taylor Hernandez,South,Home & Kitchen,Stainless Steel Travel Mug,2,24.99,9.5,0.0,Debit Card
+ORD-10162,2025-03-28,CUST-1262,Taylor Hernandez,South,Office Supplies,Heavy-Duty Stapler,10,19.99,8.5,0.1,Bank Transfer
+ORD-10162,2025-03-28,CUST-1262,Taylor Hernandez,South,Home & Kitchen,Compact Espresso Machine,9,159.99,90.0,0.0,Bank Transfer
+ORD-10163,2025-05-24,CUST-1263,Morgan Lee,South,Furniture,Ergonomic Mesh Chair,6,279.99,140.0,0.0,Bank Transfer
+ORD-10163,2025-05-24,CUST-1263,Morgan Lee,South,Electronics,Laptop Pro 15,7,999.99,650.0,0.15,Bank Transfer
+ORD-10164,2026-03-31,CUST-1264,Casey Perez,West,Home & Kitchen,Stainless Steel Travel Mug,4,24.99,9.5,0.05,Credit Card
+ORD-10164,2026-03-31,CUST-1264,Casey Perez,West,Electronics,Laptop Pro 15,3,999.99,650.0,0.15,Bank Transfer
+ORD-10164,2026-03-31,CUST-1264,Casey Perez,West,Furniture,Ergonomic Mesh Chair,5,279.99,140.0,0.2,Debit Card
+ORD-10165,2025-02-12,CUST-1265,Riley Miller,West,Office Supplies,Heavy-Duty Stapler,4,19.99,8.5,0.05,Credit Card
+ORD-10165,2025-02-12,CUST-1265,Riley Miller,West,Home & Kitchen,Stainless Steel Travel Mug,8,24.99,9.5,0.0,PayPal
+ORD-10165,2025-02-12,CUST-1265,Riley Miller,West,Electronics,Laptop Pro 15,3,999.99,650.0,0.0,PayPal
+ORD-10166,2025-03-02,CUST-1266,Avery Taylor,Central,Furniture,Ergonomic Mesh Chair,6,279.99,140.0,0.05,Debit Card
+ORD-10167,2025-10-01,CUST-1267,Logan White,Central,Office Supplies,Heavy-Duty Stapler,5,19.99,8.5,0.0,PayPal
+ORD-10167,2025-10-01,CUST-1267,Logan White,Central,Electronics,Laptop Pro 15,4,999.99,650.0,0.1,Bank Transfer
+ORD-10167,2025-10-01,CUST-1267,Logan White,Central,Electronics,"Ultra HD Monitor 27""",7,349.99,210.0,0.15,Credit Card
+ORD-10168,2025-04-06,CUST-1268,Sam Robinson,West,Electronics,Laptop Pro 15,8,999.99,650.0,0.15,Debit Card
+ORD-10168,2025-04-06,CUST-1268,Sam Robinson,West,Furniture,Ergonomic Mesh Chair,8,279.99,140.0,0.1,Credit Card
+ORD-10168,2025-04-06,CUST-1268,Sam Robinson,West,Office Supplies,Heavy-Duty Stapler,4,19.99,8.5,0.15,Debit Card
+ORD-10169,2025-10-18,CUST-1269,Dakota Brown,East,Electronics,Laptop Pro 15,6,999.99,650.0,0.0,Credit Card
+ORD-10169,2025-10-18,CUST-1269,Dakota Brown,East,Furniture,Ergonomic Mesh Chair,3,279.99,140.0,0.15,Bank Transfer
+ORD-10170,2026-03-15,CUST-1270,Reese Martinez,South,Apparel,Corporate Polo Shirt,2,34.99,15.0,0.1,Debit Card
+ORD-10171,2026-01-16,CUST-1271,Quinn Jackson,South,Home & Kitchen,Stainless Steel Travel Mug,4,24.99,9.5,0.1,Credit Card
+ORD-10172,2025-04-08,CUST-1272,Cameron Clark,North,Home & Kitchen,Stainless Steel Travel Mug,10,24.99,9.5,0.05,Bank Transfer
+ORD-10172,2025-04-08,CUST-1272,Cameron Clark,North,Apparel,Corporate Polo Shirt,2,34.99,15.0,0.1,PayPal
+ORD-10172,2025-04-08,CUST-1272,Cameron Clark,North,Office Supplies,Heavy-Duty Stapler,2,19.99,8.5,0.0,Credit Card
+ORD-10173,2026-01-12,CUST-1273,Skyler Johnson,East,Home & Kitchen,Stainless Steel Travel Mug,2,24.99,9.5,0.2,Credit Card
+ORD-10173,2026-01-12,CUST-1273,Skyler Johnson,East,Electronics,Laptop Pro 15,4,999.99,650.0,0.0,Bank Transfer
+ORD-10174,2026-03-30,CUST-1274,Peyton Rodriguez,South,Furniture,Ergonomic Mesh Chair,10,279.99,140.0,0.1,Debit Card
+ORD-10174,2026-03-30,CUST-1274,Peyton Rodriguez,South,Furniture,"Standing Desk 55""",5,429.99,230.0,0.0,PayPal
+ORD-10174,2026-03-30,CUST-1274,Peyton Rodriguez,South,Furniture,Bookshelf 5-Tier,5,119.99,58.0,0.05,PayPal
+ORD-10175,2026-02-06,CUST-1275,Hayden Moore,East,Home & Kitchen,Stainless Steel Travel Mug,2,24.99,9.5,0.05,Bank Transfer
+ORD-10175,2026-02-06,CUST-1275,Hayden Moore,East,Furniture,Ergonomic Mesh Chair,6,279.99,140.0,0.1,PayPal
+ORD-10175,2026-02-06,CUST-1275,Hayden Moore,East,Office Supplies,Heavy-Duty Stapler,8,19.99,8.5,0.0,Credit Card
+ORD-10176,2025-03-11,CUST-1276,Jesse Gonzalez,North,Apparel,Corporate Polo Shirt,7,34.99,15.0,0.2,Debit Card
+ORD-10176,2025-03-11,CUST-1276,Jesse Gonzalez,North,Electronics,Laptop Pro 15,2,999.99,650.0,0.2,PayPal
+ORD-10176,2025-03-11,CUST-1276,Jesse Gonzalez,North,Home & Kitchen,Stainless Steel Travel Mug,9,24.99,9.5,0.05,PayPal
+ORD-10177,2025-12-01,CUST-1277,Kendall Hall,West,Apparel,Corporate Polo Shirt,4,34.99,15.0,0.0,PayPal
+ORD-10177,2025-12-01,CUST-1277,Kendall Hall,West,Office Supplies,Heavy-Duty Stapler,10,19.99,8.5,0.0,Debit Card
+ORD-10177,2025-12-01,CUST-1277,Kendall Hall,West,Home & Kitchen,Stainless Steel Travel Mug,1,24.99,9.5,0.0,Bank Transfer
+ORD-10178,2026-06-20,CUST-1278,Harper Davis,Central,Home & Kitchen,Stainless Steel Travel Mug,5,24.99,9.5,0.0,Credit Card
+ORD-10178,2026-06-20,CUST-1278,Harper Davis,Central,Home & Kitchen,Compact Espresso Machine,5,159.99,90.0,0.0,Bank Transfer
+ORD-10179,2026-06-08,CUST-1279,Rowan Thomas,East,Furniture,Ergonomic Mesh Chair,6,279.99,140.0,0.0,Debit Card
+ORD-10179,2026-06-08,CUST-1279,Rowan Thomas,East,Furniture,"Standing Desk 55""",1,429.99,230.0,0.0,PayPal
+ORD-10180,2026-04-29,CUST-1280,Revanth Lopez,East,Home & Kitchen,Stainless Steel Travel Mug,9,24.99,9.5,0.1,PayPal
+ORD-10181,2025-09-12,CUST-1281,Elena Walker,West,Apparel,Corporate Polo Shirt,2,34.99,15.0,0.2,Credit Card
+ORD-10181,2025-09-12,CUST-1281,Elena Walker,West,Apparel,Lightweight Windbreaker,7,59.99,28.0,0.0,Bank Transfer
+ORD-10182,2025-11-15,CUST-1282,Liam Jones,East,Office Supplies,Heavy-Duty Stapler,4,19.99,8.5,0.05,Debit Card
+ORD-10182,2025-11-15,CUST-1282,Liam Jones,East,Electronics,Laptop Pro 15,10,999.99,650.0,0.15,PayPal
+ORD-10183,2025-09-09,CUST-1283,Sophia Anderson,South,Furniture,Ergonomic Mesh Chair,9,279.99,140.0,0.1,Credit Card
+ORD-10183,2025-09-09,CUST-1283,Sophia Anderson,South,Apparel,Corporate Polo Shirt,5,34.99,15.0,0.0,PayPal
+ORD-10183,2025-09-09,CUST-1283,Sophia Anderson,South,Electronics,Laptop Pro 15,1,999.99,650.0,0.0,Debit Card
+ORD-10184,2025-02-14,CUST-1284,Marcus Thompson,South,Electronics,Laptop Pro 15,8,999.99,650.0,0.0,Credit Card
+ORD-10185,2025-05-17,CUST-1285,Chloe Lewis,West,Office Supplies,Heavy-Duty Stapler,4,19.99,8.5,0.05,Debit Card
+ORD-10185,2025-05-17,CUST-1285,Chloe Lewis,West,Electronics,Laptop Pro 15,6,999.99,650.0,0.15,Debit Card
+ORD-10185,2025-05-17,CUST-1285,Chloe Lewis,West,Home & Kitchen,Stainless Steel Travel Mug,10,24.99,9.5,0.0,PayPal
+ORD-10186,2025-06-18,CUST-1286,Devon Williams,West,Home & Kitchen,Stainless Steel Travel Mug,9,24.99,9.5,0.1,PayPal
+ORD-10187,2025-11-12,CUST-1287,Aria Wilson,West,Furniture,Ergonomic Mesh Chair,5,279.99,140.0,0.0,PayPal
+ORD-10187,2025-11-12,CUST-1287,Aria Wilson,West,Apparel,Corporate Polo Shirt,6,34.99,15.0,0.1,Credit Card
+ORD-10188,2025-11-03,CUST-1288,Kai Martin,East,Apparel,Corporate Polo Shirt,9,34.99,15.0,0.2,PayPal
+ORD-10188,2025-11-03,CUST-1288,Kai Martin,East,Furniture,Ergonomic Mesh Chair,2,279.99,140.0,0.0,Credit Card
+ORD-10188,2025-11-03,CUST-1288,Kai Martin,East,Office Supplies,Heavy-Duty Stapler,6,19.99,8.5,0.0,Debit Card
+ORD-10189,2025-01-23,CUST-1289,Zara Harris,North,Home & Kitchen,Stainless Steel Travel Mug,6,24.99,9.5,0.0,Credit Card
+ORD-10190,2025-02-21,CUST-1290,Alex Smith,South,Electronics,Laptop Pro 15,8,999.99,650.0,0.0,Bank Transfer
+ORD-10190,2025-02-21,CUST-1290,Alex Smith,South,Office Supplies,Heavy-Duty Stapler,3,19.99,8.5,0.05,Debit Card
+ORD-10191,2025-06-02,CUST-1291,Jordan Garcia,North,Electronics,Laptop Pro 15,8,999.99,650.0,0.1,Bank Transfer
+ORD-10191,2025-06-02,CUST-1291,Jordan Garcia,North,Apparel,Corporate Polo Shirt,3,34.99,15.0,0.1,PayPal
+ORD-10192,2026-06-23,CUST-1292,Taylor Hernandez,South,Apparel,Corporate Polo Shirt,8,34.99,15.0,0.2,Bank Transfer
+ORD-10192,2026-06-23,CUST-1292,Taylor Hernandez,South,Electronics,Laptop Pro 15,3,999.99,650.0,0.0,Debit Card
+ORD-10192,2026-06-23,CUST-1292,Taylor Hernandez,South,Office Supplies,Heavy-Duty Stapler,1,19.99,8.5,0.15,Debit Card
+ORD-10193,2025-08-27,CUST-1293,Morgan Lee,South,Apparel,Corporate Polo Shirt,5,34.99,15.0,0.2,Credit Card
+ORD-10193,2025-08-27,CUST-1293,Morgan Lee,South,Office Supplies,Heavy-Duty Stapler,3,19.99,8.5,0.05,Debit Card
+ORD-10193,2025-08-27,CUST-1293,Morgan Lee,South,Apparel,Lightweight Windbreaker,10,59.99,28.0,0.0,PayPal
+ORD-10194,2025-11-13,CUST-1294,Casey Perez,South,Furniture,Ergonomic Mesh Chair,4,279.99,140.0,0.05,Credit Card
+ORD-10194,2025-11-13,CUST-1294,Casey Perez,South,Office Supplies,Heavy-Duty Stapler,10,19.99,8.5,0.05,PayPal
+ORD-10195,2025-07-01,CUST-1295,Riley Miller,East,Furniture,Ergonomic Mesh Chair,2,279.99,140.0,0.2,Debit Card
+ORD-10195,2025-07-01,CUST-1295,Riley Miller,East,Home & Kitchen,Stainless Steel Travel Mug,10,24.99,9.5,0.0,Debit Card
+ORD-10196,2025-11-27,CUST-1296,Avery Taylor,South,Electronics,Laptop Pro 15,6,999.99,650.0,0.0,Debit Card
+ORD-10196,2025-11-27,CUST-1296,Avery Taylor,South,Electronics,"Ultra HD Monitor 27""",5,349.99,210.0,0.0,PayPal
+ORD-10197,2025-01-02,CUST-1297,Logan White,Central,Office Supplies,Heavy-Duty Stapler,10,19.99,8.5,0.05,Credit Card
+ORD-10197,2025-01-02,CUST-1297,Logan White,Central,Office Supplies,Ballpoint Pens (Pack of 50),4,14.99,5.0,0.1,Debit Card
+ORD-10197,2025-01-02,CUST-1297,Logan White,Central,Apparel,Corporate Polo Shirt,8,34.99,15.0,0.0,Debit Card
+ORD-10198,2025-09-13,CUST-1298,Sam Robinson,North,Furniture,Ergonomic Mesh Chair,1,279.99,140.0,0.1,Bank Transfer
+ORD-10199,2026-03-06,CUST-1299,Dakota Brown,South,Electronics,Laptop Pro 15,9,999.99,650.0,0.1,Credit Card
+ORD-10199,2026-03-06,CUST-1299,Dakota Brown,South,Office Supplies,Heavy-Duty Stapler,2,19.99,8.5,0.0,Debit Card
+ORD-10199,2026-03-06,CUST-1299,Dakota Brown,South,Apparel,Corporate Polo Shirt,2,34.99,15.0,0.1,PayPal
+ORD-10200,2025-06-14,CUST-1000,Reese Martinez,North,Apparel,Corporate Polo Shirt,1,34.99,15.0,0.1,PayPal
+ORD-10200,2025-06-14,CUST-1000,Reese Martinez,North,Furniture,Ergonomic Mesh Chair,2,279.99,140.0,0.1,PayPal
+ORD-10201,2026-02-24,CUST-1001,Quinn Jackson,Central,Electronics,Laptop Pro 15,5,999.99,650.0,0.05,Credit Card
+ORD-10202,2026-02-07,CUST-1002,Cameron Clark,Central,Furniture,Ergonomic Mesh Chair,6,279.99,140.0,0.0,Bank Transfer
+ORD-10203,2025-10-29,CUST-1003,Skyler Johnson,Central,Home & Kitchen,Stainless Steel Travel Mug,4,24.99,9.5,0.0,Debit Card
+ORD-10204,2026-04-30,CUST-1004,Peyton Rodriguez,North,Electronics,Laptop Pro 15,5,999.99,650.0,0.0,Bank Transfer
+ORD-10205,2026-01-15,CUST-1005,Hayden Moore,West,Home & Kitchen,Stainless Steel Travel Mug,5,24.99,9.5,0.15,Bank Transfer
+ORD-10206,2025-08-20,CUST-1006,Jesse Gonzalez,East,Furniture,Ergonomic Mesh Chair,2,279.99,140.0,0.1,Bank Transfer
+ORD-10206,2025-08-20,CUST-1006,Jesse Gonzalez,East,Apparel,Corporate Polo Shirt,7,34.99,15.0,0.2,Bank Transfer
+ORD-10207,2026-05-02,CUST-1007,Kendall Hall,Central,Office Supplies,Heavy-Duty Stapler,7,19.99,8.5,0.0,PayPal
+ORD-10207,2026-05-02,CUST-1007,Kendall Hall,Central,Furniture,Ergonomic Mesh Chair,4,279.99,140.0,0.05,PayPal
+ORD-10207,2026-05-02,CUST-1007,Kendall Hall,Central,Office Supplies,Ballpoint Pens (Pack of 50),4,14.99,5.0,0.0,Debit Card
+ORD-10208,2025-03-10,CUST-1008,Harper Davis,North,Electronics,Laptop Pro 15,5,999.99,650.0,0.2,Bank Transfer
+ORD-10208,2025-03-10,CUST-1008,Harper Davis,North,Office Supplies,Heavy-Duty Stapler,3,19.99,8.5,0.0,Credit Card
+ORD-10209,2025-04-14,CUST-1009,Rowan Thomas,East,Electronics,Laptop Pro 15,7,999.99,650.0,0.15,Bank Transfer
+ORD-10210,2025-06-26,CUST-1010,Revanth Lopez,East,Electronics,Laptop Pro 15,1,999.99,650.0,0.1,Debit Card
+ORD-10211,2025-09-01,CUST-1011,Elena Walker,North,Home & Kitchen,Stainless Steel Travel Mug,6,24.99,9.5,0.05,Debit Card
+ORD-10211,2025-09-01,CUST-1011,Elena Walker,North,Furniture,Ergonomic Mesh Chair,4,279.99,140.0,0.0,Debit Card
+ORD-10211,2025-09-01,CUST-1011,Elena Walker,North,Electronics,Laptop Pro 15,10,999.99,650.0,0.0,PayPal
+ORD-10212,2025-08-05,CUST-1012,Liam Jones,West,Furniture,Ergonomic Mesh Chair,2,279.99,140.0,0.05,Bank Transfer
+ORD-10212,2025-08-05,CUST-1012,Liam Jones,West,Home & Kitchen,Stainless Steel Travel Mug,4,24.99,9.5,0.0,PayPal
+ORD-10213,2026-04-13,CUST-1013,Sophia Anderson,North,Electronics,Laptop Pro 15,8,999.99,650.0,0.2,Bank Transfer
+ORD-10214,2025-05-07,CUST-1014,Marcus Thompson,North,Electronics,Laptop Pro 15,3,999.99,650.0,0.15,Debit Card
+ORD-10214,2025-05-07,CUST-1014,Marcus Thompson,North,Home & Kitchen,Stainless Steel Travel Mug,5,24.99,9.5,0.0,Bank Transfer
+ORD-10214,2025-05-07,CUST-1014,Marcus Thompson,North,Apparel,Corporate Polo Shirt,4,34.99,15.0,0.05,PayPal
+ORD-10215,2026-02-24,CUST-1015,Chloe Lewis,Central,Office Supplies,Heavy-Duty Stapler,3,19.99,8.5,0.0,PayPal
+ORD-10215,2026-02-24,CUST-1015,Chloe Lewis,Central,Electronics,Laptop Pro 15,7,999.99,650.0,0.1,Debit Card
+ORD-10216,2025-09-16,CUST-1016,Devon Williams,South,Electronics,Laptop Pro 15,10,999.99,650.0,0.0,Credit Card
+ORD-10216,2025-09-16,CUST-1016,Devon Williams,South,Electronics,"Ultra HD Monitor 27""",5,349.99,210.0,0.0,Bank Transfer
+ORD-10217,2025-12-11,CUST-1017,Aria Wilson,East,Electronics,Laptop Pro 15,4,999.99,650.0,0.0,PayPal
+ORD-10218,2026-02-18,CUST-1018,Kai Martin,East,Apparel,Corporate Polo Shirt,5,34.99,15.0,0.05,Bank Transfer
+ORD-10219,2026-02-02,CUST-1019,Zara Harris,North,Office Supplies,Heavy-Duty Stapler,9,19.99,8.5,0.15,Debit Card
+ORD-10219,2026-02-02,CUST-1019,Zara Harris,North,Furniture,Ergonomic Mesh Chair,5,279.99,140.0,0.0,Bank Transfer
+ORD-10220,2025-09-22,CUST-1020,Alex Smith,Central,Home & Kitchen,Stainless Steel Travel Mug,4,24.99,9.5,0.1,PayPal
+ORD-10221,2025-11-11,CUST-1021,Jordan Garcia,West,Electronics,Laptop Pro 15,8,999.99,650.0,0.0,Bank Transfer
+ORD-10221,2025-11-11,CUST-1021,Jordan Garcia,West,Office Supplies,Heavy-Duty Stapler,9,19.99,8.5,0.0,Bank Transfer
+ORD-10221,2025-11-11,CUST-1021,Jordan Garcia,West,Apparel,Corporate Polo Shirt,3,34.99,15.0,0.0,PayPal
+ORD-10222,2026-02-24,CUST-1022,Taylor Hernandez,Central,Office Supplies,Heavy-Duty Stapler,2,19.99,8.5,0.15,Debit Card
+ORD-10222,2026-02-24,CUST-1022,Taylor Hernandez,Central,Home & Kitchen,Stainless Steel Travel Mug,1,24.99,9.5,0.15,Debit Card
+ORD-10223,2025-06-22,CUST-1023,Morgan Lee,Central,Home & Kitchen,Stainless Steel Travel Mug,10,24.99,9.5,0.1,Bank Transfer
+ORD-10224,2026-03-16,CUST-1024,Casey Perez,West,Furniture,Ergonomic Mesh Chair,6,279.99,140.0,0.0,Debit Card
+ORD-10224,2026-03-16,CUST-1024,Casey Perez,West,Apparel,Corporate Polo Shirt,4,34.99,15.0,0.05,Debit Card
+ORD-10225,2025-05-13,CUST-1025,Riley Miller,North,Furniture,Ergonomic Mesh Chair,1,279.99,140.0,0.05,Debit Card
+ORD-10225,2025-05-13,CUST-1025,Riley Miller,North,Home & Kitchen,Stainless Steel Travel Mug,6,24.99,9.5,0.15,Debit Card
+ORD-10226,2025-06-18,CUST-1026,Avery Taylor,West,Apparel,Corporate Polo Shirt,4,34.99,15.0,0.0,PayPal
+ORD-10227,2026-01-11,CUST-1027,Logan White,North,Furniture,Ergonomic Mesh Chair,10,279.99,140.0,0.0,Credit Card
+ORD-10228,2025-01-21,CUST-1028,Sam Robinson,North,Home & Kitchen,Stainless Steel Travel Mug,2,24.99,9.5,0.2,Debit Card
+ORD-10228,2025-01-21,CUST-1028,Sam Robinson,North,Home & Kitchen,Compact Espresso Machine,5,159.99,90.0,0.1,Credit Card
+ORD-10228,2025-01-21,CUST-1028,Sam Robinson,North,Furniture,Ergonomic Mesh Chair,7,279.99,140.0,0.0,Credit Card
+ORD-10229,2025-04-27,CUST-1029,Dakota Brown,North,Home & Kitchen,Stainless Steel Travel Mug,5,24.99,9.5,0.2,PayPal
+ORD-10229,2025-04-27,CUST-1029,Dakota Brown,North,Home & Kitchen,Compact Espresso Machine,1,159.99,90.0,0.2,Bank Transfer
+ORD-10230,2026-05-08,CUST-1030,Reese Martinez,East,Home & Kitchen,Stainless Steel Travel Mug,2,24.99,9.5,0.15,PayPal
+ORD-10231,2026-06-08,CUST-1031,Quinn Jackson,North,Furniture,Ergonomic Mesh Chair,8,279.99,140.0,0.05,Debit Card
+ORD-10232,2025-02-21,CUST-1032,Cameron Clark,North,Apparel,Corporate Polo Shirt,6,34.99,15.0,0.1,Credit Card
+ORD-10232,2025-02-21,CUST-1032,Cameron Clark,North,Furniture,Ergonomic Mesh Chair,3,279.99,140.0,0.1,Debit Card
+ORD-10233,2025-10-02,CUST-1033,Skyler Johnson,North,Furniture,Ergonomic Mesh Chair,7,279.99,140.0,0.1,Bank Transfer
+ORD-10233,2025-10-02,CUST-1033,Skyler Johnson,North,Electronics,Laptop Pro 15,7,999.99,650.0,0.0,Credit Card
+ORD-10234,2025-03-02,CUST-1034,Peyton Rodriguez,South,Home & Kitchen,Stainless Steel Travel Mug,10,24.99,9.5,0.15,PayPal
+ORD-10235,2026-01-24,CUST-1035,Hayden Moore,East,Furniture,Ergonomic Mesh Chair,8,279.99,140.0,0.15,Credit Card
+ORD-10235,2026-01-24,CUST-1035,Hayden Moore,East,Furniture,"Standing Desk 55""",5,429.99,230.0,0.1,Credit Card
+ORD-10235,2026-01-24,CUST-1035,Hayden Moore,East,Electronics,Laptop Pro 15,9,999.99,650.0,0.2,Credit Card
+ORD-10236,2025-09-12,CUST-1036,Jesse Gonzalez,West,Furniture,Ergonomic Mesh Chair,1,279.99,140.0,0.0,Bank Transfer
+ORD-10236,2025-09-12,CUST-1036,Jesse Gonzalez,West,Office Supplies,Heavy-Duty Stapler,6,19.99,8.5,0.05,Debit Card
+ORD-10237,2025-02-21,CUST-1037,Kendall Hall,Central,Office Supplies,Heavy-Duty Stapler,2,19.99,8.5,0.15,Bank Transfer
+ORD-10237,2025-02-21,CUST-1037,Kendall Hall,Central,Office Supplies,Ballpoint Pens (Pack of 50),8,14.99,5.0,0.1,Credit Card
+ORD-10238,2025-01-19,CUST-1038,Harper Davis,North,Furniture,Ergonomic Mesh Chair,2,279.99,140.0,0.05,PayPal
+ORD-10238,2025-01-19,CUST-1038,Harper Davis,North,Home & Kitchen,Stainless Steel Travel Mug,4,24.99,9.5,0.15,Debit Card
+ORD-10239,2026-04-30,CUST-1039,Rowan Thomas,East,Furniture,Ergonomic Mesh Chair,1,279.99,140.0,0.1,Debit Card
+ORD-10239,2026-04-30,CUST-1039,Rowan Thomas,East,Furniture,"Standing Desk 55""",1,429.99,230.0,0.0,Bank Transfer
+ORD-10239,2026-04-30,CUST-1039,Rowan Thomas,East,Office Supplies,Heavy-Duty Stapler,10,19.99,8.5,0.05,PayPal
+ORD-10240,2026-02-07,CUST-1040,Revanth Lopez,South,Electronics,Laptop Pro 15,2,999.99,650.0,0.1,Credit Card
+ORD-10241,2025-05-07,CUST-1041,Elena Walker,West,Office Supplies,Heavy-Duty Stapler,9,19.99,8.5,0.0,Bank Transfer
+ORD-10241,2025-05-07,CUST-1041,Elena Walker,West,Furniture,Ergonomic Mesh Chair,10,279.99,140.0,0.0,PayPal
+ORD-10241,2025-05-07,CUST-1041,Elena Walker,West,Home & Kitchen,Stainless Steel Travel Mug,9,24.99,9.5,0.1,Bank Transfer
+ORD-10242,2025-09-12,CUST-1042,Liam Jones,East,Electronics,Laptop Pro 15,3,999.99,650.0,0.0,Bank Transfer
+ORD-10242,2025-09-12,CUST-1042,Liam Jones,East,Electronics,"Ultra HD Monitor 27""",9,349.99,210.0,0.05,PayPal
+ORD-10242,2025-09-12,CUST-1042,Liam Jones,East,Electronics,Wireless Mouse,3,29.99,12.5,0.0,Debit Card
+ORD-10243,2025-04-29,CUST-1043,Sophia Anderson,East,Electronics,Laptop Pro 15,9,999.99,650.0,0.05,Bank Transfer
+ORD-10243,2025-04-29,CUST-1043,Sophia Anderson,East,Office Supplies,Heavy-Duty Stapler,3,19.99,8.5,0.0,Credit Card
+ORD-10243,2025-04-29,CUST-1043,Sophia Anderson,East,Apparel,Corporate Polo Shirt,5,34.99,15.0,0.0,Credit Card
+ORD-10244,2025-10-30,CUST-1044,Marcus Thompson,South,Apparel,Corporate Polo Shirt,2,34.99,15.0,0.2,PayPal
+ORD-10244,2025-10-30,CUST-1044,Marcus Thompson,South,Office Supplies,Heavy-Duty Stapler,1,19.99,8.5,0.1,Bank Transfer
+ORD-10244,2025-10-30,CUST-1044,Marcus Thompson,South,Furniture,Ergonomic Mesh Chair,1,279.99,140.0,0.05,PayPal
+ORD-10245,2026-03-30,CUST-1045,Chloe Lewis,South,Apparel,Corporate Polo Shirt,5,34.99,15.0,0.15,PayPal
+ORD-10245,2026-03-30,CUST-1045,Chloe Lewis,South,Apparel,Lightweight Windbreaker,7,59.99,28.0,0.0,Bank Transfer
+ORD-10245,2026-03-30,CUST-1045,Chloe Lewis,South,Furniture,Ergonomic Mesh Chair,10,279.99,140.0,0.05,Credit Card
+ORD-10246,2026-04-23,CUST-1046,Devon Williams,South,Office Supplies,Heavy-Duty Stapler,10,19.99,8.5,0.05,Bank Transfer
+ORD-10246,2026-04-23,CUST-1046,Devon Williams,South,Apparel,Corporate Polo Shirt,9,34.99,15.0,0.05,PayPal
+ORD-10247,2025-03-11,CUST-1047,Aria Wilson,Central,Electronics,Laptop Pro 15,2,999.99,650.0,0.1,PayPal
+ORD-10247,2025-03-11,CUST-1047,Aria Wilson,Central,Electronics,"Ultra HD Monitor 27""",5,349.99,210.0,0.05,Bank Transfer
+ORD-10247,2025-03-11,CUST-1047,Aria Wilson,Central,Office Supplies,Heavy-Duty Stapler,8,19.99,8.5,0.05,PayPal
+ORD-10248,2025-11-25,CUST-1048,Kai Martin,West,Home & Kitchen,Stainless Steel Travel Mug,1,24.99,9.5,0.2,Debit Card
+ORD-10249,2026-06-05,CUST-1049,Zara Harris,West,Office Supplies,Heavy-Duty Stapler,6,19.99,8.5,0.2,Credit Card
+ORD-10249,2026-06-05,CUST-1049,Zara Harris,West,Apparel,Corporate Polo Shirt,2,34.99,15.0,0.05,PayPal
+ORD-10249,2026-06-05,CUST-1049,Zara Harris,West,Office Supplies,Ballpoint Pens (Pack of 50),2,14.99,5.0,0.0,Credit Card
+ORD-10250,2025-12-06,CUST-1050,Alex Smith,North,Furniture,Ergonomic Mesh Chair,5,279.99,140.0,0.2,Credit Card
+ORD-10250,2025-12-06,CUST-1050,Alex Smith,North,Electronics,Laptop Pro 15,7,999.99,650.0,0.15,Bank Transfer
+ORD-10251,2025-11-20,CUST-1051,Jordan Garcia,North,Furniture,Ergonomic Mesh Chair,10,279.99,140.0,0.0,Credit Card
+ORD-10251,2025-11-20,CUST-1051,Jordan Garcia,North,Furniture,"Standing Desk 55""",5,429.99,230.0,0.05,Credit Card
+ORD-10252,2026-03-25,CUST-1052,Taylor Hernandez,West,Office Supplies,Heavy-Duty Stapler,9,19.99,8.5,0.05,PayPal
+ORD-10252,2026-03-25,CUST-1052,Taylor Hernandez,West,Furniture,Ergonomic Mesh Chair,5,279.99,140.0,0.1,Credit Card
+ORD-10253,2025-05-25,CUST-1053,Morgan Lee,North,Apparel,Corporate Polo Shirt,9,34.99,15.0,0.2,Credit Card
+ORD-10253,2025-05-25,CUST-1053,Morgan Lee,North,Electronics,Laptop Pro 15,4,999.99,650.0,0.1,PayPal
+ORD-10253,2025-05-25,CUST-1053,Morgan Lee,North,Office Supplies,Heavy-Duty Stapler,4,19.99,8.5,0.0,PayPal
+ORD-10254,2025-02-25,CUST-1054,Casey Perez,Central,Office Supplies,Heavy-Duty Stapler,5,19.99,8.5,0.0,PayPal
+ORD-10254,2025-02-25,CUST-1054,Casey Perez,Central,Electronics,Laptop Pro 15,3,999.99,650.0,0.05,Credit Card
+ORD-10254,2025-02-25,CUST-1054,Casey Perez,Central,Home & Kitchen,Stainless Steel Travel Mug,8,24.99,9.5,0.15,Debit Card
+ORD-10255,2025-11-10,CUST-1055,Riley Miller,Central,Electronics,Laptop Pro 15,3,999.99,650.0,0.0,Debit Card
+ORD-10255,2025-11-10,CUST-1055,Riley Miller,Central,Electronics,"Ultra HD Monitor 27""",5,349.99,210.0,0.1,PayPal
+ORD-10255,2025-11-10,CUST-1055,Riley Miller,Central,Electronics,Wireless Mouse,6,29.99,12.5,0.05,Bank Transfer
+ORD-10256,2025-04-22,CUST-1056,Avery Taylor,South,Office Supplies,Heavy-Duty Stapler,9,19.99,8.5,0.05,Debit Card
+ORD-10256,2025-04-22,CUST-1056,Avery Taylor,South,Furniture,Ergonomic Mesh Chair,10,279.99,140.0,0.1,PayPal
+ORD-10256,2025-04-22,CUST-1056,Avery Taylor,South,Home & Kitchen,Stainless Steel Travel Mug,3,24.99,9.5,0.1,Bank Transfer
+ORD-10257,2025-10-25,CUST-1057,Logan White,South,Home & Kitchen,Stainless Steel Travel Mug,9,24.99,9.5,0.0,PayPal
+ORD-10258,2025-06-19,CUST-1058,Sam Robinson,Central,Home & Kitchen,Stainless Steel Travel Mug,10,24.99,9.5,0.0,Bank Transfer
+ORD-10258,2025-06-19,CUST-1058,Sam Robinson,Central,Home & Kitchen,Compact Espresso Machine,4,159.99,90.0,0.0,Debit Card
+ORD-10258,2025-06-19,CUST-1058,Sam Robinson,Central,Apparel,Corporate Polo Shirt,9,34.99,15.0,0.1,Bank Transfer
+ORD-10259,2026-04-11,CUST-1059,Dakota Brown,North,Apparel,Corporate Polo Shirt,5,34.99,15.0,0.2,PayPal
+ORD-10259,2026-04-11,CUST-1059,Dakota Brown,North,Office Supplies,Heavy-Duty Stapler,9,19.99,8.5,0.05,Bank Transfer
+ORD-10260,2026-06-13,CUST-1060,Reese Martinez,West,Electronics,Laptop Pro 15,10,999.99,650.0,0.0,PayPal
+ORD-10261,2025-06-19,CUST-1061,Quinn Jackson,South,Furniture,Ergonomic Mesh Chair,3,279.99,140.0,0.0,Debit Card
+ORD-10261,2025-06-19,CUST-1061,Quinn Jackson,South,Furniture,"Standing Desk 55""",7,429.99,230.0,0.1,Credit Card
+ORD-10262,2026-05-06,CUST-1062,Cameron Clark,West,Electronics,Laptop Pro 15,1,999.99,650.0,0.05,Credit Card
+ORD-10262,2026-05-06,CUST-1062,Cameron Clark,West,Apparel,Corporate Polo Shirt,10,34.99,15.0,0.0,Credit Card
+ORD-10263,2025-09-22,CUST-1063,Skyler Johnson,South,Furniture,Ergonomic Mesh Chair,5,279.99,140.0,0.0,PayPal
+ORD-10264,2026-04-28,CUST-1064,Peyton Rodriguez,West,Office Supplies,Heavy-Duty Stapler,10,19.99,8.5,0.0,Debit Card
+ORD-10264,2026-04-28,CUST-1064,Peyton Rodriguez,West,Apparel,Corporate Polo Shirt,4,34.99,15.0,0.1,Bank Transfer
+ORD-10265,2025-04-22,CUST-1065,Hayden Moore,North,Home & Kitchen,Stainless Steel Travel Mug,3,24.99,9.5,0.15,Credit Card
+ORD-10266,2026-05-31,CUST-1066,Jesse Gonzalez,North,Furniture,Ergonomic Mesh Chair,10,279.99,140.0,0.2,Credit Card
+ORD-10266,2026-05-31,CUST-1066,Jesse Gonzalez,North,Office Supplies,Heavy-Duty Stapler,9,19.99,8.5,0.1,PayPal
+ORD-10266,2026-05-31,CUST-1066,Jesse Gonzalez,North,Office Supplies,Ballpoint Pens (Pack of 50),7,14.99,5.0,0.0,Debit Card
+ORD-10267,2025-08-27,CUST-1067,Kendall Hall,North,Home & Kitchen,Stainless Steel Travel Mug,1,24.99,9.5,0.0,Credit Card
+ORD-10267,2025-08-27,CUST-1067,Kendall Hall,North,Office Supplies,Heavy-Duty Stapler,6,19.99,8.5,0.1,Debit Card
+ORD-10268,2025-06-08,CUST-1068,Harper Davis,West,Electronics,Laptop Pro 15,10,999.99,650.0,0.1,Debit Card
+ORD-10269,2026-02-11,CUST-1069,Rowan Thomas,South,Office Supplies,Heavy-Duty Stapler,9,19.99,8.5,0.2,Bank Transfer
+ORD-10269,2026-02-11,CUST-1069,Rowan Thomas,South,Electronics,Laptop Pro 15,7,999.99,650.0,0.0,Credit Card
+ORD-10269,2026-02-11,CUST-1069,Rowan Thomas,South,Home & Kitchen,Stainless Steel Travel Mug,2,24.99,9.5,0.05,Bank Transfer
+ORD-10270,2025-02-23,CUST-1070,Revanth Lopez,South,Furniture,Ergonomic Mesh Chair,8,279.99,140.0,0.1,Credit Card
+ORD-10270,2025-02-23,CUST-1070,Revanth Lopez,South,Apparel,Corporate Polo Shirt,2,34.99,15.0,0.0,Bank Transfer
+ORD-10271,2026-06-18,CUST-1071,Elena Walker,East,Office Supplies,Heavy-Duty Stapler,8,19.99,8.5,0.0,PayPal
+ORD-10271,2026-06-18,CUST-1071,Elena Walker,East,Furniture,Ergonomic Mesh Chair,10,279.99,140.0,0.2,PayPal
+ORD-10272,2025-06-23,CUST-1072,Liam Jones,North,Apparel,Corporate Polo Shirt,3,34.99,15.0,0.0,Debit Card
+ORD-10272,2025-06-23,CUST-1072,Liam Jones,North,Electronics,Laptop Pro 15,7,999.99,650.0,0.05,Credit Card
+ORD-10272,2025-06-23,CUST-1072,Liam Jones,North,Apparel,Lightweight Windbreaker,9,59.99,28.0,0.1,Debit Card
+ORD-10273,2025-08-20,CUST-1073,Sophia Anderson,Central,Office Supplies,Heavy-Duty Stapler,5,19.99,8.5,0.0,Bank Transfer
+ORD-10273,2025-08-20,CUST-1073,Sophia Anderson,Central,Furniture,Ergonomic Mesh Chair,9,279.99,140.0,0.05,Debit Card
+ORD-10274,2026-06-10,CUST-1074,Marcus Thompson,East,Electronics,Laptop Pro 15,7,999.99,650.0,0.15,PayPal
+ORD-10275,2026-04-15,CUST-1075,Chloe Lewis,West,Office Supplies,Heavy-Duty Stapler,5,19.99,8.5,0.0,Bank Transfer
+ORD-10275,2026-04-15,CUST-1075,Chloe Lewis,West,Electronics,Laptop Pro 15,6,999.99,650.0,0.2,Credit Card
+ORD-10276,2025-09-27,CUST-1076,Devon Williams,South,Apparel,Corporate Polo Shirt,2,34.99,15.0,0.2,PayPal
+ORD-10276,2025-09-27,CUST-1076,Devon Williams,South,Home & Kitchen,Stainless Steel Travel Mug,10,24.99,9.5,0.05,PayPal
+ORD-10276,2025-09-27,CUST-1076,Devon Williams,South,Home & Kitchen,Compact Espresso Machine,4,159.99,90.0,0.05,Debit Card
+ORD-10277,2025-08-23,CUST-1077,Aria Wilson,South,Home & Kitchen,Stainless Steel Travel Mug,2,24.99,9.5,0.0,Bank Transfer
+ORD-10278,2025-01-07,CUST-1078,Kai Martin,Central,Home & Kitchen,Stainless Steel Travel Mug,8,24.99,9.5,0.05,Bank Transfer
+ORD-10278,2025-01-07,CUST-1078,Kai Martin,Central,Apparel,Corporate Polo Shirt,10,34.99,15.0,0.0,Credit Card
+ORD-10278,2025-01-07,CUST-1078,Kai Martin,Central,Office Supplies,Heavy-Duty Stapler,9,19.99,8.5,0.1,Bank Transfer
+ORD-10279,2025-06-28,CUST-1079,Zara Harris,West,Office Supplies,Heavy-Duty Stapler,1,19.99,8.5,0.05,Bank Transfer
+ORD-10279,2025-06-28,CUST-1079,Zara Harris,West,Apparel,Corporate Polo Shirt,10,34.99,15.0,0.05,PayPal
+ORD-10279,2025-06-28,CUST-1079,Zara Harris,West,Apparel,Lightweight Windbreaker,8,59.99,28.0,0.1,Debit Card
+ORD-10280,2026-05-26,CUST-1080,Alex Smith,West,Electronics,Laptop Pro 15,6,999.99,650.0,0.1,Debit Card
+ORD-10281,2025-07-04,CUST-1081,Jordan Garcia,Central,Office Supplies,Heavy-Duty Stapler,4,19.99,8.5,0.2,Bank Transfer
+ORD-10281,2025-07-04,CUST-1081,Jordan Garcia,Central,Home & Kitchen,Stainless Steel Travel Mug,8,24.99,9.5,0.0,PayPal
+ORD-10282,2026-05-27,CUST-1082,Taylor Hernandez,South,Electronics,Laptop Pro 15,5,999.99,650.0,0.2,Credit Card
+ORD-10282,2026-05-27,CUST-1082,Taylor Hernandez,South,Furniture,Ergonomic Mesh Chair,1,279.99,140.0,0.05,Debit Card
+ORD-10283,2025-04-09,CUST-1083,Morgan Lee,West,Electronics,Laptop Pro 15,9,999.99,650.0,0.2,Debit Card
+ORD-10283,2025-04-09,CUST-1083,Morgan Lee,West,Home & Kitchen,Stainless Steel Travel Mug,6,24.99,9.5,0.05,PayPal
+ORD-10284,2025-12-30,CUST-1084,Casey Perez,East,Electronics,Laptop Pro 15,2,999.99,650.0,0.1,Debit Card
+ORD-10284,2025-12-30,CUST-1084,Casey Perez,East,Office Supplies,Heavy-Duty Stapler,7,19.99,8.5,0.1,Credit Card
+ORD-10285,2025-06-15,CUST-1085,Riley Miller,East,Electronics,Laptop Pro 15,5,999.99,650.0,0.1,Debit Card
+ORD-10286,2026-01-07,CUST-1086,Avery Taylor,Central,Office Supplies,Heavy-Duty Stapler,3,19.99,8.5,0.0,PayPal
+ORD-10286,2026-01-07,CUST-1086,Avery Taylor,Central,Home & Kitchen,Stainless Steel Travel Mug,4,24.99,9.5,0.0,Bank Transfer
+ORD-10287,2025-04-08,CUST-1087,Logan White,North,Office Supplies,Heavy-Duty Stapler,9,19.99,8.5,0.0,Credit Card
+ORD-10288,2025-06-09,CUST-1088,Sam Robinson,North,Furniture,Ergonomic Mesh Chair,5,279.99,140.0,0.15,PayPal
+ORD-10288,2025-06-09,CUST-1088,Sam Robinson,North,Apparel,Corporate Polo Shirt,6,34.99,15.0,0.1,Bank Transfer
+ORD-10289,2025-10-06,CUST-1089,Dakota Brown,Central,Home & Kitchen,Stainless Steel Travel Mug,10,24.99,9.5,0.15,Bank Transfer
+ORD-10289,2025-10-06,CUST-1089,Dakota Brown,Central,Electronics,Laptop Pro 15,9,999.99,650.0,0.05,Credit Card
+ORD-10290,2025-11-12,CUST-1090,Reese Martinez,East,Home & Kitchen,Stainless Steel Travel Mug,1,24.99,9.5,0.0,PayPal
+ORD-10290,2025-11-12,CUST-1090,Reese Martinez,East,Apparel,Corporate Polo Shirt,8,34.99,15.0,0.15,Debit Card
+ORD-10291,2026-03-17,CUST-1091,Quinn Jackson,East,Office Supplies,Heavy-Duty Stapler,4,19.99,8.5,0.1,Bank Transfer
+ORD-10292,2025-09-13,CUST-1092,Cameron Clark,South,Office Supplies,Heavy-Duty Stapler,2,19.99,8.5,0.1,PayPal
+ORD-10292,2025-09-13,CUST-1092,Cameron Clark,South,Electronics,Laptop Pro 15,7,999.99,650.0,0.05,Credit Card
+ORD-10293,2025-05-20,CUST-1093,Skyler Johnson,East,Home & Kitchen,Stainless Steel Travel Mug,5,24.99,9.5,0.15,PayPal
+ORD-10294,2025-01-20,CUST-1094,Peyton Rodriguez,South,Furniture,Ergonomic Mesh Chair,5,279.99,140.0,0.05,PayPal
+ORD-10294,2025-01-20,CUST-1094,Peyton Rodriguez,South,Furniture,"Standing Desk 55""",3,429.99,230.0,0.0,Bank Transfer
+ORD-10295,2025-12-17,CUST-1095,Hayden Moore,West,Electronics,Laptop Pro 15,1,999.99,650.0,0.1,Credit Card
+ORD-10296,2025-02-27,CUST-1096,Jesse Gonzalez,East,Home & Kitchen,Stainless Steel Travel Mug,3,24.99,9.5,0.05,Debit Card
+ORD-10297,2025-01-13,CUST-1097,Kendall Hall,North,Office Supplies,Heavy-Duty Stapler,1,19.99,8.5,0.05,Bank Transfer
+ORD-10297,2025-01-13,CUST-1097,Kendall Hall,North,Home & Kitchen,Stainless Steel Travel Mug,5,24.99,9.5,0.1,PayPal
+ORD-10298,2025-02-13,CUST-1098,Harper Davis,Central,Apparel,Corporate Polo Shirt,5,34.99,15.0,0.05,Debit Card
+ORD-10298,2025-02-13,CUST-1098,Harper Davis,Central,Apparel,Lightweight Windbreaker,7,59.99,28.0,0.1,Credit Card
+ORD-10298,2025-02-13,CUST-1098,Harper Davis,Central,Home & Kitchen,Stainless Steel Travel Mug,7,24.99,9.5,0.05,Credit Card
+ORD-10299,2026-05-02,CUST-1099,Rowan Thomas,Central,Home & Kitchen,Stainless Steel Travel Mug,3,24.99,9.5,0.15,Credit Card
+ORD-10300,2025-12-13,CUST-1100,Revanth Lopez,North,Furniture,Ergonomic Mesh Chair,9,279.99,140.0,0.0,PayPal
+ORD-10300,2025-12-13,CUST-1100,Revanth Lopez,North,Electronics,Laptop Pro 15,8,999.99,650.0,0.05,Credit Card
+ORD-10300,2025-12-13,CUST-1100,Revanth Lopez,North,Furniture,"Standing Desk 55""",5,429.99,230.0,0.0,Bank Transfer
+ORD-10301,2026-03-25,CUST-1101,Elena Walker,Central,Furniture,Ergonomic Mesh Chair,9,279.99,140.0,0.1,Debit Card
+ORD-10301,2026-03-25,CUST-1101,Elena Walker,Central,Furniture,"Standing Desk 55""",2,429.99,230.0,0.2,PayPal
+ORD-10301,2026-03-25,CUST-1101,Elena Walker,Central,Electronics,Laptop Pro 15,8,999.99,650.0,0.0,Bank Transfer
+ORD-10302,2025-07-09,CUST-1102,Liam Jones,North,Furniture,Ergonomic Mesh Chair,6,279.99,140.0,0.0,Bank Transfer
+ORD-10302,2025-07-09,CUST-1102,Liam Jones,North,Home & Kitchen,Stainless Steel Travel Mug,10,24.99,9.5,0.05,Debit Card
+ORD-10302,2025-07-09,CUST-1102,Liam Jones,North,Furniture,"Standing Desk 55""",9,429.99,230.0,0.0,Credit Card
+ORD-10303,2025-07-02,CUST-1103,Sophia Anderson,North,Office Supplies,Heavy-Duty Stapler,2,19.99,8.5,0.0,Bank Transfer
+ORD-10304,2026-05-17,CUST-1104,Marcus Thompson,Central,Apparel,Corporate Polo Shirt,4,34.99,15.0,0.0,Credit Card
+ORD-10304,2026-05-17,CUST-1104,Marcus Thompson,Central,Office Supplies,Heavy-Duty Stapler,1,19.99,8.5,0.1,Bank Transfer
+ORD-10304,2026-05-17,CUST-1104,Marcus Thompson,Central,Apparel,Lightweight Windbreaker,9,59.99,28.0,0.0,Credit Card
+ORD-10305,2025-03-21,CUST-1105,Chloe Lewis,South,Furniture,Ergonomic Mesh Chair,9,279.99,140.0,0.1,PayPal
+ORD-10305,2025-03-21,CUST-1105,Chloe Lewis,South,Apparel,Corporate Polo Shirt,9,34.99,15.0,0.2,Bank Transfer
+ORD-10306,2025-04-19,CUST-1106,Devon Williams,Central,Electronics,Laptop Pro 15,2,999.99,650.0,0.0,PayPal
+ORD-10306,2025-04-19,CUST-1106,Devon Williams,Central,Electronics,"Ultra HD Monitor 27""",3,349.99,210.0,0.2,Bank Transfer
+ORD-10306,2025-04-19,CUST-1106,Devon Williams,Central,Electronics,Wireless Mouse,6,29.99,12.5,0.1,Bank Transfer
+ORD-10307,2025-11-28,CUST-1107,Aria Wilson,Central,Electronics,Laptop Pro 15,6,999.99,650.0,0.15,Bank Transfer
+ORD-10307,2025-11-28,CUST-1107,Aria Wilson,Central,Furniture,Ergonomic Mesh Chair,5,279.99,140.0,0.0,PayPal
+ORD-10307,2025-11-28,CUST-1107,Aria Wilson,Central,Home & Kitchen,Stainless Steel Travel Mug,4,24.99,9.5,0.1,Credit Card
+ORD-10308,2025-10-10,CUST-1108,Kai Martin,Central,Apparel,Corporate Polo Shirt,8,34.99,15.0,0.1,PayPal
+ORD-10308,2025-10-10,CUST-1108,Kai Martin,Central,Apparel,Lightweight Windbreaker,4,59.99,28.0,0.05,Debit Card
+ORD-10308,2025-10-10,CUST-1108,Kai Martin,Central,Furniture,Ergonomic Mesh Chair,2,279.99,140.0,0.1,Bank Transfer
+ORD-10309,2026-05-15,CUST-1109,Zara Harris,Central,Apparel,Corporate Polo Shirt,2,34.99,15.0,0.0,Debit Card
+ORD-10310,2026-03-21,CUST-1110,Alex Smith,West,Apparel,Corporate Polo Shirt,7,34.99,15.0,0.0,Debit Card
+ORD-10310,2026-03-21,CUST-1110,Alex Smith,West,Office Supplies,Heavy-Duty Stapler,6,19.99,8.5,0.2,PayPal
+ORD-10311,2025-02-21,CUST-1111,Jordan Garcia,West,Office Supplies,Heavy-Duty Stapler,5,19.99,8.5,0.1,PayPal
+ORD-10312,2025-12-11,CUST-1112,Taylor Hernandez,North,Home & Kitchen,Stainless Steel Travel Mug,5,24.99,9.5,0.0,Bank Transfer
+ORD-10313,2026-03-21,CUST-1113,Morgan Lee,South,Home & Kitchen,Stainless Steel Travel Mug,8,24.99,9.5,0.1,PayPal
+ORD-10313,2026-03-21,CUST-1113,Morgan Lee,South,Apparel,Corporate Polo Shirt,5,34.99,15.0,0.1,Debit Card
+ORD-10313,2026-03-21,CUST-1113,Morgan Lee,South,Office Supplies,Heavy-Duty Stapler,7,19.99,8.5,0.1,Debit Card
+ORD-10314,2025-11-25,CUST-1114,Casey Perez,East,Office Supplies,Heavy-Duty Stapler,6,19.99,8.5,0.15,PayPal
+ORD-10315,2025-02-15,CUST-1115,Riley Miller,South,Home & Kitchen,Stainless Steel Travel Mug,2,24.99,9.5,0.0,PayPal
+ORD-10315,2025-02-15,CUST-1115,Riley Miller,South,Office Supplies,Heavy-Duty Stapler,6,19.99,8.5,0.0,Debit Card
+ORD-10316,2026-04-28,CUST-1116,Avery Taylor,North,Apparel,Corporate Polo Shirt,4,34.99,15.0,0.2,Debit Card
+ORD-10316,2026-04-28,CUST-1116,Avery Taylor,North,Furniture,Ergonomic Mesh Chair,1,279.99,140.0,0.1,Credit Card
+ORD-10317,2025-06-24,CUST-1117,Logan White,North,Electronics,Laptop Pro 15,1,999.99,650.0,0.15,Credit Card
+ORD-10317,2025-06-24,CUST-1117,Logan White,North,Home & Kitchen,Stainless Steel Travel Mug,6,24.99,9.5,0.0,Credit Card
+ORD-10318,2026-01-31,CUST-1118,Sam Robinson,South,Home & Kitchen,Stainless Steel Travel Mug,10,24.99,9.5,0.2,Credit Card
+ORD-10318,2026-01-31,CUST-1118,Sam Robinson,South,Electronics,Laptop Pro 15,9,999.99,650.0,0.0,Credit Card
+ORD-10319,2026-06-27,CUST-1119,Dakota Brown,East,Home & Kitchen,Stainless Steel Travel Mug,1,24.99,9.5,0.1,Debit Card
+ORD-10320,2025-11-06,CUST-1120,Reese Martinez,South,Apparel,Corporate Polo Shirt,7,34.99,15.0,0.0,Debit Card
+ORD-10320,2025-11-06,CUST-1120,Reese Martinez,South,Electronics,Laptop Pro 15,3,999.99,650.0,0.0,Bank Transfer
+ORD-10321,2025-08-21,CUST-1121,Quinn Jackson,West,Electronics,Laptop Pro 15,10,999.99,650.0,0.1,Bank Transfer
+ORD-10321,2025-08-21,CUST-1121,Quinn Jackson,West,Apparel,Corporate Polo Shirt,10,34.99,15.0,0.2,PayPal
+ORD-10321,2025-08-21,CUST-1121,Quinn Jackson,West,Home & Kitchen,Stainless Steel Travel Mug,7,24.99,9.5,0.0,PayPal
+ORD-10322,2025-03-11,CUST-1122,Cameron Clark,Central,Office Supplies,Heavy-Duty Stapler,3,19.99,8.5,0.0,Debit Card
+ORD-10322,2025-03-11,CUST-1122,Cameron Clark,Central,Electronics,Laptop Pro 15,5,999.99,650.0,0.0,PayPal
+ORD-10323,2025-05-15,CUST-1123,Skyler Johnson,South,Furniture,Ergonomic Mesh Chair,10,279.99,140.0,0.05,PayPal
+ORD-10324,2025-01-27,CUST-1124,Peyton Rodriguez,East,Office Supplies,Heavy-Duty Stapler,6,19.99,8.5,0.0,Bank Transfer
+ORD-10324,2025-01-27,CUST-1124,Peyton Rodriguez,East,Furniture,Ergonomic Mesh Chair,4,279.99,140.0,0.05,Credit Card
+ORD-10324,2025-01-27,CUST-1124,Peyton Rodriguez,East,Home & Kitchen,Stainless Steel Travel Mug,4,24.99,9.5,0.05,PayPal
+ORD-10325,2025-07-01,CUST-1125,Hayden Moore,West,Electronics,Laptop Pro 15,8,999.99,650.0,0.05,Bank Transfer
+ORD-10326,2025-02-12,CUST-1126,Jesse Gonzalez,Central,Home & Kitchen,Stainless Steel Travel Mug,9,24.99,9.5,0.0,Bank Transfer
+ORD-10326,2025-02-12,CUST-1126,Jesse Gonzalez,Central,Office Supplies,Heavy-Duty Stapler,1,19.99,8.5,0.2,Bank Transfer
+ORD-10327,2025-02-20,CUST-1127,Kendall Hall,South,Electronics,Laptop Pro 15,5,999.99,650.0,0.15,PayPal
+ORD-10327,2025-02-20,CUST-1127,Kendall Hall,South,Furniture,Ergonomic Mesh Chair,9,279.99,140.0,0.0,Bank Transfer
+ORD-10327,2025-02-20,CUST-1127,Kendall Hall,South,Furniture,"Standing Desk 55""",3,429.99,230.0,0.2,PayPal
+ORD-10328,2026-02-28,CUST-1128,Harper Davis,East,Office Supplies,Heavy-Duty Stapler,10,19.99,8.5,0.05,Bank Transfer
+ORD-10328,2026-02-28,CUST-1128,Harper Davis,East,Apparel,Corporate Polo Shirt,2,34.99,15.0,0.0,Credit Card
+ORD-10329,2026-04-06,CUST-1129,Rowan Thomas,East,Furniture,Ergonomic Mesh Chair,7,279.99,140.0,0.2,Bank Transfer
+ORD-10329,2026-04-06,CUST-1129,Rowan Thomas,East,Office Supplies,Heavy-Duty Stapler,3,19.99,8.5,0.0,PayPal
+ORD-10329,2026-04-06,CUST-1129,Rowan Thomas,East,Home & Kitchen,Stainless Steel Travel Mug,8,24.99,9.5,0.05,PayPal
+ORD-10330,2025-05-15,CUST-1130,Revanth Lopez,South,Apparel,Corporate Polo Shirt,8,34.99,15.0,0.15,Credit Card
+ORD-10331,2026-05-21,CUST-1131,Elena Walker,South,Electronics,Laptop Pro 15,8,999.99,650.0,0.0,Credit Card
+ORD-10331,2026-05-21,CUST-1131,Elena Walker,South,Home & Kitchen,Stainless Steel Travel Mug,1,24.99,9.5,0.0,PayPal
+ORD-10331,2026-05-21,CUST-1131,Elena Walker,South,Furniture,Ergonomic Mesh Chair,1,279.99,140.0,0.05,Debit Card
+ORD-10332,2025-02-20,CUST-1132,Liam Jones,North,Office Supplies,Heavy-Duty Stapler,10,19.99,8.5,0.2,PayPal
+ORD-10333,2026-01-04,CUST-1133,Sophia Anderson,North,Home & Kitchen,Stainless Steel Travel Mug,7,24.99,9.5,0.0,Bank Transfer
+ORD-10333,2026-01-04,CUST-1133,Sophia Anderson,North,Apparel,Corporate Polo Shirt,3,34.99,15.0,0.0,Debit Card
+ORD-10334,2026-06-24,CUST-1134,Marcus Thompson,West,Apparel,Corporate Polo Shirt,10,34.99,15.0,0.0,Credit Card
+ORD-10334,2026-06-24,CUST-1134,Marcus Thompson,West,Apparel,Lightweight Windbreaker,7,59.99,28.0,0.1,Debit Card
+ORD-10335,2025-12-29,CUST-1135,Chloe Lewis,South,Electronics,Laptop Pro 15,8,999.99,650.0,0.0,PayPal
+ORD-10335,2025-12-29,CUST-1135,Chloe Lewis,South,Apparel,Corporate Polo Shirt,1,34.99,15.0,0.15,Credit Card
+ORD-10335,2025-12-29,CUST-1135,Chloe Lewis,South,Office Supplies,Heavy-Duty Stapler,6,19.99,8.5,0.1,PayPal
+ORD-10336,2025-07-26,CUST-1136,Devon Williams,East,Apparel,Corporate Polo Shirt,9,34.99,15.0,0.2,Debit Card
+ORD-10337,2025-04-27,CUST-1137,Aria Wilson,East,Furniture,Ergonomic Mesh Chair,3,279.99,140.0,0.05,Debit Card
+ORD-10338,2026-05-06,CUST-1138,Kai Martin,West,Office Supplies,Heavy-Duty Stapler,8,19.99,8.5,0.2,Debit Card
+ORD-10338,2026-05-06,CUST-1138,Kai Martin,West,Furniture,Ergonomic Mesh Chair,9,279.99,140.0,0.05,Debit Card
+ORD-10339,2025-01-20,CUST-1139,Zara Harris,South,Apparel,Corporate Polo Shirt,3,34.99,15.0,0.05,Credit Card
+ORD-10339,2025-01-20,CUST-1139,Zara Harris,South,Furniture,Ergonomic Mesh Chair,10,279.99,140.0,0.1,PayPal
+ORD-10339,2025-01-20,CUST-1139,Zara Harris,South,Apparel,Lightweight Windbreaker,1,59.99,28.0,0.05,Bank Transfer
+ORD-10340,2026-05-24,CUST-1140,Alex Smith,South,Home & Kitchen,Stainless Steel Travel Mug,9,24.99,9.5,0.05,PayPal
+ORD-10341,2026-01-19,CUST-1141,Jordan Garcia,North,Office Supplies,Heavy-Duty Stapler,8,19.99,8.5,0.2,PayPal
+ORD-10342,2025-12-15,CUST-1142,Taylor Hernandez,West,Apparel,Corporate Polo Shirt,2,34.99,15.0,0.2,PayPal
+ORD-10343,2025-02-07,CUST-1143,Morgan Lee,West,Office Supplies,Heavy-Duty Stapler,1,19.99,8.5,0.0,Debit Card
+ORD-10344,2025-02-17,CUST-1144,Casey Perez,North,Apparel,Corporate Polo Shirt,4,34.99,15.0,0.1,PayPal
+ORD-10344,2025-02-17,CUST-1144,Casey Perez,North,Electronics,Laptop Pro 15,8,999.99,650.0,0.0,Debit Card
+ORD-10345,2025-06-11,CUST-1145,Riley Miller,East,Furniture,Ergonomic Mesh Chair,4,279.99,140.0,0.2,Debit Card
+ORD-10346,2025-11-23,CUST-1146,Avery Taylor,East,Home & Kitchen,Stainless Steel Travel Mug,3,24.99,9.5,0.0,Debit Card
+ORD-10346,2025-11-23,CUST-1146,Avery Taylor,East,Electronics,Laptop Pro 15,1,999.99,650.0,0.0,Credit Card
+ORD-10346,2025-11-23,CUST-1146,Avery Taylor,East,Office Supplies,Heavy-Duty Stapler,1,19.99,8.5,0.0,Bank Transfer
+ORD-10347,2025-07-03,CUST-1147,Logan White,Central,Electronics,Laptop Pro 15,5,999.99,650.0,0.1,PayPal
+ORD-10347,2025-07-03,CUST-1147,Logan White,Central,Office Supplies,Heavy-Duty Stapler,2,19.99,8.5,0.15,Credit Card
+ORD-10348,2025-11-14,CUST-1148,Sam Robinson,West,Home & Kitchen,Stainless Steel Travel Mug,10,24.99,9.5,0.05,Debit Card
+ORD-10348,2025-11-14,CUST-1148,Sam Robinson,West,Electronics,Laptop Pro 15,6,999.99,650.0,0.15,Bank Transfer
+ORD-10349,2025-03-08,CUST-1149,Dakota Brown,West,Home & Kitchen,Stainless Steel Travel Mug,3,24.99,9.5,0.05,Debit Card
+ORD-10350,2025-05-11,CUST-1150,Reese Martinez,Central,Furniture,Ergonomic Mesh Chair,6,279.99,140.0,0.2,Credit Card
+ORD-10350,2025-05-11,CUST-1150,Reese Martinez,Central,Electronics,Laptop Pro 15,4,999.99,650.0,0.05,PayPal
+ORD-10350,2025-05-11,CUST-1150,Reese Martinez,Central,Office Supplies,Heavy-Duty Stapler,4,19.99,8.5,0.1,Bank Transfer
+ORD-10351,2025-12-17,CUST-1151,Quinn Jackson,Central,Apparel,Corporate Polo Shirt,10,34.99,15.0,0.15,Credit Card
+ORD-10351,2025-12-17,CUST-1151,Quinn Jackson,Central,Office Supplies,Heavy-Duty Stapler,8,19.99,8.5,0.0,Debit Card
+ORD-10351,2025-12-17,CUST-1151,Quinn Jackson,Central,Furniture,Ergonomic Mesh Chair,10,279.99,140.0,0.1,Debit Card
+ORD-10352,2025-03-04,CUST-1152,Cameron Clark,North,Apparel,Corporate Polo Shirt,3,34.99,15.0,0.0,Bank Transfer
+ORD-10352,2025-03-04,CUST-1152,Cameron Clark,North,Electronics,Laptop Pro 15,4,999.99,650.0,0.05,Debit Card
+ORD-10353,2025-11-08,CUST-1153,Skyler Johnson,West,Furniture,Ergonomic Mesh Chair,10,279.99,140.0,0.2,Bank Transfer
+ORD-10353,2025-11-08,CUST-1153,Skyler Johnson,West,Apparel,Corporate Polo Shirt,9,34.99,15.0,0.0,Credit Card
+ORD-10354,2026-01-03,CUST-1154,Peyton Rodriguez,North,Home & Kitchen,Stainless Steel Travel Mug,10,24.99,9.5,0.1,Debit Card
+ORD-10354,2026-01-03,CUST-1154,Peyton Rodriguez,North,Electronics,Laptop Pro 15,9,999.99,650.0,0.05,PayPal
+ORD-10354,2026-01-03,CUST-1154,Peyton Rodriguez,North,Office Supplies,Heavy-Duty Stapler,6,19.99,8.5,0.1,PayPal
+ORD-10355,2025-05-09,CUST-1155,Hayden Moore,South,Furniture,Ergonomic Mesh Chair,3,279.99,140.0,0.15,Bank Transfer
+ORD-10355,2025-05-09,CUST-1155,Hayden Moore,South,Office Supplies,Heavy-Duty Stapler,8,19.99,8.5,0.1,PayPal
+ORD-10356,2026-06-06,CUST-1156,Jesse Gonzalez,West,Electronics,Laptop Pro 15,4,999.99,650.0,0.0,Bank Transfer
+ORD-10356,2026-06-06,CUST-1156,Jesse Gonzalez,West,Apparel,Corporate Polo Shirt,4,34.99,15.0,0.2,Debit Card
+ORD-10357,2026-01-11,CUST-1157,Kendall Hall,North,Home & Kitchen,Stainless Steel Travel Mug,2,24.99,9.5,0.15,Credit Card
+ORD-10357,2026-01-11,CUST-1157,Kendall Hall,North,Apparel,Corporate Polo Shirt,9,34.99,15.0,0.0,PayPal
+ORD-10358,2025-03-21,CUST-1158,Harper Davis,Central,Furniture,Ergonomic Mesh Chair,6,279.99,140.0,0.2,Credit Card
+ORD-10358,2025-03-21,CUST-1158,Harper Davis,Central,Electronics,Laptop Pro 15,10,999.99,650.0,0.1,Bank Transfer
+ORD-10359,2025-10-29,CUST-1159,Rowan Thomas,East,Apparel,Corporate Polo Shirt,10,34.99,15.0,0.05,Credit Card
+ORD-10359,2025-10-29,CUST-1159,Rowan Thomas,East,Home & Kitchen,Stainless Steel Travel Mug,5,24.99,9.5,0.0,Debit Card
+ORD-10360,2025-03-26,CUST-1160,Revanth Lopez,South,Apparel,Corporate Polo Shirt,3,34.99,15.0,0.05,Debit Card
+ORD-10360,2025-03-26,CUST-1160,Revanth Lopez,South,Furniture,Ergonomic Mesh Chair,10,279.99,140.0,0.0,PayPal
+ORD-10361,2026-04-03,CUST-1161,Elena Walker,East,Home & Kitchen,Stainless Steel Travel Mug,8,24.99,9.5,0.0,Credit Card
+ORD-10361,2026-04-03,CUST-1161,Elena Walker,East,Furniture,Ergonomic Mesh Chair,8,279.99,140.0,0.1,Bank Transfer
+ORD-10361,2026-04-03,CUST-1161,Elena Walker,East,Home & Kitchen,Compact Espresso Machine,4,159.99,90.0,0.1,Credit Card
+ORD-10362,2025-09-28,CUST-1162,Liam Jones,North,Home & Kitchen,Stainless Steel Travel Mug,8,24.99,9.5,0.05,Bank Transfer
+ORD-10362,2025-09-28,CUST-1162,Liam Jones,North,Electronics,Laptop Pro 15,8,999.99,650.0,0.05,PayPal
+ORD-10362,2025-09-28,CUST-1162,Liam Jones,North,Office Supplies,Heavy-Duty Stapler,8,19.99,8.5,0.1,Debit Card
+ORD-10363,2025-02-12,CUST-1163,Sophia Anderson,North,Electronics,Laptop Pro 15,6,999.99,650.0,0.05,Debit Card
+ORD-10363,2025-02-12,CUST-1163,Sophia Anderson,North,Home & Kitchen,Stainless Steel Travel Mug,8,24.99,9.5,0.05,PayPal
+ORD-10363,2025-02-12,CUST-1163,Sophia Anderson,North,Furniture,Ergonomic Mesh Chair,6,279.99,140.0,0.2,Credit Card
+ORD-10364,2025-01-09,CUST-1164,Marcus Thompson,North,Furniture,Ergonomic Mesh Chair,8,279.99,140.0,0.1,PayPal
+ORD-10364,2025-01-09,CUST-1164,Marcus Thompson,North,Furniture,"Standing Desk 55""",1,429.99,230.0,0.0,Credit Card
+ORD-10364,2025-01-09,CUST-1164,Marcus Thompson,North,Apparel,Corporate Polo Shirt,2,34.99,15.0,0.0,PayPal
+ORD-10365,2025-07-09,CUST-1165,Chloe Lewis,North,Electronics,Laptop Pro 15,2,999.99,650.0,0.15,Debit Card
+ORD-10365,2025-07-09,CUST-1165,Chloe Lewis,North,Home & Kitchen,Stainless Steel Travel Mug,2,24.99,9.5,0.05,Credit Card
+ORD-10366,2026-02-02,CUST-1166,Devon Williams,East,Apparel,Corporate Polo Shirt,8,34.99,15.0,0.0,Bank Transfer
+ORD-10366,2026-02-02,CUST-1166,Devon Williams,East,Office Supplies,Heavy-Duty Stapler,2,19.99,8.5,0.0,Bank Transfer
+ORD-10367,2025-04-19,CUST-1167,Aria Wilson,West,Furniture,Ergonomic Mesh Chair,2,279.99,140.0,0.05,Bank Transfer
+ORD-10368,2026-05-25,CUST-1168,Kai Martin,South,Apparel,Corporate Polo Shirt,5,34.99,15.0,0.0,Debit Card
+ORD-10369,2025-01-04,CUST-1169,Zara Harris,Central,Electronics,Laptop Pro 15,2,999.99,650.0,0.2,PayPal
+ORD-10369,2025-01-04,CUST-1169,Zara Harris,Central,Home & Kitchen,Stainless Steel Travel Mug,2,24.99,9.5,0.2,Debit Card
+ORD-10370,2025-11-07,CUST-1170,Alex Smith,West,Apparel,Corporate Polo Shirt,2,34.99,15.0,0.15,Debit Card
+ORD-10370,2025-11-07,CUST-1170,Alex Smith,West,Apparel,Lightweight Windbreaker,7,59.99,28.0,0.05,Debit Card
+ORD-10371,2026-02-04,CUST-1171,Jordan Garcia,North,Home & Kitchen,Stainless Steel Travel Mug,4,24.99,9.5,0.0,Credit Card
+ORD-10371,2026-02-04,CUST-1171,Jordan Garcia,North,Home & Kitchen,Compact Espresso Machine,8,159.99,90.0,0.1,Credit Card
+ORD-10371,2026-02-04,CUST-1171,Jordan Garcia,North,Electronics,Laptop Pro 15,1,999.99,650.0,0.0,Debit Card
+ORD-10372,2025-12-12,CUST-1172,Taylor Hernandez,North,Office Supplies,Heavy-Duty Stapler,9,19.99,8.5,0.0,PayPal
+ORD-10373,2025-02-07,CUST-1173,Morgan Lee,South,Office Supplies,Heavy-Duty Stapler,4,19.99,8.5,0.0,Credit Card
+ORD-10374,2025-02-21,CUST-1174,Casey Perez,East,Furniture,Ergonomic Mesh Chair,10,279.99,140.0,0.0,Credit Card
+ORD-10375,2026-05-25,CUST-1175,Riley Miller,Central,Apparel,Corporate Polo Shirt,7,34.99,15.0,0.1,Bank Transfer
+ORD-10376,2025-05-04,CUST-1176,Avery Taylor,Central,Office Supplies,Heavy-Duty Stapler,1,19.99,8.5,0.0,Debit Card
+ORD-10376,2025-05-04,CUST-1176,Avery Taylor,Central,Office Supplies,Ballpoint Pens (Pack of 50),7,14.99,5.0,0.0,Debit Card
+ORD-10377,2025-06-18,CUST-1177,Logan White,West,Home & Kitchen,Stainless Steel Travel Mug,10,24.99,9.5,0.1,PayPal
+ORD-10377,2025-06-18,CUST-1177,Logan White,West,Furniture,Ergonomic Mesh Chair,1,279.99,140.0,0.0,Credit Card
+ORD-10377,2025-06-18,CUST-1177,Logan White,West,Electronics,Laptop Pro 15,3,999.99,650.0,0.05,PayPal
+ORD-10378,2025-10-05,CUST-1178,Sam Robinson,Central,Furniture,Ergonomic Mesh Chair,10,279.99,140.0,0.0,PayPal
+ORD-10378,2025-10-05,CUST-1178,Sam Robinson,Central,Home & Kitchen,Stainless Steel Travel Mug,6,24.99,9.5,0.1,Credit Card
+ORD-10378,2025-10-05,CUST-1178,Sam Robinson,Central,Apparel,Corporate Polo Shirt,9,34.99,15.0,0.0,Debit Card
+ORD-10379,2026-06-04,CUST-1179,Dakota Brown,South,Office Supplies,Heavy-Duty Stapler,4,19.99,8.5,0.0,PayPal
+ORD-10379,2026-06-04,CUST-1179,Dakota Brown,South,Furniture,Ergonomic Mesh Chair,1,279.99,140.0,0.0,Debit Card
+ORD-10379,2026-06-04,CUST-1179,Dakota Brown,South,Electronics,Laptop Pro 15,6,999.99,650.0,0.15,Credit Card
+ORD-10380,2025-02-23,CUST-1180,Reese Martinez,Central,Office Supplies,Heavy-Duty Stapler,9,19.99,8.5,0.0,Credit Card
+ORD-10381,2026-04-01,CUST-1181,Quinn Jackson,Central,Apparel,Corporate Polo Shirt,6,34.99,15.0,0.05,Credit Card
+ORD-10382,2025-08-22,CUST-1182,Cameron Clark,North,Office Supplies,Heavy-Duty Stapler,4,19.99,8.5,0.0,Bank Transfer
+ORD-10382,2025-08-22,CUST-1182,Cameron Clark,North,Office Supplies,Ballpoint Pens (Pack of 50),3,14.99,5.0,0.05,Bank Transfer
+ORD-10383,2026-02-01,CUST-1183,Skyler Johnson,East,Home & Kitchen,Stainless Steel Travel Mug,6,24.99,9.5,0.05,PayPal
+ORD-10384,2025-05-11,CUST-1184,Peyton Rodriguez,North,Office Supplies,Heavy-Duty Stapler,2,19.99,8.5,0.15,Bank Transfer
+ORD-10384,2025-05-11,CUST-1184,Peyton Rodriguez,North,Office Supplies,Ballpoint Pens (Pack of 50),5,14.99,5.0,0.0,PayPal
+ORD-10385,2025-08-24,CUST-1185,Hayden Moore,North,Office Supplies,Heavy-Duty Stapler,8,19.99,8.5,0.05,Credit Card
+ORD-10385,2025-08-24,CUST-1185,Hayden Moore,North,Office Supplies,Ballpoint Pens (Pack of 50),7,14.99,5.0,0.05,PayPal
+ORD-10385,2025-08-24,CUST-1185,Hayden Moore,North,Office Supplies,Printer Paper (5 Reams),1,44.99,22.0,0.15,Credit Card
+ORD-10386,2026-06-28,CUST-1186,Jesse Gonzalez,West,Home & Kitchen,Stainless Steel Travel Mug,4,24.99,9.5,0.0,Credit Card
+ORD-10386,2026-06-28,CUST-1186,Jesse Gonzalez,West,Office Supplies,Heavy-Duty Stapler,5,19.99,8.5,0.05,Credit Card
+ORD-10387,2026-05-07,CUST-1187,Kendall Hall,East,Home & Kitchen,Stainless Steel Travel Mug,8,24.99,9.5,0.15,PayPal
+ORD-10388,2026-02-20,CUST-1188,Harper Davis,South,Furniture,Ergonomic Mesh Chair,2,279.99,140.0,0.1,Debit Card
+ORD-10388,2026-02-20,CUST-1188,Harper Davis,South,Apparel,Corporate Polo Shirt,5,34.99,15.0,0.2,PayPal
+ORD-10388,2026-02-20,CUST-1188,Harper Davis,South,Furniture,"Standing Desk 55""",9,429.99,230.0,0.1,Credit Card
+ORD-10389,2026-01-28,CUST-1189,Rowan Thomas,East,Home & Kitchen,Stainless Steel Travel Mug,3,24.99,9.5,0.2,Credit Card
+ORD-10390,2025-07-29,CUST-1190,Revanth Lopez,South,Apparel,Corporate Polo Shirt,8,34.99,15.0,0.05,PayPal
+ORD-10390,2025-07-29,CUST-1190,Revanth Lopez,South,Electronics,Laptop Pro 15,5,999.99,650.0,0.0,Credit Card
+ORD-10390,2025-07-29,CUST-1190,Revanth Lopez,South,Electronics,"Ultra HD Monitor 27""",9,349.99,210.0,0.2,Credit Card
+ORD-10391,2026-06-29,CUST-1191,Elena Walker,Central,Electronics,Laptop Pro 15,2,999.99,650.0,0.05,Bank Transfer
+ORD-10391,2026-06-29,CUST-1191,Elena Walker,Central,Office Supplies,Heavy-Duty Stapler,5,19.99,8.5,0.0,Credit Card
+ORD-10392,2025-10-10,CUST-1192,Liam Jones,North,Home & Kitchen,Stainless Steel Travel Mug,9,24.99,9.5,0.0,Debit Card
+ORD-10393,2025-05-16,CUST-1193,Sophia Anderson,West,Home & Kitchen,Stainless Steel Travel Mug,5,24.99,9.5,0.05,Credit Card
+ORD-10393,2025-05-16,CUST-1193,Sophia Anderson,West,Home & Kitchen,Compact Espresso Machine,7,159.99,90.0,0.1,Debit Card
+ORD-10394,2026-06-27,CUST-1194,Marcus Thompson,Central,Office Supplies,Heavy-Duty Stapler,5,19.99,8.5,0.0,Debit Card
+ORD-10394,2026-06-27,CUST-1194,Marcus Thompson,Central,Electronics,Laptop Pro 15,1,999.99,650.0,0.0,Debit Card
+ORD-10395,2026-04-12,CUST-1195,Chloe Lewis,South,Electronics,Laptop Pro 15,3,999.99,650.0,0.0,PayPal
+ORD-10395,2026-04-12,CUST-1195,Chloe Lewis,South,Apparel,Corporate Polo Shirt,6,34.99,15.0,0.0,Bank Transfer
+ORD-10396,2026-01-14,CUST-1196,Devon Williams,South,Apparel,Corporate Polo Shirt,6,34.99,15.0,0.0,Debit Card
+ORD-10396,2026-01-14,CUST-1196,Devon Williams,South,Electronics,Laptop Pro 15,2,999.99,650.0,0.0,Bank Transfer
+ORD-10397,2025-05-29,CUST-1197,Aria Wilson,West,Home & Kitchen,Stainless Steel Travel Mug,5,24.99,9.5,0.15,Debit Card
+ORD-10397,2025-05-29,CUST-1197,Aria Wilson,West,Electronics,Laptop Pro 15,6,999.99,650.0,0.0,Bank Transfer
+ORD-10398,2025-05-23,CUST-1198,Kai Martin,Central,Apparel,Corporate Polo Shirt,10,34.99,15.0,0.05,Bank Transfer
+ORD-10399,2025-04-05,CUST-1199,Zara Harris,East,Apparel,Corporate Polo Shirt,5,34.99,15.0,0.05,Credit Card
+ORD-10399,2025-04-05,CUST-1199,Zara Harris,East,Furniture,Ergonomic Mesh Chair,9,279.99,140.0,0.1,PayPal
+ORD-10400,2025-11-22,CUST-1200,Alex Smith,Central,Apparel,Corporate Polo Shirt,7,34.99,15.0,0.0,Bank Transfer
+ORD-10400,2025-11-22,CUST-1200,Alex Smith,Central,Home & Kitchen,Stainless Steel Travel Mug,5,24.99,9.5,0.1,Debit Card
+ORD-10401,2026-04-02,CUST-1201,Jordan Garcia,Central,Home & Kitchen,Stainless Steel Travel Mug,7,24.99,9.5,0.15,Debit Card
+ORD-10401,2026-04-02,CUST-1201,Jordan Garcia,Central,Electronics,Laptop Pro 15,3,999.99,650.0,0.0,PayPal
+ORD-10402,2025-11-07,CUST-1202,Taylor Hernandez,West,Apparel,Corporate Polo Shirt,2,34.99,15.0,0.0,Bank Transfer
+ORD-10403,2025-10-07,CUST-1203,Morgan Lee,West,Home & Kitchen,Stainless Steel Travel Mug,4,24.99,9.5,0.0,Bank Transfer
+ORD-10403,2025-10-07,CUST-1203,Morgan Lee,West,Home & Kitchen,Compact Espresso Machine,10,159.99,90.0,0.05,Bank Transfer
+ORD-10403,2025-10-07,CUST-1203,Morgan Lee,West,Furniture,Ergonomic Mesh Chair,1,279.99,140.0,0.0,Debit Card
+ORD-10404,2026-04-29,CUST-1204,Casey Perez,North,Home & Kitchen,Stainless Steel Travel Mug,4,24.99,9.5,0.0,Credit Card
+ORD-10404,2026-04-29,CUST-1204,Casey Perez,North,Home & Kitchen,Compact Espresso Machine,10,159.99,90.0,0.15,Bank Transfer
+ORD-10405,2026-05-03,CUST-1205,Riley Miller,North,Home & Kitchen,Stainless Steel Travel Mug,10,24.99,9.5,0.0,PayPal
+ORD-10405,2026-05-03,CUST-1205,Riley Miller,North,Furniture,Ergonomic Mesh Chair,6,279.99,140.0,0.0,Credit Card
+ORD-10406,2026-01-05,CUST-1206,Avery Taylor,West,Apparel,Corporate Polo Shirt,9,34.99,15.0,0.0,PayPal
+ORD-10406,2026-01-05,CUST-1206,Avery Taylor,West,Home & Kitchen,Stainless Steel Travel Mug,9,24.99,9.5,0.1,Debit Card
+ORD-10407,2025-11-05,CUST-1207,Logan White,East,Apparel,Corporate Polo Shirt,3,34.99,15.0,0.0,PayPal
+ORD-10407,2025-11-05,CUST-1207,Logan White,East,Electronics,Laptop Pro 15,7,999.99,650.0,0.1,PayPal
+ORD-10407,2025-11-05,CUST-1207,Logan White,East,Apparel,Lightweight Windbreaker,4,59.99,28.0,0.2,Credit Card
+ORD-10408,2026-04-17,CUST-1208,Sam Robinson,North,Office Supplies,Heavy-Duty Stapler,6,19.99,8.5,0.05,Debit Card
+ORD-10408,2026-04-17,CUST-1208,Sam Robinson,North,Electronics,Laptop Pro 15,3,999.99,650.0,0.05,Credit Card
+ORD-10409,2025-05-02,CUST-1209,Dakota Brown,South,Apparel,Corporate Polo Shirt,5,34.99,15.0,0.0,PayPal
+ORD-10409,2025-05-02,CUST-1209,Dakota Brown,South,Office Supplies,Heavy-Duty Stapler,2,19.99,8.5,0.0,Bank Transfer
+ORD-10409,2025-05-02,CUST-1209,Dakota Brown,South,Furniture,Ergonomic Mesh Chair,1,279.99,140.0,0.2,Credit Card
+ORD-10410,2025-05-02,CUST-1210,Reese Martinez,East,Office Supplies,Heavy-Duty Stapler,2,19.99,8.5,0.0,PayPal
+ORD-10410,2025-05-02,CUST-1210,Reese Martinez,East,Office Supplies,Ballpoint Pens (Pack of 50),1,14.99,5.0,0.0,PayPal
+ORD-10411,2025-10-12,CUST-1211,Quinn Jackson,Central,Furniture,Ergonomic Mesh Chair,9,279.99,140.0,0.0,Credit Card
+ORD-10411,2025-10-12,CUST-1211,Quinn Jackson,Central,Furniture,"Standing Desk 55""",4,429.99,230.0,0.05,PayPal
+ORD-10411,2025-10-12,CUST-1211,Quinn Jackson,Central,Furniture,Bookshelf 5-Tier,4,119.99,58.0,0.2,Bank Transfer
+ORD-10412,2025-07-09,CUST-1212,Cameron Clark,West,Home & Kitchen,Stainless Steel Travel Mug,7,24.99,9.5,0.05,PayPal
+ORD-10412,2025-07-09,CUST-1212,Cameron Clark,West,Office Supplies,Heavy-Duty Stapler,8,19.99,8.5,0.0,PayPal
+ORD-10413,2026-01-05,CUST-1213,Skyler Johnson,East,Office Supplies,Heavy-Duty Stapler,8,19.99,8.5,0.0,Bank Transfer
+ORD-10413,2026-01-05,CUST-1213,Skyler Johnson,East,Electronics,Laptop Pro 15,8,999.99,650.0,0.05,Bank Transfer
+ORD-10414,2026-03-15,CUST-1214,Peyton Rodriguez,South,Home & Kitchen,Stainless Steel Travel Mug,3,24.99,9.5,0.0,Bank Transfer
+ORD-10414,2026-03-15,CUST-1214,Peyton Rodriguez,South,Office Supplies,Heavy-Duty Stapler,2,19.99,8.5,0.0,Bank Transfer
+ORD-10415,2025-04-15,CUST-1215,Hayden Moore,South,Apparel,Corporate Polo Shirt,4,34.99,15.0,0.1,Credit Card
+ORD-10415,2025-04-15,CUST-1215,Hayden Moore,South,Electronics,Laptop Pro 15,5,999.99,650.0,0.05,Bank Transfer
+ORD-10416,2026-05-03,CUST-1216,Jesse Gonzalez,Central,Electronics,Laptop Pro 15,3,999.99,650.0,0.15,Credit Card
+ORD-10416,2026-05-03,CUST-1216,Jesse Gonzalez,Central,Home & Kitchen,Stainless Steel Travel Mug,4,24.99,9.5,0.0,Credit Card
+ORD-10417,2025-02-24,CUST-1217,Kendall Hall,North,Office Supplies,Heavy-Duty Stapler,10,19.99,8.5,0.1,PayPal
+ORD-10418,2025-04-09,CUST-1218,Harper Davis,North,Office Supplies,Heavy-Duty Stapler,5,19.99,8.5,0.15,Bank Transfer
+ORD-10418,2025-04-09,CUST-1218,Harper Davis,North,Electronics,Laptop Pro 15,9,999.99,650.0,0.2,Credit Card
+ORD-10419,2026-03-17,CUST-1219,Rowan Thomas,North,Electronics,Laptop Pro 15,8,999.99,650.0,0.15,Credit Card
+ORD-10420,2025-07-01,CUST-1220,Revanth Lopez,Central,Electronics,Laptop Pro 15,3,999.99,650.0,0.05,Bank Transfer
+ORD-10421,2025-04-23,CUST-1221,Elena Walker,Central,Office Supplies,Heavy-Duty Stapler,9,19.99,8.5,0.0,Bank Transfer
+ORD-10421,2025-04-23,CUST-1221,Elena Walker,Central,Electronics,Laptop Pro 15,10,999.99,650.0,0.1,Debit Card
+ORD-10422,2025-03-04,CUST-1222,Liam Jones,North,Office Supplies,Heavy-Duty Stapler,6,19.99,8.5,0.0,Debit Card
+ORD-10422,2025-03-04,CUST-1222,Liam Jones,North,Home & Kitchen,Stainless Steel Travel Mug,6,24.99,9.5,0.1,Debit Card
+ORD-10423,2025-09-08,CUST-1223,Sophia Anderson,South,Home & Kitchen,Stainless Steel Travel Mug,2,24.99,9.5,0.05,Credit Card
+ORD-10424,2025-06-23,CUST-1224,Marcus Thompson,North,Apparel,Corporate Polo Shirt,7,34.99,15.0,0.2,Bank Transfer
+ORD-10424,2025-06-23,CUST-1224,Marcus Thompson,North,Apparel,Lightweight Windbreaker,10,59.99,28.0,0.0,Debit Card
+ORD-10425,2026-02-04,CUST-1225,Chloe Lewis,East,Office Supplies,Heavy-Duty Stapler,4,19.99,8.5,0.1,Bank Transfer
+ORD-10425,2026-02-04,CUST-1225,Chloe Lewis,East,Apparel,Corporate Polo Shirt,6,34.99,15.0,0.1,PayPal
+ORD-10426,2025-03-19,CUST-1226,Devon Williams,Central,Apparel,Corporate Polo Shirt,5,34.99,15.0,0.1,PayPal
+ORD-10426,2025-03-19,CUST-1226,Devon Williams,Central,Furniture,Ergonomic Mesh Chair,10,279.99,140.0,0.1,Debit Card
+ORD-10427,2026-06-28,CUST-1227,Aria Wilson,West,Office Supplies,Heavy-Duty Stapler,5,19.99,8.5,0.2,Debit Card
+ORD-10428,2025-11-17,CUST-1228,Kai Martin,South,Electronics,Laptop Pro 15,9,999.99,650.0,0.0,Credit Card
+ORD-10428,2025-11-17,CUST-1228,Kai Martin,South,Electronics,"Ultra HD Monitor 27""",4,349.99,210.0,0.15,Debit Card
+ORD-10429,2026-06-30,CUST-1229,Zara Harris,Central,Furniture,Ergonomic Mesh Chair,6,279.99,140.0,0.15,PayPal
+ORD-10429,2026-06-30,CUST-1229,Zara Harris,Central,Electronics,Laptop Pro 15,7,999.99,650.0,0.1,Debit Card
+ORD-10429,2026-06-30,CUST-1229,Zara Harris,Central,Home & Kitchen,Stainless Steel Travel Mug,5,24.99,9.5,0.0,Debit Card
+ORD-10430,2025-08-30,CUST-1230,Alex Smith,West,Home & Kitchen,Stainless Steel Travel Mug,1,24.99,9.5,0.05,Debit Card
+ORD-10430,2025-08-30,CUST-1230,Alex Smith,West,Electronics,Laptop Pro 15,7,999.99,650.0,0.0,PayPal
+ORD-10430,2025-08-30,CUST-1230,Alex Smith,West,Home & Kitchen,Compact Espresso Machine,5,159.99,90.0,0.05,PayPal
+ORD-10431,2025-02-13,CUST-1231,Jordan Garcia,West,Office Supplies,Heavy-Duty Stapler,10,19.99,8.5,0.05,Credit Card
+ORD-10431,2025-02-13,CUST-1231,Jordan Garcia,West,Furniture,Ergonomic Mesh Chair,7,279.99,140.0,0.0,PayPal
+ORD-10431,2025-02-13,CUST-1231,Jordan Garcia,West,Apparel,Corporate Polo Shirt,8,34.99,15.0,0.0,PayPal
+ORD-10432,2025-05-06,CUST-1232,Taylor Hernandez,East,Furniture,Ergonomic Mesh Chair,7,279.99,140.0,0.05,PayPal
+ORD-10432,2025-05-06,CUST-1232,Taylor Hernandez,East,Office Supplies,Heavy-Duty Stapler,8,19.99,8.5,0.1,Debit Card
+ORD-10432,2025-05-06,CUST-1232,Taylor Hernandez,East,Apparel,Corporate Polo Shirt,2,34.99,15.0,0.1,Bank Transfer
+ORD-10433,2025-09-10,CUST-1233,Morgan Lee,East,Electronics,Laptop Pro 15,5,999.99,650.0,0.0,Credit Card
+ORD-10433,2025-09-10,CUST-1233,Morgan Lee,East,Home & Kitchen,Stainless Steel Travel Mug,5,24.99,9.5,0.1,Credit Card
+ORD-10434,2025-08-31,CUST-1234,Casey Perez,West,Home & Kitchen,Stainless Steel Travel Mug,5,24.99,9.5,0.0,PayPal
+ORD-10434,2025-08-31,CUST-1234,Casey Perez,West,Home & Kitchen,Compact Espresso Machine,6,159.99,90.0,0.1,Credit Card
+ORD-10434,2025-08-31,CUST-1234,Casey Perez,West,Apparel,Corporate Polo Shirt,7,34.99,15.0,0.1,Bank Transfer
+ORD-10435,2025-06-14,CUST-1235,Riley Miller,East,Apparel,Corporate Polo Shirt,10,34.99,15.0,0.2,Debit Card
+ORD-10436,2025-01-29,CUST-1236,Avery Taylor,North,Home & Kitchen,Stainless Steel Travel Mug,1,24.99,9.5,0.1,PayPal
+ORD-10436,2025-01-29,CUST-1236,Avery Taylor,North,Furniture,Ergonomic Mesh Chair,2,279.99,140.0,0.0,PayPal
+ORD-10437,2025-05-14,CUST-1237,Logan White,Central,Electronics,Laptop Pro 15,3,999.99,650.0,0.05,PayPal
+ORD-10437,2025-05-14,CUST-1237,Logan White,Central,Apparel,Corporate Polo Shirt,2,34.99,15.0,0.1,Debit Card
+ORD-10437,2025-05-14,CUST-1237,Logan White,Central,Office Supplies,Heavy-Duty Stapler,1,19.99,8.5,0.0,PayPal
+ORD-10438,2026-04-19,CUST-1238,Sam Robinson,South,Home & Kitchen,Stainless Steel Travel Mug,10,24.99,9.5,0.1,Debit Card
+ORD-10439,2025-04-02,CUST-1239,Dakota Brown,East,Office Supplies,Heavy-Duty Stapler,8,19.99,8.5,0.15,Credit Card
+ORD-10440,2025-07-28,CUST-1240,Reese Martinez,South,Electronics,Laptop Pro 15,7,999.99,650.0,0.0,Bank Transfer
+ORD-10441,2025-08-09,CUST-1241,Quinn Jackson,East,Office Supplies,Heavy-Duty Stapler,3,19.99,8.5,0.0,Debit Card
+ORD-10442,2025-08-30,CUST-1242,Cameron Clark,Central,Electronics,Laptop Pro 15,2,999.99,650.0,0.0,Bank Transfer
+ORD-10442,2025-08-30,CUST-1242,Cameron Clark,Central,Electronics,"Ultra HD Monitor 27""",4,349.99,210.0,0.1,Bank Transfer
+ORD-10443,2025-09-20,CUST-1243,Skyler Johnson,North,Office Supplies,Heavy-Duty Stapler,4,19.99,8.5,0.15,Debit Card
+ORD-10443,2025-09-20,CUST-1243,Skyler Johnson,North,Office Supplies,Ballpoint Pens (Pack of 50),9,14.99,5.0,0.1,Debit Card
+ORD-10443,2025-09-20,CUST-1243,Skyler Johnson,North,Furniture,Ergonomic Mesh Chair,10,279.99,140.0,0.0,Debit Card
+ORD-10444,2026-05-31,CUST-1244,Peyton Rodriguez,West,Furniture,Ergonomic Mesh Chair,6,279.99,140.0,0.2,Bank Transfer
+ORD-10445,2025-09-24,CUST-1245,Hayden Moore,North,Home & Kitchen,Stainless Steel Travel Mug,5,24.99,9.5,0.1,Bank Transfer
+ORD-10446,2025-09-27,CUST-1246,Jesse Gonzalez,Central,Apparel,Corporate Polo Shirt,6,34.99,15.0,0.15,PayPal
+ORD-10446,2025-09-27,CUST-1246,Jesse Gonzalez,Central,Furniture,Ergonomic Mesh Chair,3,279.99,140.0,0.0,PayPal
+ORD-10447,2025-02-06,CUST-1247,Kendall Hall,West,Electronics,Laptop Pro 15,7,999.99,650.0,0.0,Bank Transfer
+ORD-10448,2026-03-29,CUST-1248,Harper Davis,East,Electronics,Laptop Pro 15,2,999.99,650.0,0.0,Credit Card
+ORD-10449,2025-04-06,CUST-1249,Rowan Thomas,South,Home & Kitchen,Stainless Steel Travel Mug,10,24.99,9.5,0.05,Credit Card
+ORD-10449,2025-04-06,CUST-1249,Rowan Thomas,South,Office Supplies,Heavy-Duty Stapler,4,19.99,8.5,0.15,Credit Card
+ORD-10450,2025-01-27,CUST-1250,Revanth Lopez,East,Office Supplies,Heavy-Duty Stapler,6,19.99,8.5,0.0,Credit Card
+ORD-10450,2025-01-27,CUST-1250,Revanth Lopez,East,Home & Kitchen,Stainless Steel Travel Mug,8,24.99,9.5,0.05,Credit Card
+ORD-10451,2025-02-14,CUST-1251,Elena Walker,Central,Furniture,Ergonomic Mesh Chair,4,279.99,140.0,0.0,Debit Card
+ORD-10451,2025-02-14,CUST-1251,Elena Walker,Central,Furniture,"Standing Desk 55""",9,429.99,230.0,0.1,Credit Card
+ORD-10452,2025-09-19,CUST-1252,Liam Jones,South,Home & Kitchen,Stainless Steel Travel Mug,4,24.99,9.5,0.0,Bank Transfer
+ORD-10452,2025-09-19,CUST-1252,Liam Jones,South,Furniture,Ergonomic Mesh Chair,2,279.99,140.0,0.05,Bank Transfer
+ORD-10453,2025-11-14,CUST-1253,Sophia Anderson,Central,Home & Kitchen,Stainless Steel Travel Mug,6,24.99,9.5,0.2,PayPal
+ORD-10453,2025-11-14,CUST-1253,Sophia Anderson,Central,Electronics,Laptop Pro 15,5,999.99,650.0,0.1,Credit Card
+ORD-10454,2026-01-13,CUST-1254,Marcus Thompson,Central,Electronics,Laptop Pro 15,2,999.99,650.0,0.0,Debit Card
+ORD-10454,2026-01-13,CUST-1254,Marcus Thompson,Central,Home & Kitchen,Stainless Steel Travel Mug,8,24.99,9.5,0.2,Credit Card
+ORD-10455,2026-04-25,CUST-1255,Chloe Lewis,West,Office Supplies,Heavy-Duty Stapler,3,19.99,8.5,0.05,PayPal
+ORD-10455,2026-04-25,CUST-1255,Chloe Lewis,West,Office Supplies,Ballpoint Pens (Pack of 50),9,14.99,5.0,0.0,Credit Card
+ORD-10456,2025-04-21,CUST-1256,Devon Williams,Central,Office Supplies,Heavy-Duty Stapler,10,19.99,8.5,0.05,Debit Card
+ORD-10456,2025-04-21,CUST-1256,Devon Williams,Central,Furniture,Ergonomic Mesh Chair,2,279.99,140.0,0.15,PayPal
+ORD-10456,2025-04-21,CUST-1256,Devon Williams,Central,Home & Kitchen,Stainless Steel Travel Mug,7,24.99,9.5,0.05,Debit Card
+ORD-10457,2026-04-11,CUST-1257,Aria Wilson,West,Apparel,Corporate Polo Shirt,4,34.99,15.0,0.0,Credit Card
+ORD-10457,2026-04-11,CUST-1257,Aria Wilson,West,Furniture,Ergonomic Mesh Chair,7,279.99,140.0,0.2,Credit Card
+ORD-10457,2026-04-11,CUST-1257,Aria Wilson,West,Furniture,"Standing Desk 55""",3,429.99,230.0,0.15,Bank Transfer
+ORD-10458,2026-02-19,CUST-1258,Kai Martin,Central,Electronics,Laptop Pro 15,7,999.99,650.0,0.05,Credit Card
+ORD-10458,2026-02-19,CUST-1258,Kai Martin,Central,Apparel,Corporate Polo Shirt,2,34.99,15.0,0.0,PayPal
+ORD-10458,2026-02-19,CUST-1258,Kai Martin,Central,Office Supplies,Heavy-Duty Stapler,4,19.99,8.5,0.1,PayPal
+ORD-10459,2025-11-05,CUST-1259,Zara Harris,West,Office Supplies,Heavy-Duty Stapler,2,19.99,8.5,0.0,PayPal
+ORD-10460,2026-04-01,CUST-1260,Alex Smith,West,Office Supplies,Heavy-Duty Stapler,4,19.99,8.5,0.05,Bank Transfer
+ORD-10460,2026-04-01,CUST-1260,Alex Smith,West,Furniture,Ergonomic Mesh Chair,7,279.99,140.0,0.1,Bank Transfer
+ORD-10460,2026-04-01,CUST-1260,Alex Smith,West,Apparel,Corporate Polo Shirt,7,34.99,15.0,0.15,Bank Transfer
+ORD-10461,2025-03-04,CUST-1261,Jordan Garcia,Central,Home & Kitchen,Stainless Steel Travel Mug,9,24.99,9.5,0.0,Debit Card
+ORD-10462,2026-03-04,CUST-1262,Taylor Hernandez,West,Home & Kitchen,Stainless Steel Travel Mug,8,24.99,9.5,0.1,Credit Card
+ORD-10462,2026-03-04,CUST-1262,Taylor Hernandez,West,Home & Kitchen,Compact Espresso Machine,8,159.99,90.0,0.1,Bank Transfer
+ORD-10462,2026-03-04,CUST-1262,Taylor Hernandez,West,Electronics,Laptop Pro 15,10,999.99,650.0,0.15,PayPal
+ORD-10463,2026-02-04,CUST-1263,Morgan Lee,West,Furniture,Ergonomic Mesh Chair,5,279.99,140.0,0.0,Bank Transfer
+ORD-10463,2026-02-04,CUST-1263,Morgan Lee,West,Apparel,Corporate Polo Shirt,10,34.99,15.0,0.15,Credit Card
+ORD-10464,2026-05-21,CUST-1264,Casey Perez,East,Apparel,Corporate Polo Shirt,1,34.99,15.0,0.1,Debit Card
+ORD-10464,2026-05-21,CUST-1264,Casey Perez,East,Apparel,Lightweight Windbreaker,2,59.99,28.0,0.1,Bank Transfer
+ORD-10465,2025-08-21,CUST-1265,Riley Miller,North,Electronics,Laptop Pro 15,6,999.99,650.0,0.1,Credit Card
+ORD-10466,2025-10-01,CUST-1266,Avery Taylor,South,Furniture,Ergonomic Mesh Chair,8,279.99,140.0,0.15,Credit Card
+ORD-10466,2025-10-01,CUST-1266,Avery Taylor,South,Furniture,"Standing Desk 55""",9,429.99,230.0,0.0,PayPal
+ORD-10466,2025-10-01,CUST-1266,Avery Taylor,South,Office Supplies,Heavy-Duty Stapler,5,19.99,8.5,0.15,Bank Transfer
+ORD-10467,2025-04-12,CUST-1267,Logan White,South,Furniture,Ergonomic Mesh Chair,4,279.99,140.0,0.15,Bank Transfer
+ORD-10467,2025-04-12,CUST-1267,Logan White,South,Home & Kitchen,Stainless Steel Travel Mug,5,24.99,9.5,0.2,PayPal
+ORD-10467,2025-04-12,CUST-1267,Logan White,South,Home & Kitchen,Compact Espresso Machine,6,159.99,90.0,0.05,PayPal
+ORD-10468,2026-03-08,CUST-1268,Sam Robinson,South,Electronics,Laptop Pro 15,8,999.99,650.0,0.2,Debit Card
+ORD-10468,2026-03-08,CUST-1268,Sam Robinson,South,Furniture,Ergonomic Mesh Chair,9,279.99,140.0,0.0,Credit Card
+ORD-10468,2026-03-08,CUST-1268,Sam Robinson,South,Apparel,Corporate Polo Shirt,7,34.99,15.0,0.0,Bank Transfer
+ORD-10469,2025-06-04,CUST-1269,Dakota Brown,Central,Home & Kitchen,Stainless Steel Travel Mug,9,24.99,9.5,0.05,Debit Card
+ORD-10470,2025-01-09,CUST-1270,Reese Martinez,East,Electronics,Laptop Pro 15,8,999.99,650.0,0.05,Bank Transfer
+ORD-10470,2025-01-09,CUST-1270,Reese Martinez,East,Home & Kitchen,Stainless Steel Travel Mug,2,24.99,9.5,0.0,Debit Card
+ORD-10471,2025-05-10,CUST-1271,Quinn Jackson,Central,Furniture,Ergonomic Mesh Chair,9,279.99,140.0,0.2,Debit Card
+ORD-10471,2025-05-10,CUST-1271,Quinn Jackson,Central,Furniture,"Standing Desk 55""",1,429.99,230.0,0.0,Debit Card
+ORD-10472,2025-11-08,CUST-1272,Cameron Clark,West,Furniture,Ergonomic Mesh Chair,6,279.99,140.0,0.05,Debit Card
+ORD-10473,2025-02-18,CUST-1273,Skyler Johnson,North,Furniture,Ergonomic Mesh Chair,8,279.99,140.0,0.1,PayPal
+ORD-10474,2025-08-28,CUST-1274,Peyton Rodriguez,East,Furniture,Ergonomic Mesh Chair,7,279.99,140.0,0.2,PayPal
+ORD-10474,2025-08-28,CUST-1274,Peyton Rodriguez,East,Furniture,"Standing Desk 55""",6,429.99,230.0,0.15,Credit Card
+ORD-10474,2025-08-28,CUST-1274,Peyton Rodriguez,East,Office Supplies,Heavy-Duty Stapler,2,19.99,8.5,0.0,Bank Transfer
+ORD-10475,2026-05-03,CUST-1275,Hayden Moore,South,Home & Kitchen,Stainless Steel Travel Mug,10,24.99,9.5,0.2,Bank Transfer
+ORD-10476,2026-05-26,CUST-1276,Jesse Gonzalez,West,Electronics,Laptop Pro 15,3,999.99,650.0,0.0,PayPal
+ORD-10476,2026-05-26,CUST-1276,Jesse Gonzalez,West,Furniture,Ergonomic Mesh Chair,4,279.99,140.0,0.15,Bank Transfer
+ORD-10477,2025-06-10,CUST-1277,Kendall Hall,Central,Apparel,Corporate Polo Shirt,2,34.99,15.0,0.0,Debit Card
+ORD-10478,2025-10-24,CUST-1278,Harper Davis,North,Office Supplies,Heavy-Duty Stapler,5,19.99,8.5,0.1,Debit Card
+ORD-10478,2025-10-24,CUST-1278,Harper Davis,North,Furniture,Ergonomic Mesh Chair,3,279.99,140.0,0.1,Credit Card
+ORD-10478,2025-10-24,CUST-1278,Harper Davis,North,Furniture,"Standing Desk 55""",8,429.99,230.0,0.0,Credit Card
+ORD-10479,2025-12-24,CUST-1279,Rowan Thomas,North,Home & Kitchen,Stainless Steel Travel Mug,10,24.99,9.5,0.15,Debit Card
+ORD-10479,2025-12-24,CUST-1279,Rowan Thomas,North,Furniture,Ergonomic Mesh Chair,3,279.99,140.0,0.2,Bank Transfer
+ORD-10479,2025-12-24,CUST-1279,Rowan Thomas,North,Office Supplies,Heavy-Duty Stapler,2,19.99,8.5,0.1,Bank Transfer
+ORD-10480,2026-02-09,CUST-1280,Revanth Lopez,East,Apparel,Corporate Polo Shirt,5,34.99,15.0,0.0,PayPal
+ORD-10481,2025-01-26,CUST-1281,Elena Walker,Central,Furniture,Ergonomic Mesh Chair,4,279.99,140.0,0.2,Credit Card
+ORD-10481,2025-01-26,CUST-1281,Elena Walker,Central,Office Supplies,Heavy-Duty Stapler,2,19.99,8.5,0.2,PayPal
+ORD-10481,2025-01-26,CUST-1281,Elena Walker,Central,Furniture,"Standing Desk 55""",10,429.99,230.0,0.15,Credit Card
+ORD-10482,2025-11-25,CUST-1282,Liam Jones,West,Office Supplies,Heavy-Duty Stapler,6,19.99,8.5,0.1,PayPal
+ORD-10482,2025-11-25,CUST-1282,Liam Jones,West,Home & Kitchen,Stainless Steel Travel Mug,7,24.99,9.5,0.05,Credit Card
+ORD-10482,2025-11-25,CUST-1282,Liam Jones,West,Furniture,Ergonomic Mesh Chair,5,279.99,140.0,0.0,PayPal
+ORD-10483,2025-04-02,CUST-1283,Sophia Anderson,South,Furniture,Ergonomic Mesh Chair,1,279.99,140.0,0.1,PayPal
+ORD-10483,2025-04-02,CUST-1283,Sophia Anderson,South,Apparel,Corporate Polo Shirt,2,34.99,15.0,0.1,PayPal
+ORD-10484,2025-11-28,CUST-1284,Marcus Thompson,East,Furniture,Ergonomic Mesh Chair,4,279.99,140.0,0.05,Bank Transfer
+ORD-10484,2025-11-28,CUST-1284,Marcus Thompson,East,Office Supplies,Heavy-Duty Stapler,1,19.99,8.5,0.1,Bank Transfer
+ORD-10485,2026-02-21,CUST-1285,Chloe Lewis,North,Office Supplies,Heavy-Duty Stapler,1,19.99,8.5,0.05,Credit Card
+ORD-10485,2026-02-21,CUST-1285,Chloe Lewis,North,Electronics,Laptop Pro 15,8,999.99,650.0,0.0,PayPal
+ORD-10485,2026-02-21,CUST-1285,Chloe Lewis,North,Home & Kitchen,Stainless Steel Travel Mug,4,24.99,9.5,0.2,Bank Transfer
+ORD-10486,2026-04-08,CUST-1286,Devon Williams,North,Home & Kitchen,Stainless Steel Travel Mug,3,24.99,9.5,0.0,Credit Card
+ORD-10486,2026-04-08,CUST-1286,Devon Williams,North,Electronics,Laptop Pro 15,7,999.99,650.0,0.1,PayPal
+ORD-10486,2026-04-08,CUST-1286,Devon Williams,North,Furniture,Ergonomic Mesh Chair,9,279.99,140.0,0.0,Debit Card
+ORD-10487,2026-02-09,CUST-1287,Aria Wilson,North,Apparel,Corporate Polo Shirt,10,34.99,15.0,0.2,Debit Card
+ORD-10488,2025-12-17,CUST-1288,Kai Martin,East,Home & Kitchen,Stainless Steel Travel Mug,6,24.99,9.5,0.05,Bank Transfer
+ORD-10488,2025-12-17,CUST-1288,Kai Martin,East,Furniture,Ergonomic Mesh Chair,1,279.99,140.0,0.15,Credit Card
+ORD-10488,2025-12-17,CUST-1288,Kai Martin,East,Home & Kitchen,Compact Espresso Machine,7,159.99,90.0,0.2,Credit Card
+ORD-10489,2025-03-21,CUST-1289,Zara Harris,Central,Furniture,Ergonomic Mesh Chair,6,279.99,140.0,0.1,Debit Card
+ORD-10489,2025-03-21,CUST-1289,Zara Harris,Central,Home & Kitchen,Stainless Steel Travel Mug,2,24.99,9.5,0.15,Debit Card
+ORD-10489,2025-03-21,CUST-1289,Zara Harris,Central,Home & Kitchen,Compact Espresso Machine,1,159.99,90.0,0.05,Debit Card
+ORD-10490,2025-04-03,CUST-1290,Alex Smith,Central,Home & Kitchen,Stainless Steel Travel Mug,6,24.99,9.5,0.0,Debit Card
+ORD-10491,2025-08-03,CUST-1291,Jordan Garcia,North,Office Supplies,Heavy-Duty Stapler,10,19.99,8.5,0.2,Bank Transfer
+ORD-10491,2025-08-03,CUST-1291,Jordan Garcia,North,Apparel,Corporate Polo Shirt,2,34.99,15.0,0.0,Credit Card
+ORD-10492,2025-09-23,CUST-1292,Taylor Hernandez,Central,Home & Kitchen,Stainless Steel Travel Mug,9,24.99,9.5,0.05,Bank Transfer
+ORD-10493,2026-03-14,CUST-1293,Morgan Lee,North,Electronics,Laptop Pro 15,2,999.99,650.0,0.2,Bank Transfer
+ORD-10494,2026-01-06,CUST-1294,Casey Perez,Central,Office Supplies,Heavy-Duty Stapler,7,19.99,8.5,0.2,Bank Transfer
+ORD-10494,2026-01-06,CUST-1294,Casey Perez,Central,Home & Kitchen,Stainless Steel Travel Mug,6,24.99,9.5,0.0,Credit Card
+ORD-10495,2025-08-20,CUST-1295,Riley Miller,West,Apparel,Corporate Polo Shirt,6,34.99,15.0,0.05,Credit Card
+ORD-10495,2025-08-20,CUST-1295,Riley Miller,West,Apparel,Lightweight Windbreaker,1,59.99,28.0,0.1,Debit Card
+ORD-10495,2025-08-20,CUST-1295,Riley Miller,West,Office Supplies,Heavy-Duty Stapler,6,19.99,8.5,0.0,Debit Card
+ORD-10496,2025-08-31,CUST-1296,Avery Taylor,North,Office Supplies,Heavy-Duty Stapler,10,19.99,8.5,0.0,Credit Card
+ORD-10496,2025-08-31,CUST-1296,Avery Taylor,North,Apparel,Corporate Polo Shirt,2,34.99,15.0,0.0,Credit Card
+ORD-10496,2025-08-31,CUST-1296,Avery Taylor,North,Home & Kitchen,Stainless Steel Travel Mug,2,24.99,9.5,0.0,Credit Card
+ORD-10497,2025-02-23,CUST-1297,Logan White,East,Office Supplies,Heavy-Duty Stapler,4,19.99,8.5,0.0,Bank Transfer
+ORD-10497,2025-02-23,CUST-1297,Logan White,East,Office Supplies,Ballpoint Pens (Pack of 50),6,14.99,5.0,0.0,Bank Transfer
+ORD-10497,2025-02-23,CUST-1297,Logan White,East,Furniture,Ergonomic Mesh Chair,2,279.99,140.0,0.0,Credit Card
+ORD-10498,2025-03-11,CUST-1298,Sam Robinson,Central,Electronics,Laptop Pro 15,6,999.99,650.0,0.1,Bank Transfer
+ORD-10498,2025-03-11,CUST-1298,Sam Robinson,Central,Furniture,Ergonomic Mesh Chair,3,279.99,140.0,0.0,Credit Card
+ORD-10498,2025-03-11,CUST-1298,Sam Robinson,Central,Electronics,"Ultra HD Monitor 27""",9,349.99,210.0,0.1,Debit Card
+ORD-10499,2025-05-30,CUST-1299,Dakota Brown,South,Electronics,Laptop Pro 15,5,999.99,650.0,0.1,Credit Card
+ORD-10499,2025-05-30,CUST-1299,Dakota Brown,South,Apparel,Corporate Polo Shirt,9,34.99,15.0,0.2,Credit Card
+ORD-10499,2025-05-30,CUST-1299,Dakota Brown,South,Furniture,Ergonomic Mesh Chair,4,279.99,140.0,0.0,Debit Card
+ORD-10500,2026-05-03,CUST-1000,Reese Martinez,West,Electronics,Laptop Pro 15,10,999.99,650.0,0.05,Bank Transfer
+ORD-10501,2025-06-16,CUST-1001,Quinn Jackson,North,Office Supplies,Heavy-Duty Stapler,1,19.99,8.5,0.05,PayPal
+ORD-10501,2025-06-16,CUST-1001,Quinn Jackson,North,Office Supplies,Ballpoint Pens (Pack of 50),6,14.99,5.0,0.1,PayPal
+ORD-10502,2025-07-08,CUST-1002,Cameron Clark,North,Home & Kitchen,Stainless Steel Travel Mug,1,24.99,9.5,0.2,Credit Card
+ORD-10502,2025-07-08,CUST-1002,Cameron Clark,North,Apparel,Corporate Polo Shirt,10,34.99,15.0,0.1,Credit Card
+ORD-10503,2025-07-23,CUST-1003,Skyler Johnson,South,Home & Kitchen,Stainless Steel Travel Mug,3,24.99,9.5,0.1,PayPal
+ORD-10504,2025-07-20,CUST-1004,Peyton Rodriguez,North,Home & Kitchen,Stainless Steel Travel Mug,3,24.99,9.5,0.1,Credit Card
+ORD-10505,2025-08-04,CUST-1005,Hayden Moore,East,Electronics,Laptop Pro 15,3,999.99,650.0,0.2,Bank Transfer
+ORD-10505,2025-08-04,CUST-1005,Hayden Moore,East,Furniture,Ergonomic Mesh Chair,4,279.99,140.0,0.05,Bank Transfer
+ORD-10506,2026-01-19,CUST-1006,Jesse Gonzalez,East,Furniture,Ergonomic Mesh Chair,1,279.99,140.0,0.05,Debit Card
+ORD-10506,2026-01-19,CUST-1006,Jesse Gonzalez,East,Home & Kitchen,Stainless Steel Travel Mug,5,24.99,9.5,0.0,Bank Transfer
+ORD-10506,2026-01-19,CUST-1006,Jesse Gonzalez,East,Office Supplies,Heavy-Duty Stapler,3,19.99,8.5,0.2,Bank Transfer
+ORD-10507,2026-06-06,CUST-1007,Kendall Hall,East,Office Supplies,Heavy-Duty Stapler,6,19.99,8.5,0.2,Bank Transfer
+ORD-10507,2026-06-06,CUST-1007,Kendall Hall,East,Electronics,Laptop Pro 15,10,999.99,650.0,0.0,PayPal
+ORD-10507,2026-06-06,CUST-1007,Kendall Hall,East,Office Supplies,Ballpoint Pens (Pack of 50),7,14.99,5.0,0.05,Debit Card
+ORD-10508,2026-01-22,CUST-1008,Harper Davis,Central,Apparel,Corporate Polo Shirt,3,34.99,15.0,0.0,Debit Card
+ORD-10508,2026-01-22,CUST-1008,Harper Davis,Central,Furniture,Ergonomic Mesh Chair,8,279.99,140.0,0.2,Debit Card
+ORD-10509,2026-04-07,CUST-1009,Rowan Thomas,West,Electronics,Laptop Pro 15,6,999.99,650.0,0.05,Bank Transfer
+ORD-10509,2026-04-07,CUST-1009,Rowan Thomas,West,Office Supplies,Heavy-Duty Stapler,5,19.99,8.5,0.0,Debit Card
+ORD-10510,2025-10-29,CUST-1010,Revanth Lopez,Central,Office Supplies,Heavy-Duty Stapler,2,19.99,8.5,0.0,Credit Card
+ORD-10511,2025-02-09,CUST-1011,Elena Walker,Central,Apparel,Corporate Polo Shirt,5,34.99,15.0,0.05,Debit Card
+ORD-10511,2025-02-09,CUST-1011,Elena Walker,Central,Electronics,Laptop Pro 15,1,999.99,650.0,0.05,Debit Card
+ORD-10512,2026-02-18,CUST-1012,Liam Jones,West,Office Supplies,Heavy-Duty Stapler,7,19.99,8.5,0.05,PayPal
+ORD-10512,2026-02-18,CUST-1012,Liam Jones,West,Office Supplies,Ballpoint Pens (Pack of 50),8,14.99,5.0,0.1,Credit Card
+ORD-10513,2025-07-12,CUST-1013,Sophia Anderson,West,Electronics,Laptop Pro 15,9,999.99,650.0,0.0,Debit Card
+ORD-10513,2025-07-12,CUST-1013,Sophia Anderson,West,Office Supplies,Heavy-Duty Stapler,8,19.99,8.5,0.1,Debit Card
+ORD-10514,2026-03-06,CUST-1014,Marcus Thompson,West,Home & Kitchen,Stainless Steel Travel Mug,10,24.99,9.5,0.0,PayPal
+ORD-10515,2025-12-05,CUST-1015,Chloe Lewis,Central,Office Supplies,Heavy-Duty Stapler,7,19.99,8.5,0.0,Bank Transfer
+ORD-10516,2026-05-02,CUST-1016,Devon Williams,North,Electronics,Laptop Pro 15,2,999.99,650.0,0.0,Credit Card
+ORD-10517,2025-07-01,CUST-1017,Aria Wilson,North,Furniture,Ergonomic Mesh Chair,4,279.99,140.0,0.0,Bank Transfer
+ORD-10517,2025-07-01,CUST-1017,Aria Wilson,North,Home & Kitchen,Stainless Steel Travel Mug,9,24.99,9.5,0.0,Bank Transfer
+ORD-10517,2025-07-01,CUST-1017,Aria Wilson,North,Furniture,"Standing Desk 55""",3,429.99,230.0,0.1,Bank Transfer
+ORD-10518,2025-06-10,CUST-1018,Kai Martin,North,Office Supplies,Heavy-Duty Stapler,7,19.99,8.5,0.05,PayPal
+ORD-10518,2025-06-10,CUST-1018,Kai Martin,North,Electronics,Laptop Pro 15,3,999.99,650.0,0.05,PayPal
+ORD-10519,2026-04-15,CUST-1019,Zara Harris,East,Office Supplies,Heavy-Duty Stapler,2,19.99,8.5,0.1,PayPal
+ORD-10519,2026-04-15,CUST-1019,Zara Harris,East,Electronics,Laptop Pro 15,8,999.99,650.0,0.15,Credit Card
+ORD-10519,2026-04-15,CUST-1019,Zara Harris,East,Home & Kitchen,Stainless Steel Travel Mug,6,24.99,9.5,0.05,Bank Transfer
+ORD-10520,2025-06-29,CUST-1020,Alex Smith,West,Electronics,Laptop Pro 15,8,999.99,650.0,0.1,PayPal
+ORD-10520,2025-06-29,CUST-1020,Alex Smith,West,Office Supplies,Heavy-Duty Stapler,4,19.99,8.5,0.0,Debit Card
+ORD-10520,2025-06-29,CUST-1020,Alex Smith,West,Furniture,Ergonomic Mesh Chair,4,279.99,140.0,0.15,Bank Transfer
+ORD-10521,2025-05-05,CUST-1021,Jordan Garcia,East,Apparel,Corporate Polo Shirt,7,34.99,15.0,0.15,PayPal
+ORD-10521,2025-05-05,CUST-1021,Jordan Garcia,East,Apparel,Lightweight Windbreaker,8,59.99,28.0,0.0,Credit Card
+ORD-10521,2025-05-05,CUST-1021,Jordan Garcia,East,Electronics,Laptop Pro 15,4,999.99,650.0,0.1,Credit Card
+ORD-10522,2025-09-14,CUST-1022,Taylor Hernandez,North,Electronics,Laptop Pro 15,8,999.99,650.0,0.15,Credit Card
+ORD-10523,2025-09-06,CUST-1023,Morgan Lee,West,Office Supplies,Heavy-Duty Stapler,3,19.99,8.5,0.0,Credit Card
+ORD-10524,2025-10-29,CUST-1024,Casey Perez,North,Furniture,Ergonomic Mesh Chair,1,279.99,140.0,0.05,PayPal
+ORD-10525,2026-01-02,CUST-1025,Riley Miller,South,Home & Kitchen,Stainless Steel Travel Mug,8,24.99,9.5,0.0,Credit Card
+ORD-10525,2026-01-02,CUST-1025,Riley Miller,South,Home & Kitchen,Compact Espresso Machine,10,159.99,90.0,0.0,Credit Card
+ORD-10526,2025-07-26,CUST-1026,Avery Taylor,South,Apparel,Corporate Polo Shirt,1,34.99,15.0,0.1,Credit Card
+ORD-10526,2025-07-26,CUST-1026,Avery Taylor,South,Furniture,Ergonomic Mesh Chair,4,279.99,140.0,0.0,PayPal
+ORD-10527,2025-06-21,CUST-1027,Logan White,North,Home & Kitchen,Stainless Steel Travel Mug,9,24.99,9.5,0.05,PayPal
+ORD-10527,2025-06-21,CUST-1027,Logan White,North,Office Supplies,Heavy-Duty Stapler,4,19.99,8.5,0.05,Credit Card
+ORD-10527,2025-06-21,CUST-1027,Logan White,North,Furniture,Ergonomic Mesh Chair,7,279.99,140.0,0.1,Credit Card
+ORD-10528,2025-08-06,CUST-1028,Sam Robinson,West,Apparel,Corporate Polo Shirt,10,34.99,15.0,0.1,Credit Card
+ORD-10528,2025-08-06,CUST-1028,Sam Robinson,West,Home & Kitchen,Stainless Steel Travel Mug,10,24.99,9.5,0.15,Credit Card
+ORD-10529,2025-06-25,CUST-1029,Dakota Brown,East,Home & Kitchen,Stainless Steel Travel Mug,3,24.99,9.5,0.1,PayPal
+ORD-10529,2025-06-25,CUST-1029,Dakota Brown,East,Home & Kitchen,Compact Espresso Machine,1,159.99,90.0,0.15,Bank Transfer
+ORD-10529,2025-06-25,CUST-1029,Dakota Brown,East,Apparel,Corporate Polo Shirt,4,34.99,15.0,0.0,Credit Card
+ORD-10530,2025-08-31,CUST-1030,Reese Martinez,West,Home & Kitchen,Stainless Steel Travel Mug,6,24.99,9.5,0.15,Debit Card
+ORD-10530,2025-08-31,CUST-1030,Reese Martinez,West,Office Supplies,Heavy-Duty Stapler,1,19.99,8.5,0.05,Bank Transfer
+ORD-10531,2025-12-03,CUST-1031,Quinn Jackson,South,Furniture,Ergonomic Mesh Chair,9,279.99,140.0,0.1,Debit Card
+ORD-10531,2025-12-03,CUST-1031,Quinn Jackson,South,Home & Kitchen,Stainless Steel Travel Mug,6,24.99,9.5,0.05,PayPal
+ORD-10531,2025-12-03,CUST-1031,Quinn Jackson,South,Furniture,"Standing Desk 55""",4,429.99,230.0,0.1,Debit Card
+ORD-10532,2026-03-29,CUST-1032,Cameron Clark,North,Furniture,Ergonomic Mesh Chair,1,279.99,140.0,0.0,PayPal
+ORD-10533,2025-04-04,CUST-1033,Skyler Johnson,South,Apparel,Corporate Polo Shirt,7,34.99,15.0,0.15,Debit Card
+ORD-10534,2025-07-22,CUST-1034,Peyton Rodriguez,South,Home & Kitchen,Stainless Steel Travel Mug,5,24.99,9.5,0.05,Bank Transfer
+ORD-10535,2025-07-26,CUST-1035,Hayden Moore,East,Home & Kitchen,Stainless Steel Travel Mug,7,24.99,9.5,0.0,Bank Transfer
+ORD-10535,2025-07-26,CUST-1035,Hayden Moore,East,Electronics,Laptop Pro 15,3,999.99,650.0,0.15,Credit Card
+ORD-10535,2025-07-26,CUST-1035,Hayden Moore,East,Office Supplies,Heavy-Duty Stapler,10,19.99,8.5,0.2,PayPal
+ORD-10536,2025-06-29,CUST-1036,Jesse Gonzalez,East,Electronics,Laptop Pro 15,5,999.99,650.0,0.1,Bank Transfer
+ORD-10536,2025-06-29,CUST-1036,Jesse Gonzalez,East,Apparel,Corporate Polo Shirt,4,34.99,15.0,0.0,PayPal
+ORD-10536,2025-06-29,CUST-1036,Jesse Gonzalez,East,Apparel,Lightweight Windbreaker,8,59.99,28.0,0.1,Bank Transfer
+ORD-10537,2026-01-18,CUST-1037,Kendall Hall,West,Furniture,Ergonomic Mesh Chair,7,279.99,140.0,0.0,Credit Card
+ORD-10537,2026-01-18,CUST-1037,Kendall Hall,West,Office Supplies,Heavy-Duty Stapler,5,19.99,8.5,0.1,Bank Transfer
+ORD-10538,2026-01-13,CUST-1038,Harper Davis,North,Furniture,Ergonomic Mesh Chair,4,279.99,140.0,0.15,Credit Card
+ORD-10538,2026-01-13,CUST-1038,Harper Davis,North,Furniture,"Standing Desk 55""",5,429.99,230.0,0.15,PayPal
+ORD-10538,2026-01-13,CUST-1038,Harper Davis,North,Apparel,Corporate Polo Shirt,1,34.99,15.0,0.0,Credit Card
+ORD-10539,2026-01-29,CUST-1039,Rowan Thomas,West,Furniture,Ergonomic Mesh Chair,7,279.99,140.0,0.0,Bank Transfer
+ORD-10539,2026-01-29,CUST-1039,Rowan Thomas,West,Electronics,Laptop Pro 15,10,999.99,650.0,0.05,Bank Transfer
+ORD-10539,2026-01-29,CUST-1039,Rowan Thomas,West,Apparel,Corporate Polo Shirt,3,34.99,15.0,0.05,PayPal
+ORD-10540,2026-02-12,CUST-1040,Revanth Lopez,East,Office Supplies,Heavy-Duty Stapler,2,19.99,8.5,0.0,Bank Transfer
+ORD-10540,2026-02-12,CUST-1040,Revanth Lopez,East,Electronics,Laptop Pro 15,7,999.99,650.0,0.0,PayPal
+ORD-10540,2026-02-12,CUST-1040,Revanth Lopez,East,Apparel,Corporate Polo Shirt,4,34.99,15.0,0.15,PayPal
+ORD-10541,2025-04-23,CUST-1041,Elena Walker,West,Apparel,Corporate Polo Shirt,1,34.99,15.0,0.0,PayPal
+ORD-10541,2025-04-23,CUST-1041,Elena Walker,West,Home & Kitchen,Stainless Steel Travel Mug,3,24.99,9.5,0.0,Debit Card
+ORD-10541,2025-04-23,CUST-1041,Elena Walker,West,Office Supplies,Heavy-Duty Stapler,2,19.99,8.5,0.1,Credit Card
+ORD-10542,2025-08-29,CUST-1042,Liam Jones,West,Furniture,Ergonomic Mesh Chair,5,279.99,140.0,0.0,Credit Card
+ORD-10542,2025-08-29,CUST-1042,Liam Jones,West,Apparel,Corporate Polo Shirt,7,34.99,15.0,0.2,Debit Card
+ORD-10542,2025-08-29,CUST-1042,Liam Jones,West,Electronics,Laptop Pro 15,6,999.99,650.0,0.1,Debit Card
+ORD-10543,2025-09-03,CUST-1043,Sophia Anderson,East,Furniture,Ergonomic Mesh Chair,6,279.99,140.0,0.1,Credit Card
+ORD-10543,2025-09-03,CUST-1043,Sophia Anderson,East,Home & Kitchen,Stainless Steel Travel Mug,3,24.99,9.5,0.0,Credit Card
+ORD-10544,2025-10-14,CUST-1044,Marcus Thompson,South,Electronics,Laptop Pro 15,9,999.99,650.0,0.1,PayPal
+ORD-10544,2025-10-14,CUST-1044,Marcus Thompson,South,Apparel,Corporate Polo Shirt,1,34.99,15.0,0.1,Bank Transfer
+ORD-10544,2025-10-14,CUST-1044,Marcus Thompson,South,Office Supplies,Heavy-Duty Stapler,6,19.99,8.5,0.1,Bank Transfer
+ORD-10545,2025-04-13,CUST-1045,Chloe Lewis,West,Apparel,Corporate Polo Shirt,9,34.99,15.0,0.2,Credit Card
+ORD-10545,2025-04-13,CUST-1045,Chloe Lewis,West,Office Supplies,Heavy-Duty Stapler,9,19.99,8.5,0.15,PayPal
+ORD-10545,2025-04-13,CUST-1045,Chloe Lewis,West,Office Supplies,Ballpoint Pens (Pack of 50),4,14.99,5.0,0.05,PayPal
+ORD-10546,2025-04-02,CUST-1046,Devon Williams,North,Office Supplies,Heavy-Duty Stapler,7,19.99,8.5,0.05,PayPal
+ORD-10546,2025-04-02,CUST-1046,Devon Williams,North,Furniture,Ergonomic Mesh Chair,3,279.99,140.0,0.2,Bank Transfer
+ORD-10546,2025-04-02,CUST-1046,Devon Williams,North,Furniture,"Standing Desk 55""",6,429.99,230.0,0.1,Bank Transfer
+ORD-10547,2026-03-24,CUST-1047,Aria Wilson,South,Apparel,Corporate Polo Shirt,2,34.99,15.0,0.0,Credit Card
+ORD-10547,2026-03-24,CUST-1047,Aria Wilson,South,Apparel,Lightweight Windbreaker,10,59.99,28.0,0.1,PayPal
+ORD-10547,2026-03-24,CUST-1047,Aria Wilson,South,Furniture,Ergonomic Mesh Chair,5,279.99,140.0,0.0,PayPal
+ORD-10548,2026-03-10,CUST-1048,Kai Martin,East,Apparel,Corporate Polo Shirt,2,34.99,15.0,0.1,Credit Card
+ORD-10548,2026-03-10,CUST-1048,Kai Martin,East,Office Supplies,Heavy-Duty Stapler,5,19.99,8.5,0.05,Bank Transfer
+ORD-10549,2026-04-12,CUST-1049,Zara Harris,South,Furniture,Ergonomic Mesh Chair,10,279.99,140.0,0.1,Debit Card
+ORD-10549,2026-04-12,CUST-1049,Zara Harris,South,Apparel,Corporate Polo Shirt,4,34.99,15.0,0.15,Debit Card
+ORD-10549,2026-04-12,CUST-1049,Zara Harris,South,Office Supplies,Heavy-Duty Stapler,4,19.99,8.5,0.05,Credit Card
+ORD-10550,2026-05-15,CUST-1050,Alex Smith,West,Home & Kitchen,Stainless Steel Travel Mug,6,24.99,9.5,0.1,Bank Transfer
+ORD-10551,2026-02-05,CUST-1051,Jordan Garcia,West,Apparel,Corporate Polo Shirt,9,34.99,15.0,0.1,Credit Card
+ORD-10551,2026-02-05,CUST-1051,Jordan Garcia,West,Home & Kitchen,Stainless Steel Travel Mug,5,24.99,9.5,0.15,PayPal
+ORD-10552,2025-05-21,CUST-1052,Taylor Hernandez,West,Furniture,Ergonomic Mesh Chair,4,279.99,140.0,0.05,Credit Card
+ORD-10552,2025-05-21,CUST-1052,Taylor Hernandez,West,Furniture,"Standing Desk 55""",7,429.99,230.0,0.1,PayPal
+ORD-10552,2025-05-21,CUST-1052,Taylor Hernandez,West,Apparel,Corporate Polo Shirt,3,34.99,15.0,0.0,Credit Card
+ORD-10553,2025-12-13,CUST-1053,Morgan Lee,Central,Electronics,Laptop Pro 15,4,999.99,650.0,0.0,Credit Card
+ORD-10553,2025-12-13,CUST-1053,Morgan Lee,Central,Electronics,"Ultra HD Monitor 27""",10,349.99,210.0,0.0,Bank Transfer
+ORD-10553,2025-12-13,CUST-1053,Morgan Lee,Central,Home & Kitchen,Stainless Steel Travel Mug,5,24.99,9.5,0.15,Debit Card
+ORD-10554,2025-05-03,CUST-1054,Casey Perez,North,Office Supplies,Heavy-Duty Stapler,1,19.99,8.5,0.15,Debit Card
+ORD-10555,2025-04-07,CUST-1055,Riley Miller,Central,Electronics,Laptop Pro 15,5,999.99,650.0,0.0,Credit Card
+ORD-10555,2025-04-07,CUST-1055,Riley Miller,Central,Furniture,Ergonomic Mesh Chair,7,279.99,140.0,0.0,Bank Transfer
+ORD-10555,2025-04-07,CUST-1055,Riley Miller,Central,Furniture,"Standing Desk 55""",4,429.99,230.0,0.0,PayPal
+ORD-10556,2025-07-04,CUST-1056,Avery Taylor,North,Office Supplies,Heavy-Duty Stapler,1,19.99,8.5,0.0,PayPal
+ORD-10556,2025-07-04,CUST-1056,Avery Taylor,North,Apparel,Corporate Polo Shirt,1,34.99,15.0,0.0,Credit Card
+ORD-10556,2025-07-04,CUST-1056,Avery Taylor,North,Apparel,Lightweight Windbreaker,7,59.99,28.0,0.0,PayPal
+ORD-10557,2025-02-17,CUST-1057,Logan White,Central,Home & Kitchen,Stainless Steel Travel Mug,6,24.99,9.5,0.2,Debit Card
+ORD-10557,2025-02-17,CUST-1057,Logan White,Central,Apparel,Corporate Polo Shirt,1,34.99,15.0,0.05,Credit Card
+ORD-10558,2025-05-26,CUST-1058,Sam Robinson,East,Apparel,Corporate Polo Shirt,10,34.99,15.0,0.1,Debit Card
+ORD-10559,2026-03-09,CUST-1059,Dakota Brown,North,Electronics,Laptop Pro 15,3,999.99,650.0,0.1,Bank Transfer
+ORD-10560,2025-09-18,CUST-1060,Reese Martinez,West,Office Supplies,Heavy-Duty Stapler,4,19.99,8.5,0.1,PayPal
+ORD-10561,2025-06-07,CUST-1061,Quinn Jackson,East,Furniture,Ergonomic Mesh Chair,2,279.99,140.0,0.05,Credit Card
+ORD-10561,2025-06-07,CUST-1061,Quinn Jackson,East,Apparel,Corporate Polo Shirt,2,34.99,15.0,0.1,Credit Card
+ORD-10562,2025-12-08,CUST-1062,Cameron Clark,East,Office Supplies,Heavy-Duty Stapler,2,19.99,8.5,0.1,PayPal
+ORD-10562,2025-12-08,CUST-1062,Cameron Clark,East,Furniture,Ergonomic Mesh Chair,9,279.99,140.0,0.05,Bank Transfer
+ORD-10563,2026-06-26,CUST-1063,Skyler Johnson,East,Electronics,Laptop Pro 15,10,999.99,650.0,0.0,Credit Card
+ORD-10564,2025-11-22,CUST-1064,Peyton Rodriguez,West,Electronics,Laptop Pro 15,8,999.99,650.0,0.0,Debit Card
+ORD-10565,2026-06-10,CUST-1065,Hayden Moore,South,Electronics,Laptop Pro 15,1,999.99,650.0,0.1,PayPal
+ORD-10566,2026-03-05,CUST-1066,Jesse Gonzalez,West,Electronics,Laptop Pro 15,9,999.99,650.0,0.05,Debit Card
+ORD-10566,2026-03-05,CUST-1066,Jesse Gonzalez,West,Office Supplies,Heavy-Duty Stapler,5,19.99,8.5,0.1,Debit Card
+ORD-10566,2026-03-05,CUST-1066,Jesse Gonzalez,West,Furniture,Ergonomic Mesh Chair,2,279.99,140.0,0.0,Credit Card
+ORD-10567,2025-10-20,CUST-1067,Kendall Hall,Central,Office Supplies,Heavy-Duty Stapler,8,19.99,8.5,0.15,Credit Card
+ORD-10568,2025-01-15,CUST-1068,Harper Davis,Central,Apparel,Corporate Polo Shirt,9,34.99,15.0,0.1,PayPal
+ORD-10568,2025-01-15,CUST-1068,Harper Davis,Central,Apparel,Lightweight Windbreaker,3,59.99,28.0,0.2,PayPal
+ORD-10569,2025-03-18,CUST-1069,Rowan Thomas,East,Apparel,Corporate Polo Shirt,8,34.99,15.0,0.1,PayPal
+ORD-10570,2025-04-26,CUST-1070,Revanth Lopez,East,Apparel,Corporate Polo Shirt,8,34.99,15.0,0.05,Debit Card
+ORD-10570,2025-04-26,CUST-1070,Revanth Lopez,East,Apparel,Lightweight Windbreaker,4,59.99,28.0,0.05,Credit Card
+ORD-10571,2026-05-15,CUST-1071,Elena Walker,North,Apparel,Corporate Polo Shirt,6,34.99,15.0,0.05,Debit Card
+ORD-10571,2026-05-15,CUST-1071,Elena Walker,North,Office Supplies,Heavy-Duty Stapler,7,19.99,8.5,0.1,Credit Card
+ORD-10572,2026-03-18,CUST-1072,Liam Jones,West,Home & Kitchen,Stainless Steel Travel Mug,7,24.99,9.5,0.0,Bank Transfer
+ORD-10573,2025-06-09,CUST-1073,Sophia Anderson,East,Electronics,Laptop Pro 15,5,999.99,650.0,0.1,Bank Transfer
+ORD-10574,2025-10-03,CUST-1074,Marcus Thompson,North,Furniture,Ergonomic Mesh Chair,6,279.99,140.0,0.1,Credit Card
+ORD-10575,2025-07-23,CUST-1075,Chloe Lewis,North,Home & Kitchen,Stainless Steel Travel Mug,7,24.99,9.5,0.1,Debit Card
+ORD-10575,2025-07-23,CUST-1075,Chloe Lewis,North,Apparel,Corporate Polo Shirt,8,34.99,15.0,0.05,Credit Card
+ORD-10576,2026-05-16,CUST-1076,Devon Williams,Central,Electronics,Laptop Pro 15,9,999.99,650.0,0.1,PayPal
+ORD-10576,2026-05-16,CUST-1076,Devon Williams,Central,Furniture,Ergonomic Mesh Chair,3,279.99,140.0,0.1,Credit Card
+ORD-10577,2025-08-31,CUST-1077,Aria Wilson,North,Furniture,Ergonomic Mesh Chair,7,279.99,140.0,0.15,Debit Card
+ORD-10577,2025-08-31,CUST-1077,Aria Wilson,North,Home & Kitchen,Stainless Steel Travel Mug,4,24.99,9.5,0.0,PayPal
+ORD-10577,2025-08-31,CUST-1077,Aria Wilson,North,Apparel,Corporate Polo Shirt,4,34.99,15.0,0.1,PayPal
+ORD-10578,2025-04-16,CUST-1078,Kai Martin,Central,Apparel,Corporate Polo Shirt,4,34.99,15.0,0.0,PayPal
+ORD-10578,2025-04-16,CUST-1078,Kai Martin,Central,Office Supplies,Heavy-Duty Stapler,3,19.99,8.5,0.1,Credit Card
+ORD-10579,2025-07-24,CUST-1079,Zara Harris,North,Home & Kitchen,Stainless Steel Travel Mug,4,24.99,9.5,0.05,Debit Card
+ORD-10579,2025-07-24,CUST-1079,Zara Harris,North,Office Supplies,Heavy-Duty Stapler,1,19.99,8.5,0.05,Credit Card
+ORD-10579,2025-07-24,CUST-1079,Zara Harris,North,Electronics,Laptop Pro 15,7,999.99,650.0,0.05,Debit Card
+ORD-10580,2025-07-06,CUST-1080,Alex Smith,North,Apparel,Corporate Polo Shirt,4,34.99,15.0,0.05,Bank Transfer
+ORD-10581,2025-04-14,CUST-1081,Jordan Garcia,West,Electronics,Laptop Pro 15,6,999.99,650.0,0.05,Credit Card
+ORD-10581,2025-04-14,CUST-1081,Jordan Garcia,West,Furniture,Ergonomic Mesh Chair,6,279.99,140.0,0.1,Debit Card
+ORD-10582,2026-06-26,CUST-1082,Taylor Hernandez,Central,Electronics,Laptop Pro 15,4,999.99,650.0,0.1,Credit Card
+ORD-10582,2026-06-26,CUST-1082,Taylor Hernandez,Central,Apparel,Corporate Polo Shirt,1,34.99,15.0,0.05,PayPal
+ORD-10582,2026-06-26,CUST-1082,Taylor Hernandez,Central,Office Supplies,Heavy-Duty Stapler,5,19.99,8.5,0.15,PayPal
+ORD-10583,2025-06-07,CUST-1083,Morgan Lee,North,Electronics,Laptop Pro 15,9,999.99,650.0,0.1,Debit Card
+ORD-10583,2025-06-07,CUST-1083,Morgan Lee,North,Office Supplies,Heavy-Duty Stapler,8,19.99,8.5,0.1,Credit Card
+ORD-10583,2025-06-07,CUST-1083,Morgan Lee,North,Home & Kitchen,Stainless Steel Travel Mug,5,24.99,9.5,0.0,Credit Card
+ORD-10584,2025-07-14,CUST-1084,Casey Perez,West,Office Supplies,Heavy-Duty Stapler,9,19.99,8.5,0.1,Bank Transfer
+ORD-10584,2025-07-14,CUST-1084,Casey Perez,West,Furniture,Ergonomic Mesh Chair,1,279.99,140.0,0.0,PayPal
+ORD-10584,2025-07-14,CUST-1084,Casey Perez,West,Apparel,Corporate Polo Shirt,9,34.99,15.0,0.2,Debit Card
+ORD-10585,2025-08-14,CUST-1085,Riley Miller,East,Furniture,Ergonomic Mesh Chair,1,279.99,140.0,0.2,PayPal
+ORD-10585,2025-08-14,CUST-1085,Riley Miller,East,Furniture,"Standing Desk 55""",5,429.99,230.0,0.0,Debit Card
+ORD-10586,2025-09-12,CUST-1086,Avery Taylor,South,Office Supplies,Heavy-Duty Stapler,10,19.99,8.5,0.1,Debit Card
+ORD-10587,2025-09-28,CUST-1087,Logan White,South,Home & Kitchen,Stainless Steel Travel Mug,1,24.99,9.5,0.1,PayPal
+ORD-10588,2025-10-14,CUST-1088,Sam Robinson,South,Furniture,Ergonomic Mesh Chair,7,279.99,140.0,0.05,PayPal
+ORD-10588,2025-10-14,CUST-1088,Sam Robinson,South,Electronics,Laptop Pro 15,4,999.99,650.0,0.1,PayPal
+ORD-10588,2025-10-14,CUST-1088,Sam Robinson,South,Electronics,"Ultra HD Monitor 27""",6,349.99,210.0,0.0,Bank Transfer
+ORD-10589,2026-05-23,CUST-1089,Dakota Brown,South,Home & Kitchen,Stainless Steel Travel Mug,10,24.99,9.5,0.15,PayPal
+ORD-10590,2025-10-16,CUST-1090,Reese Martinez,North,Home & Kitchen,Stainless Steel Travel Mug,10,24.99,9.5,0.05,Credit Card
+ORD-10590,2025-10-16,CUST-1090,Reese Martinez,North,Office Supplies,Heavy-Duty Stapler,8,19.99,8.5,0.1,Credit Card
+ORD-10590,2025-10-16,CUST-1090,Reese Martinez,North,Apparel,Corporate Polo Shirt,10,34.99,15.0,0.0,Bank Transfer
+ORD-10591,2025-01-22,CUST-1091,Quinn Jackson,North,Furniture,Ergonomic Mesh Chair,2,279.99,140.0,0.05,PayPal
+ORD-10591,2025-01-22,CUST-1091,Quinn Jackson,North,Furniture,"Standing Desk 55""",9,429.99,230.0,0.1,Credit Card
+ORD-10592,2025-05-23,CUST-1092,Cameron Clark,West,Office Supplies,Heavy-Duty Stapler,6,19.99,8.5,0.15,PayPal
+ORD-10593,2025-02-27,CUST-1093,Skyler Johnson,Central,Furniture,Ergonomic Mesh Chair,2,279.99,140.0,0.2,Debit Card
+ORD-10594,2026-06-08,CUST-1094,Peyton Rodriguez,West,Home & Kitchen,Stainless Steel Travel Mug,4,24.99,9.5,0.1,Bank Transfer
+ORD-10595,2025-12-28,CUST-1095,Hayden Moore,East,Home & Kitchen,Stainless Steel Travel Mug,8,24.99,9.5,0.0,Credit Card
+ORD-10596,2025-04-15,CUST-1096,Jesse Gonzalez,East,Apparel,Corporate Polo Shirt,2,34.99,15.0,0.1,Credit Card
+ORD-10597,2025-06-04,CUST-1097,Kendall Hall,South,Furniture,Ergonomic Mesh Chair,7,279.99,140.0,0.0,Debit Card
+ORD-10598,2025-10-21,CUST-1098,Harper Davis,East,Home & Kitchen,Stainless Steel Travel Mug,5,24.99,9.5,0.0,Credit Card
+ORD-10598,2025-10-21,CUST-1098,Harper Davis,East,Office Supplies,Heavy-Duty Stapler,7,19.99,8.5,0.15,Bank Transfer
+ORD-10598,2025-10-21,CUST-1098,Harper Davis,East,Apparel,Corporate Polo Shirt,5,34.99,15.0,0.0,Credit Card
+ORD-10599,2025-05-11,CUST-1099,Rowan Thomas,South,Electronics,Laptop Pro 15,7,999.99,650.0,0.15,Bank Transfer
+ORD-10599,2025-05-11,CUST-1099,Rowan Thomas,South,Furniture,Ergonomic Mesh Chair,7,279.99,140.0,0.1,Bank Transfer
+ORD-10600,2026-05-20,CUST-1100,Revanth Lopez,Central,Office Supplies,Heavy-Duty Stapler,10,19.99,8.5,0.1,PayPal
+ORD-10600,2026-05-20,CUST-1100,Revanth Lopez,Central,Office Supplies,Ballpoint Pens (Pack of 50),4,14.99,5.0,0.0,Debit Card
+ORD-10600,2026-05-20,CUST-1100,Revanth Lopez,Central,Furniture,Ergonomic Mesh Chair,1,279.99,140.0,0.1,Debit Card
+ORD-10601,2025-10-29,CUST-1101,Elena Walker,West,Home & Kitchen,Stainless Steel Travel Mug,4,24.99,9.5,0.0,PayPal
+ORD-10602,2025-05-27,CUST-1102,Liam Jones,West,Office Supplies,Heavy-Duty Stapler,2,19.99,8.5,0.0,Bank Transfer
+ORD-10603,2025-06-11,CUST-1103,Sophia Anderson,North,Home & Kitchen,Stainless Steel Travel Mug,4,24.99,9.5,0.0,Credit Card
+ORD-10603,2025-06-11,CUST-1103,Sophia Anderson,North,Furniture,Ergonomic Mesh Chair,8,279.99,140.0,0.0,Debit Card
+ORD-10603,2025-06-11,CUST-1103,Sophia Anderson,North,Electronics,Laptop Pro 15,8,999.99,650.0,0.0,Debit Card
+ORD-10604,2025-06-09,CUST-1104,Marcus Thompson,North,Apparel,Corporate Polo Shirt,1,34.99,15.0,0.1,Bank Transfer
+ORD-10605,2026-04-11,CUST-1105,Chloe Lewis,Central,Furniture,Ergonomic Mesh Chair,7,279.99,140.0,0.0,Debit Card
+ORD-10605,2026-04-11,CUST-1105,Chloe Lewis,Central,Furniture,"Standing Desk 55""",7,429.99,230.0,0.0,PayPal
+ORD-10605,2026-04-11,CUST-1105,Chloe Lewis,Central,Home & Kitchen,Stainless Steel Travel Mug,8,24.99,9.5,0.15,Debit Card
+ORD-10606,2026-02-19,CUST-1106,Devon Williams,West,Apparel,Corporate Polo Shirt,4,34.99,15.0,0.05,Credit Card
+ORD-10606,2026-02-19,CUST-1106,Devon Williams,West,Apparel,Lightweight Windbreaker,1,59.99,28.0,0.05,Debit Card
+ORD-10606,2026-02-19,CUST-1106,Devon Williams,West,Home & Kitchen,Stainless Steel Travel Mug,10,24.99,9.5,0.0,Debit Card
+ORD-10607,2025-07-26,CUST-1107,Aria Wilson,North,Home & Kitchen,Stainless Steel Travel Mug,10,24.99,9.5,0.15,Credit Card
+ORD-10608,2025-11-19,CUST-1108,Kai Martin,North,Apparel,Corporate Polo Shirt,7,34.99,15.0,0.2,PayPal
+ORD-10609,2026-02-05,CUST-1109,Zara Harris,East,Apparel,Corporate Polo Shirt,9,34.99,15.0,0.0,PayPal
+ORD-10609,2026-02-05,CUST-1109,Zara Harris,East,Office Supplies,Heavy-Duty Stapler,5,19.99,8.5,0.0,PayPal
+ORD-10610,2026-04-20,CUST-1110,Alex Smith,North,Apparel,Corporate Polo Shirt,3,34.99,15.0,0.2,Debit Card
+ORD-10610,2026-04-20,CUST-1110,Alex Smith,North,Electronics,Laptop Pro 15,6,999.99,650.0,0.1,Credit Card
+ORD-10610,2026-04-20,CUST-1110,Alex Smith,North,Home & Kitchen,Stainless Steel Travel Mug,3,24.99,9.5,0.15,Credit Card
+ORD-10611,2025-05-27,CUST-1111,Jordan Garcia,East,Office Supplies,Heavy-Duty Stapler,8,19.99,8.5,0.1,PayPal
+ORD-10612,2025-06-15,CUST-1112,Taylor Hernandez,North,Apparel,Corporate Polo Shirt,2,34.99,15.0,0.0,Bank Transfer
+ORD-10612,2025-06-15,CUST-1112,Taylor Hernandez,North,Electronics,Laptop Pro 15,3,999.99,650.0,0.0,Bank Transfer
+ORD-10613,2026-01-08,CUST-1113,Morgan Lee,East,Furniture,Ergonomic Mesh Chair,8,279.99,140.0,0.1,Debit Card
+ORD-10614,2025-03-27,CUST-1114,Casey Perez,West,Office Supplies,Heavy-Duty Stapler,10,19.99,8.5,0.0,PayPal
+ORD-10614,2025-03-27,CUST-1114,Casey Perez,West,Furniture,Ergonomic Mesh Chair,5,279.99,140.0,0.1,PayPal
+ORD-10615,2026-02-13,CUST-1115,Riley Miller,North,Office Supplies,Heavy-Duty Stapler,6,19.99,8.5,0.15,Bank Transfer
+ORD-10615,2026-02-13,CUST-1115,Riley Miller,North,Furniture,Ergonomic Mesh Chair,3,279.99,140.0,0.0,Bank Transfer
+ORD-10615,2026-02-13,CUST-1115,Riley Miller,North,Electronics,Laptop Pro 15,2,999.99,650.0,0.1,Debit Card
+ORD-10616,2026-05-13,CUST-1116,Avery Taylor,South,Home & Kitchen,Stainless Steel Travel Mug,1,24.99,9.5,0.2,PayPal
+ORD-10616,2026-05-13,CUST-1116,Avery Taylor,South,Home & Kitchen,Compact Espresso Machine,6,159.99,90.0,0.0,Bank Transfer
+ORD-10616,2026-05-13,CUST-1116,Avery Taylor,South,Home & Kitchen,Electric Kettle 1.7L,4,39.99,17.5,0.0,PayPal
+ORD-10617,2026-03-10,CUST-1117,Logan White,East,Apparel,Corporate Polo Shirt,2,34.99,15.0,0.05,Bank Transfer
+ORD-10618,2025-11-02,CUST-1118,Sam Robinson,West,Electronics,Laptop Pro 15,3,999.99,650.0,0.0,Credit Card
+ORD-10619,2025-12-17,CUST-1119,Dakota Brown,East,Electronics,Laptop Pro 15,8,999.99,650.0,0.15,PayPal
+ORD-10619,2025-12-17,CUST-1119,Dakota Brown,East,Electronics,"Ultra HD Monitor 27""",1,349.99,210.0,0.2,PayPal
+ORD-10620,2025-05-29,CUST-1120,Reese Martinez,East,Home & Kitchen,Stainless Steel Travel Mug,3,24.99,9.5,0.15,Debit Card
+ORD-10621,2026-02-21,CUST-1121,Quinn Jackson,East,Office Supplies,Heavy-Duty Stapler,8,19.99,8.5,0.0,Credit Card
+ORD-10622,2025-07-12,CUST-1122,Cameron Clark,West,Electronics,Laptop Pro 15,4,999.99,650.0,0.1,PayPal
+ORD-10623,2025-01-15,CUST-1123,Skyler Johnson,East,Apparel,Corporate Polo Shirt,9,34.99,15.0,0.0,Bank Transfer
+ORD-10624,2026-04-12,CUST-1124,Peyton Rodriguez,West,Electronics,Laptop Pro 15,9,999.99,650.0,0.1,Credit Card
+ORD-10624,2026-04-12,CUST-1124,Peyton Rodriguez,West,Electronics,"Ultra HD Monitor 27""",3,349.99,210.0,0.2,PayPal
+ORD-10624,2026-04-12,CUST-1124,Peyton Rodriguez,West,Electronics,Wireless Mouse,7,29.99,12.5,0.05,Credit Card
+ORD-10625,2025-04-17,CUST-1125,Hayden Moore,North,Office Supplies,Heavy-Duty Stapler,10,19.99,8.5,0.2,Credit Card
+ORD-10626,2026-03-31,CUST-1126,Jesse Gonzalez,Central,Apparel,Corporate Polo Shirt,7,34.99,15.0,0.05,PayPal
+ORD-10626,2026-03-31,CUST-1126,Jesse Gonzalez,Central,Furniture,Ergonomic Mesh Chair,8,279.99,140.0,0.0,Debit Card
+ORD-10626,2026-03-31,CUST-1126,Jesse Gonzalez,Central,Electronics,Laptop Pro 15,1,999.99,650.0,0.1,PayPal
+ORD-10627,2025-10-18,CUST-1127,Kendall Hall,East,Apparel,Corporate Polo Shirt,1,34.99,15.0,0.1,Credit Card
+ORD-10627,2025-10-18,CUST-1127,Kendall Hall,East,Office Supplies,Heavy-Duty Stapler,9,19.99,8.5,0.1,Debit Card
+ORD-10627,2025-10-18,CUST-1127,Kendall Hall,East,Office Supplies,Ballpoint Pens (Pack of 50),4,14.99,5.0,0.1,Credit Card
+ORD-10628,2026-03-16,CUST-1128,Harper Davis,South,Electronics,Laptop Pro 15,9,999.99,650.0,0.0,Bank Transfer
+ORD-10628,2026-03-16,CUST-1128,Harper Davis,South,Home & Kitchen,Stainless Steel Travel Mug,9,24.99,9.5,0.0,Bank Transfer
+ORD-10628,2026-03-16,CUST-1128,Harper Davis,South,Home & Kitchen,Compact Espresso Machine,2,159.99,90.0,0.0,Credit Card
+ORD-10629,2025-01-12,CUST-1129,Rowan Thomas,Central,Home & Kitchen,Stainless Steel Travel Mug,10,24.99,9.5,0.1,Credit Card
+ORD-10629,2025-01-12,CUST-1129,Rowan Thomas,Central,Electronics,Laptop Pro 15,3,999.99,650.0,0.05,PayPal
+ORD-10630,2025-07-18,CUST-1130,Revanth Lopez,Central,Office Supplies,Heavy-Duty Stapler,5,19.99,8.5,0.0,PayPal
+ORD-10630,2025-07-18,CUST-1130,Revanth Lopez,Central,Office Supplies,Ballpoint Pens (Pack of 50),10,14.99,5.0,0.0,Credit Card
+ORD-10631,2025-10-17,CUST-1131,Elena Walker,East,Office Supplies,Heavy-Duty Stapler,6,19.99,8.5,0.05,Bank Transfer
+ORD-10632,2026-05-18,CUST-1132,Liam Jones,North,Office Supplies,Heavy-Duty Stapler,4,19.99,8.5,0.1,Bank Transfer
+ORD-10633,2026-04-07,CUST-1133,Sophia Anderson,South,Home & Kitchen,Stainless Steel Travel Mug,10,24.99,9.5,0.0,Credit Card
+ORD-10633,2026-04-07,CUST-1133,Sophia Anderson,South,Apparel,Corporate Polo Shirt,3,34.99,15.0,0.2,Debit Card
+ORD-10634,2025-07-17,CUST-1134,Marcus Thompson,Central,Furniture,Ergonomic Mesh Chair,4,279.99,140.0,0.1,Credit Card
+ORD-10635,2025-01-31,CUST-1135,Chloe Lewis,East,Apparel,Corporate Polo Shirt,5,34.99,15.0,0.05,Bank Transfer
+ORD-10636,2025-04-05,CUST-1136,Devon Williams,East,Electronics,Laptop Pro 15,7,999.99,650.0,0.2,Bank Transfer
+ORD-10637,2025-09-14,CUST-1137,Aria Wilson,South,Apparel,Corporate Polo Shirt,10,34.99,15.0,0.05,PayPal
+ORD-10638,2026-05-15,CUST-1138,Kai Martin,West,Electronics,Laptop Pro 15,6,999.99,650.0,0.0,Bank Transfer
+ORD-10639,2025-07-24,CUST-1139,Zara Harris,Central,Furniture,Ergonomic Mesh Chair,8,279.99,140.0,0.0,Credit Card
+ORD-10639,2025-07-24,CUST-1139,Zara Harris,Central,Electronics,Laptop Pro 15,5,999.99,650.0,0.2,Debit Card
+ORD-10640,2025-01-31,CUST-1140,Alex Smith,North,Apparel,Corporate Polo Shirt,6,34.99,15.0,0.05,Credit Card
+ORD-10640,2025-01-31,CUST-1140,Alex Smith,North,Apparel,Lightweight Windbreaker,6,59.99,28.0,0.0,Credit Card
+ORD-10641,2025-01-12,CUST-1141,Jordan Garcia,East,Electronics,Laptop Pro 15,4,999.99,650.0,0.2,Credit Card
+ORD-10641,2025-01-12,CUST-1141,Jordan Garcia,East,Furniture,Ergonomic Mesh Chair,9,279.99,140.0,0.05,Credit Card
+ORD-10642,2025-10-12,CUST-1142,Taylor Hernandez,Central,Home & Kitchen,Stainless Steel Travel Mug,6,24.99,9.5,0.1,PayPal
+ORD-10642,2025-10-12,CUST-1142,Taylor Hernandez,Central,Apparel,Corporate Polo Shirt,1,34.99,15.0,0.05,Bank Transfer
+ORD-10642,2025-10-12,CUST-1142,Taylor Hernandez,Central,Office Supplies,Heavy-Duty Stapler,10,19.99,8.5,0.1,Bank Transfer
+ORD-10643,2025-01-22,CUST-1143,Morgan Lee,East,Apparel,Corporate Polo Shirt,3,34.99,15.0,0.1,Credit Card
+ORD-10644,2026-06-25,CUST-1144,Casey Perez,North,Home & Kitchen,Stainless Steel Travel Mug,2,24.99,9.5,0.1,Debit Card
+ORD-10644,2026-06-25,CUST-1144,Casey Perez,North,Electronics,Laptop Pro 15,2,999.99,650.0,0.2,Debit Card
+ORD-10644,2026-06-25,CUST-1144,Casey Perez,North,Home & Kitchen,Compact Espresso Machine,8,159.99,90.0,0.15,Credit Card
+ORD-10645,2025-04-16,CUST-1145,Riley Miller,North,Home & Kitchen,Stainless Steel Travel Mug,2,24.99,9.5,0.1,Bank Transfer
+ORD-10645,2025-04-16,CUST-1145,Riley Miller,North,Apparel,Corporate Polo Shirt,6,34.99,15.0,0.2,Credit Card
+ORD-10646,2025-02-23,CUST-1146,Avery Taylor,East,Office Supplies,Heavy-Duty Stapler,2,19.99,8.5,0.05,Debit Card
+ORD-10646,2025-02-23,CUST-1146,Avery Taylor,East,Office Supplies,Ballpoint Pens (Pack of 50),3,14.99,5.0,0.15,Credit Card
+ORD-10646,2025-02-23,CUST-1146,Avery Taylor,East,Apparel,Corporate Polo Shirt,8,34.99,15.0,0.0,PayPal
+ORD-10647,2026-05-05,CUST-1147,Logan White,West,Electronics,Laptop Pro 15,4,999.99,650.0,0.0,Debit Card
+ORD-10647,2026-05-05,CUST-1147,Logan White,West,Home & Kitchen,Stainless Steel Travel Mug,4,24.99,9.5,0.0,Credit Card
+ORD-10647,2026-05-05,CUST-1147,Logan White,West,Furniture,Ergonomic Mesh Chair,4,279.99,140.0,0.15,Bank Transfer
+ORD-10648,2026-05-15,CUST-1148,Sam Robinson,North,Electronics,Laptop Pro 15,5,999.99,650.0,0.15,PayPal
+ORD-10649,2025-04-19,CUST-1149,Dakota Brown,South,Electronics,Laptop Pro 15,10,999.99,650.0,0.2,PayPal
+ORD-10649,2025-04-19,CUST-1149,Dakota Brown,South,Office Supplies,Heavy-Duty Stapler,7,19.99,8.5,0.0,Debit Card
+ORD-10649,2025-04-19,CUST-1149,Dakota Brown,South,Office Supplies,Ballpoint Pens (Pack of 50),2,14.99,5.0,0.0,PayPal
+ORD-10650,2026-04-17,CUST-1150,Reese Martinez,South,Apparel,Corporate Polo Shirt,6,34.99,15.0,0.05,Credit Card
+ORD-10651,2025-03-28,CUST-1151,Quinn Jackson,East,Office Supplies,Heavy-Duty Stapler,9,19.99,8.5,0.1,Debit Card
+ORD-10651,2025-03-28,CUST-1151,Quinn Jackson,East,Home & Kitchen,Stainless Steel Travel Mug,2,24.99,9.5,0.0,Bank Transfer
+ORD-10651,2025-03-28,CUST-1151,Quinn Jackson,East,Office Supplies,Ballpoint Pens (Pack of 50),7,14.99,5.0,0.0,Debit Card
+ORD-10652,2026-05-21,CUST-1152,Cameron Clark,Central,Furniture,Ergonomic Mesh Chair,4,279.99,140.0,0.0,PayPal
+ORD-10652,2026-05-21,CUST-1152,Cameron Clark,Central,Office Supplies,Heavy-Duty Stapler,4,19.99,8.5,0.0,Credit Card
+ORD-10652,2026-05-21,CUST-1152,Cameron Clark,Central,Electronics,Laptop Pro 15,7,999.99,650.0,0.1,Credit Card
+ORD-10653,2025-10-02,CUST-1153,Skyler Johnson,West,Office Supplies,Heavy-Duty Stapler,5,19.99,8.5,0.05,Credit Card
+ORD-10654,2025-07-09,CUST-1154,Peyton Rodriguez,Central,Electronics,Laptop Pro 15,4,999.99,650.0,0.0,Debit Card
+ORD-10655,2025-03-13,CUST-1155,Hayden Moore,South,Apparel,Corporate Polo Shirt,1,34.99,15.0,0.15,Bank Transfer
+ORD-10655,2025-03-13,CUST-1155,Hayden Moore,South,Home & Kitchen,Stainless Steel Travel Mug,2,24.99,9.5,0.0,Credit Card
+ORD-10655,2025-03-13,CUST-1155,Hayden Moore,South,Apparel,Lightweight Windbreaker,8,59.99,28.0,0.05,Bank Transfer
+ORD-10656,2025-02-16,CUST-1156,Jesse Gonzalez,North,Furniture,Ergonomic Mesh Chair,3,279.99,140.0,0.0,Credit Card
+ORD-10657,2025-12-10,CUST-1157,Kendall Hall,West,Electronics,Laptop Pro 15,8,999.99,650.0,0.05,Debit Card
+ORD-10657,2025-12-10,CUST-1157,Kendall Hall,West,Home & Kitchen,Stainless Steel Travel Mug,6,24.99,9.5,0.2,Bank Transfer
+ORD-10658,2025-10-04,CUST-1158,Harper Davis,Central,Office Supplies,Heavy-Duty Stapler,3,19.99,8.5,0.1,Bank Transfer
+ORD-10659,2025-09-08,CUST-1159,Rowan Thomas,Central,Furniture,Ergonomic Mesh Chair,4,279.99,140.0,0.1,Credit Card
+ORD-10660,2026-04-06,CUST-1160,Revanth Lopez,Central,Electronics,Laptop Pro 15,6,999.99,650.0,0.1,Bank Transfer
+ORD-10660,2026-04-06,CUST-1160,Revanth Lopez,Central,Furniture,Ergonomic Mesh Chair,10,279.99,140.0,0.2,Debit Card
+ORD-10661,2025-05-06,CUST-1161,Elena Walker,West,Home & Kitchen,Stainless Steel Travel Mug,1,24.99,9.5,0.15,PayPal
+ORD-10661,2025-05-06,CUST-1161,Elena Walker,West,Electronics,Laptop Pro 15,10,999.99,650.0,0.2,PayPal
+ORD-10661,2025-05-06,CUST-1161,Elena Walker,West,Home & Kitchen,Compact Espresso Machine,5,159.99,90.0,0.0,Bank Transfer
+ORD-10662,2025-08-11,CUST-1162,Liam Jones,East,Office Supplies,Heavy-Duty Stapler,5,19.99,8.5,0.0,Bank Transfer
+ORD-10663,2025-01-01,CUST-1163,Sophia Anderson,North,Electronics,Laptop Pro 15,9,999.99,650.0,0.2,PayPal
+ORD-10663,2025-01-01,CUST-1163,Sophia Anderson,North,Furniture,Ergonomic Mesh Chair,7,279.99,140.0,0.0,Debit Card
+ORD-10664,2025-02-02,CUST-1164,Marcus Thompson,West,Electronics,Laptop Pro 15,7,999.99,650.0,0.1,Credit Card
+ORD-10665,2025-11-06,CUST-1165,Chloe Lewis,Central,Electronics,Laptop Pro 15,6,999.99,650.0,0.0,PayPal
+ORD-10665,2025-11-06,CUST-1165,Chloe Lewis,Central,Home & Kitchen,Stainless Steel Travel Mug,5,24.99,9.5,0.05,Credit Card
+ORD-10666,2026-04-18,CUST-1166,Devon Williams,Central,Office Supplies,Heavy-Duty Stapler,3,19.99,8.5,0.2,Bank Transfer
+ORD-10666,2026-04-18,CUST-1166,Devon Williams,Central,Electronics,Laptop Pro 15,7,999.99,650.0,0.15,Bank Transfer
+ORD-10667,2026-04-18,CUST-1167,Aria Wilson,North,Office Supplies,Heavy-Duty Stapler,3,19.99,8.5,0.05,PayPal
+ORD-10667,2026-04-18,CUST-1167,Aria Wilson,North,Apparel,Corporate Polo Shirt,1,34.99,15.0,0.1,PayPal
+ORD-10668,2025-01-07,CUST-1168,Kai Martin,West,Furniture,Ergonomic Mesh Chair,1,279.99,140.0,0.05,Credit Card
+ORD-10668,2025-01-07,CUST-1168,Kai Martin,West,Apparel,Corporate Polo Shirt,6,34.99,15.0,0.0,Credit Card
+ORD-10669,2026-06-08,CUST-1169,Zara Harris,North,Electronics,Laptop Pro 15,3,999.99,650.0,0.05,PayPal
+ORD-10669,2026-06-08,CUST-1169,Zara Harris,North,Furniture,Ergonomic Mesh Chair,8,279.99,140.0,0.05,Credit Card
+ORD-10669,2026-06-08,CUST-1169,Zara Harris,North,Furniture,"Standing Desk 55""",9,429.99,230.0,0.0,PayPal
+ORD-10670,2025-04-17,CUST-1170,Alex Smith,West,Office Supplies,Heavy-Duty Stapler,2,19.99,8.5,0.05,Bank Transfer
+ORD-10671,2025-07-08,CUST-1171,Jordan Garcia,South,Electronics,Laptop Pro 15,10,999.99,650.0,0.0,Bank Transfer
+ORD-10671,2025-07-08,CUST-1171,Jordan Garcia,South,Home & Kitchen,Stainless Steel Travel Mug,4,24.99,9.5,0.0,PayPal
+ORD-10672,2026-05-07,CUST-1172,Taylor Hernandez,East,Apparel,Corporate Polo Shirt,6,34.99,15.0,0.05,Bank Transfer
+ORD-10672,2026-05-07,CUST-1172,Taylor Hernandez,East,Home & Kitchen,Stainless Steel Travel Mug,7,24.99,9.5,0.0,Credit Card
+ORD-10673,2026-04-14,CUST-1173,Morgan Lee,North,Office Supplies,Heavy-Duty Stapler,1,19.99,8.5,0.15,Credit Card
+ORD-10673,2026-04-14,CUST-1173,Morgan Lee,North,Electronics,Laptop Pro 15,5,999.99,650.0,0.0,PayPal
+ORD-10674,2026-05-28,CUST-1174,Casey Perez,Central,Electronics,Laptop Pro 15,9,999.99,650.0,0.0,PayPal
+ORD-10674,2026-05-28,CUST-1174,Casey Perez,Central,Electronics,"Ultra HD Monitor 27""",8,349.99,210.0,0.0,Debit Card
+ORD-10675,2025-11-07,CUST-1175,Riley Miller,West,Home & Kitchen,Stainless Steel Travel Mug,10,24.99,9.5,0.0,Debit Card
+ORD-10675,2025-11-07,CUST-1175,Riley Miller,West,Electronics,Laptop Pro 15,10,999.99,650.0,0.1,Credit Card
+ORD-10675,2025-11-07,CUST-1175,Riley Miller,West,Furniture,Ergonomic Mesh Chair,4,279.99,140.0,0.0,Credit Card
+ORD-10676,2026-05-03,CUST-1176,Avery Taylor,East,Apparel,Corporate Polo Shirt,7,34.99,15.0,0.1,Credit Card
+ORD-10676,2026-05-03,CUST-1176,Avery Taylor,East,Furniture,Ergonomic Mesh Chair,2,279.99,140.0,0.15,Debit Card
+ORD-10677,2025-01-31,CUST-1177,Logan White,South,Apparel,Corporate Polo Shirt,7,34.99,15.0,0.0,PayPal
+ORD-10677,2025-01-31,CUST-1177,Logan White,South,Electronics,Laptop Pro 15,5,999.99,650.0,0.05,PayPal
+ORD-10677,2025-01-31,CUST-1177,Logan White,South,Home & Kitchen,Stainless Steel Travel Mug,2,24.99,9.5,0.0,Credit Card
+ORD-10678,2025-02-04,CUST-1178,Sam Robinson,South,Apparel,Corporate Polo Shirt,6,34.99,15.0,0.0,Bank Transfer
+ORD-10679,2025-08-01,CUST-1179,Dakota Brown,Central,Home & Kitchen,Stainless Steel Travel Mug,2,24.99,9.5,0.15,Bank Transfer
+ORD-10680,2026-01-21,CUST-1180,Reese Martinez,North,Office Supplies,Heavy-Duty Stapler,2,19.99,8.5,0.0,Bank Transfer
+ORD-10680,2026-01-21,CUST-1180,Reese Martinez,North,Apparel,Corporate Polo Shirt,1,34.99,15.0,0.05,Debit Card
+ORD-10680,2026-01-21,CUST-1180,Reese Martinez,North,Electronics,Laptop Pro 15,2,999.99,650.0,0.0,Debit Card
+ORD-10681,2025-09-05,CUST-1181,Quinn Jackson,Central,Apparel,Corporate Polo Shirt,9,34.99,15.0,0.0,Bank Transfer
+ORD-10682,2025-01-31,CUST-1182,Cameron Clark,North,Home & Kitchen,Stainless Steel Travel Mug,6,24.99,9.5,0.0,PayPal
+ORD-10682,2025-01-31,CUST-1182,Cameron Clark,North,Home & Kitchen,Compact Espresso Machine,4,159.99,90.0,0.15,Credit Card
+ORD-10683,2025-02-06,CUST-1183,Skyler Johnson,East,Furniture,Ergonomic Mesh Chair,9,279.99,140.0,0.15,PayPal
+ORD-10683,2025-02-06,CUST-1183,Skyler Johnson,East,Furniture,"Standing Desk 55""",8,429.99,230.0,0.2,PayPal
+ORD-10683,2025-02-06,CUST-1183,Skyler Johnson,East,Electronics,Laptop Pro 15,4,999.99,650.0,0.0,Credit Card
+ORD-10684,2025-07-20,CUST-1184,Peyton Rodriguez,Central,Furniture,Ergonomic Mesh Chair,9,279.99,140.0,0.15,Credit Card
+ORD-10685,2026-01-22,CUST-1185,Hayden Moore,South,Furniture,Ergonomic Mesh Chair,2,279.99,140.0,0.15,Credit Card
+ORD-10685,2026-01-22,CUST-1185,Hayden Moore,South,Apparel,Corporate Polo Shirt,6,34.99,15.0,0.1,Credit Card
+ORD-10686,2025-08-26,CUST-1186,Jesse Gonzalez,North,Office Supplies,Heavy-Duty Stapler,9,19.99,8.5,0.0,Credit Card
+ORD-10687,2025-09-13,CUST-1187,Kendall Hall,North,Office Supplies,Heavy-Duty Stapler,3,19.99,8.5,0.05,Credit Card
+ORD-10687,2025-09-13,CUST-1187,Kendall Hall,North,Furniture,Ergonomic Mesh Chair,5,279.99,140.0,0.0,Bank Transfer
+ORD-10687,2025-09-13,CUST-1187,Kendall Hall,North,Furniture,"Standing Desk 55""",2,429.99,230.0,0.05,PayPal
+ORD-10688,2026-01-01,CUST-1188,Harper Davis,South,Electronics,Laptop Pro 15,4,999.99,650.0,0.2,Debit Card
+ORD-10688,2026-01-01,CUST-1188,Harper Davis,South,Home & Kitchen,Stainless Steel Travel Mug,7,24.99,9.5,0.15,Debit Card
+ORD-10689,2025-07-28,CUST-1189,Rowan Thomas,South,Office Supplies,Heavy-Duty Stapler,2,19.99,8.5,0.1,PayPal
+ORD-10690,2025-08-29,CUST-1190,Revanth Lopez,West,Office Supplies,Heavy-Duty Stapler,1,19.99,8.5,0.05,Debit Card
+ORD-10691,2026-01-29,CUST-1191,Elena Walker,East,Apparel,Corporate Polo Shirt,8,34.99,15.0,0.0,Bank Transfer
+ORD-10691,2026-01-29,CUST-1191,Elena Walker,East,Furniture,Ergonomic Mesh Chair,4,279.99,140.0,0.1,PayPal
+ORD-10691,2026-01-29,CUST-1191,Elena Walker,East,Home & Kitchen,Stainless Steel Travel Mug,1,24.99,9.5,0.2,Debit Card
+ORD-10692,2025-12-11,CUST-1192,Liam Jones,East,Office Supplies,Heavy-Duty Stapler,10,19.99,8.5,0.1,Bank Transfer
+ORD-10693,2025-02-28,CUST-1193,Sophia Anderson,North,Electronics,Laptop Pro 15,9,999.99,650.0,0.15,Bank Transfer
+ORD-10693,2025-02-28,CUST-1193,Sophia Anderson,North,Apparel,Corporate Polo Shirt,8,34.99,15.0,0.05,PayPal
+ORD-10693,2025-02-28,CUST-1193,Sophia Anderson,North,Home & Kitchen,Stainless Steel Travel Mug,2,24.99,9.5,0.05,Debit Card
+ORD-10694,2026-02-09,CUST-1194,Marcus Thompson,North,Electronics,Laptop Pro 15,5,999.99,650.0,0.0,Credit Card
+ORD-10694,2026-02-09,CUST-1194,Marcus Thompson,North,Apparel,Corporate Polo Shirt,8,34.99,15.0,0.15,Credit Card
+ORD-10695,2025-01-10,CUST-1195,Chloe Lewis,West,Apparel,Corporate Polo Shirt,7,34.99,15.0,0.0,Credit Card
+ORD-10695,2025-01-10,CUST-1195,Chloe Lewis,West,Apparel,Lightweight Windbreaker,3,59.99,28.0,0.05,Debit Card
+ORD-10696,2026-05-22,CUST-1196,Devon Williams,South,Apparel,Corporate Polo Shirt,4,34.99,15.0,0.0,Credit Card
+ORD-10696,2026-05-22,CUST-1196,Devon Williams,South,Electronics,Laptop Pro 15,1,999.99,650.0,0.2,PayPal
+ORD-10697,2025-09-23,CUST-1197,Aria Wilson,East,Furniture,Ergonomic Mesh Chair,10,279.99,140.0,0.05,Debit Card
+ORD-10698,2025-03-21,CUST-1198,Kai Martin,Central,Furniture,Ergonomic Mesh Chair,4,279.99,140.0,0.05,Debit Card
+ORD-10699,2026-01-16,CUST-1199,Zara Harris,West,Office Supplies,Heavy-Duty Stapler,1,19.99,8.5,0.1,Debit Card
+ORD-10699,2026-01-16,CUST-1199,Zara Harris,West,Electronics,Laptop Pro 15,8,999.99,650.0,0.05,Credit Card
+ORD-10699,2026-01-16,CUST-1199,Zara Harris,West,Apparel,Corporate Polo Shirt,3,34.99,15.0,0.0,Credit Card
+ORD-10700,2025-08-05,CUST-1200,Alex Smith,East,Apparel,Corporate Polo Shirt,10,34.99,15.0,0.0,PayPal
+ORD-10700,2025-08-05,CUST-1200,Alex Smith,East,Furniture,Ergonomic Mesh Chair,10,279.99,140.0,0.2,Bank Transfer
+ORD-10700,2025-08-05,CUST-1200,Alex Smith,East,Furniture,"Standing Desk 55""",10,429.99,230.0,0.15,Bank Transfer
+ORD-10701,2025-10-03,CUST-1201,Jordan Garcia,South,Apparel,Corporate Polo Shirt,4,34.99,15.0,0.1,PayPal
+ORD-10701,2025-10-03,CUST-1201,Jordan Garcia,South,Furniture,Ergonomic Mesh Chair,4,279.99,140.0,0.15,Bank Transfer
+ORD-10702,2025-03-23,CUST-1202,Taylor Hernandez,East,Apparel,Corporate Polo Shirt,10,34.99,15.0,0.05,Bank Transfer
+ORD-10702,2025-03-23,CUST-1202,Taylor Hernandez,East,Home & Kitchen,Stainless Steel Travel Mug,9,24.99,9.5,0.05,Bank Transfer
+ORD-10703,2025-05-22,CUST-1203,Morgan Lee,Central,Electronics,Laptop Pro 15,2,999.99,650.0,0.0,Bank Transfer
+ORD-10703,2025-05-22,CUST-1203,Morgan Lee,Central,Electronics,"Ultra HD Monitor 27""",4,349.99,210.0,0.0,Bank Transfer
+ORD-10703,2025-05-22,CUST-1203,Morgan Lee,Central,Office Supplies,Heavy-Duty Stapler,5,19.99,8.5,0.2,Bank Transfer
+ORD-10704,2025-04-14,CUST-1204,Casey Perez,South,Furniture,Ergonomic Mesh Chair,2,279.99,140.0,0.0,Bank Transfer
+ORD-10704,2025-04-14,CUST-1204,Casey Perez,South,Home & Kitchen,Stainless Steel Travel Mug,9,24.99,9.5,0.05,Debit Card
+ORD-10704,2025-04-14,CUST-1204,Casey Perez,South,Apparel,Corporate Polo Shirt,1,34.99,15.0,0.0,Debit Card
+ORD-10705,2026-02-23,CUST-1205,Riley Miller,West,Home & Kitchen,Stainless Steel Travel Mug,3,24.99,9.5,0.2,Credit Card
+ORD-10705,2026-02-23,CUST-1205,Riley Miller,West,Apparel,Corporate Polo Shirt,8,34.99,15.0,0.1,Debit Card
+ORD-10706,2025-06-30,CUST-1206,Avery Taylor,Central,Furniture,Ergonomic Mesh Chair,5,279.99,140.0,0.15,Debit Card
+ORD-10706,2025-06-30,CUST-1206,Avery Taylor,Central,Home & Kitchen,Stainless Steel Travel Mug,7,24.99,9.5,0.1,PayPal
+ORD-10707,2025-02-12,CUST-1207,Logan White,South,Electronics,Laptop Pro 15,2,999.99,650.0,0.1,Debit Card
+ORD-10708,2025-05-02,CUST-1208,Sam Robinson,East,Home & Kitchen,Stainless Steel Travel Mug,3,24.99,9.5,0.05,Debit Card
+ORD-10709,2025-04-19,CUST-1209,Dakota Brown,South,Apparel,Corporate Polo Shirt,9,34.99,15.0,0.2,PayPal
+ORD-10709,2025-04-19,CUST-1209,Dakota Brown,South,Furniture,Ergonomic Mesh Chair,1,279.99,140.0,0.15,Credit Card
+ORD-10709,2025-04-19,CUST-1209,Dakota Brown,South,Electronics,Laptop Pro 15,8,999.99,650.0,0.2,PayPal
+ORD-10710,2025-10-30,CUST-1210,Reese Martinez,North,Home & Kitchen,Stainless Steel Travel Mug,5,24.99,9.5,0.0,PayPal
+ORD-10710,2025-10-30,CUST-1210,Reese Martinez,North,Home & Kitchen,Compact Espresso Machine,4,159.99,90.0,0.0,Debit Card
+ORD-10711,2026-06-04,CUST-1211,Quinn Jackson,East,Furniture,Ergonomic Mesh Chair,6,279.99,140.0,0.0,Bank Transfer
+ORD-10712,2026-06-18,CUST-1212,Cameron Clark,East,Home & Kitchen,Stainless Steel Travel Mug,4,24.99,9.5,0.0,Bank Transfer
+ORD-10713,2025-07-20,CUST-1213,Skyler Johnson,East,Office Supplies,Heavy-Duty Stapler,8,19.99,8.5,0.05,PayPal
+ORD-10714,2025-04-01,CUST-1214,Peyton Rodriguez,Central,Office Supplies,Heavy-Duty Stapler,8,19.99,8.5,0.2,PayPal
+ORD-10715,2025-07-02,CUST-1215,Hayden Moore,North,Electronics,Laptop Pro 15,10,999.99,650.0,0.05,Debit Card
+ORD-10715,2025-07-02,CUST-1215,Hayden Moore,North,Office Supplies,Heavy-Duty Stapler,5,19.99,8.5,0.15,Bank Transfer
+ORD-10715,2025-07-02,CUST-1215,Hayden Moore,North,Electronics,"Ultra HD Monitor 27""",5,349.99,210.0,0.0,PayPal
+ORD-10716,2025-10-22,CUST-1216,Jesse Gonzalez,West,Home & Kitchen,Stainless Steel Travel Mug,2,24.99,9.5,0.0,Bank Transfer
+ORD-10717,2025-04-27,CUST-1217,Kendall Hall,East,Electronics,Laptop Pro 15,10,999.99,650.0,0.1,PayPal
+ORD-10717,2025-04-27,CUST-1217,Kendall Hall,East,Apparel,Corporate Polo Shirt,7,34.99,15.0,0.0,Debit Card
+ORD-10718,2025-11-22,CUST-1218,Harper Davis,West,Electronics,Laptop Pro 15,5,999.99,650.0,0.0,Debit Card
+ORD-10718,2025-11-22,CUST-1218,Harper Davis,West,Office Supplies,Heavy-Duty Stapler,5,19.99,8.5,0.15,Bank Transfer
+ORD-10719,2025-06-20,CUST-1219,Rowan Thomas,Central,Apparel,Corporate Polo Shirt,3,34.99,15.0,0.2,Credit Card
+ORD-10720,2025-01-22,CUST-1220,Revanth Lopez,West,Apparel,Corporate Polo Shirt,1,34.99,15.0,0.2,PayPal
+ORD-10720,2025-01-22,CUST-1220,Revanth Lopez,West,Home & Kitchen,Stainless Steel Travel Mug,4,24.99,9.5,0.05,PayPal
+ORD-10720,2025-01-22,CUST-1220,Revanth Lopez,West,Apparel,Lightweight Windbreaker,9,59.99,28.0,0.05,Credit Card
+ORD-10721,2025-01-21,CUST-1221,Elena Walker,Central,Office Supplies,Heavy-Duty Stapler,3,19.99,8.5,0.05,Debit Card
+ORD-10722,2025-08-24,CUST-1222,Liam Jones,South,Furniture,Ergonomic Mesh Chair,7,279.99,140.0,0.1,PayPal
+ORD-10723,2025-10-04,CUST-1223,Sophia Anderson,North,Apparel,Corporate Polo Shirt,1,34.99,15.0,0.0,PayPal
+ORD-10723,2025-10-04,CUST-1223,Sophia Anderson,North,Office Supplies,Heavy-Duty Stapler,6,19.99,8.5,0.1,Credit Card
+ORD-10723,2025-10-04,CUST-1223,Sophia Anderson,North,Apparel,Lightweight Windbreaker,2,59.99,28.0,0.05,Bank Transfer
+ORD-10724,2025-10-26,CUST-1224,Marcus Thompson,West,Home & Kitchen,Stainless Steel Travel Mug,8,24.99,9.5,0.05,PayPal
+ORD-10724,2025-10-26,CUST-1224,Marcus Thompson,West,Home & Kitchen,Compact Espresso Machine,6,159.99,90.0,0.2,Credit Card
+ORD-10725,2025-08-18,CUST-1225,Chloe Lewis,Central,Office Supplies,Heavy-Duty Stapler,6,19.99,8.5,0.15,Credit Card
+ORD-10725,2025-08-18,CUST-1225,Chloe Lewis,Central,Furniture,Ergonomic Mesh Chair,2,279.99,140.0,0.2,PayPal
+ORD-10726,2026-05-17,CUST-1226,Devon Williams,Central,Office Supplies,Heavy-Duty Stapler,10,19.99,8.5,0.15,PayPal
+ORD-10727,2026-05-21,CUST-1227,Aria Wilson,East,Electronics,Laptop Pro 15,3,999.99,650.0,0.0,Debit Card
+ORD-10728,2026-02-21,CUST-1228,Kai Martin,North,Electronics,Laptop Pro 15,9,999.99,650.0,0.15,Debit Card
+ORD-10728,2026-02-21,CUST-1228,Kai Martin,North,Electronics,"Ultra HD Monitor 27""",9,349.99,210.0,0.2,Credit Card
+ORD-10728,2026-02-21,CUST-1228,Kai Martin,North,Furniture,Ergonomic Mesh Chair,7,279.99,140.0,0.0,Credit Card
+ORD-10729,2026-06-17,CUST-1229,Zara Harris,North,Office Supplies,Heavy-Duty Stapler,1,19.99,8.5,0.1,Bank Transfer
+ORD-10730,2026-06-22,CUST-1230,Alex Smith,West,Office Supplies,Heavy-Duty Stapler,5,19.99,8.5,0.0,Bank Transfer
+ORD-10731,2025-10-05,CUST-1231,Jordan Garcia,Central,Furniture,Ergonomic Mesh Chair,3,279.99,140.0,0.05,PayPal
+ORD-10731,2025-10-05,CUST-1231,Jordan Garcia,Central,Electronics,Laptop Pro 15,8,999.99,650.0,0.15,PayPal
+ORD-10732,2025-05-19,CUST-1232,Taylor Hernandez,South,Office Supplies,Heavy-Duty Stapler,7,19.99,8.5,0.0,PayPal
+ORD-10732,2025-05-19,CUST-1232,Taylor Hernandez,South,Office Supplies,Ballpoint Pens (Pack of 50),4,14.99,5.0,0.05,Credit Card
+ORD-10733,2026-04-15,CUST-1233,Morgan Lee,East,Apparel,Corporate Polo Shirt,10,34.99,15.0,0.0,Credit Card
+ORD-10733,2026-04-15,CUST-1233,Morgan Lee,East,Home & Kitchen,Stainless Steel Travel Mug,4,24.99,9.5,0.05,Debit Card
+ORD-10733,2026-04-15,CUST-1233,Morgan Lee,East,Electronics,Laptop Pro 15,5,999.99,650.0,0.2,PayPal
+ORD-10734,2025-06-06,CUST-1234,Casey Perez,North,Apparel,Corporate Polo Shirt,10,34.99,15.0,0.0,PayPal
+ORD-10735,2026-01-28,CUST-1235,Riley Miller,East,Electronics,Laptop Pro 15,4,999.99,650.0,0.0,Credit Card
+ORD-10735,2026-01-28,CUST-1235,Riley Miller,East,Apparel,Corporate Polo Shirt,3,34.99,15.0,0.0,Bank Transfer
+ORD-10735,2026-01-28,CUST-1235,Riley Miller,East,Furniture,Ergonomic Mesh Chair,3,279.99,140.0,0.2,Bank Transfer
+ORD-10736,2026-04-29,CUST-1236,Avery Taylor,East,Home & Kitchen,Stainless Steel Travel Mug,7,24.99,9.5,0.1,Bank Transfer
+ORD-10736,2026-04-29,CUST-1236,Avery Taylor,East,Electronics,Laptop Pro 15,9,999.99,650.0,0.0,PayPal
+ORD-10737,2025-10-12,CUST-1237,Logan White,South,Electronics,Laptop Pro 15,2,999.99,650.0,0.2,Bank Transfer
+ORD-10738,2025-12-23,CUST-1238,Sam Robinson,South,Home & Kitchen,Stainless Steel Travel Mug,7,24.99,9.5,0.05,PayPal
+ORD-10738,2025-12-23,CUST-1238,Sam Robinson,South,Furniture,Ergonomic Mesh Chair,4,279.99,140.0,0.15,Debit Card
+ORD-10738,2025-12-23,CUST-1238,Sam Robinson,South,Office Supplies,Heavy-Duty Stapler,6,19.99,8.5,0.0,Debit Card
+ORD-10739,2026-05-30,CUST-1239,Dakota Brown,North,Apparel,Corporate Polo Shirt,8,34.99,15.0,0.1,Credit Card
+ORD-10739,2026-05-30,CUST-1239,Dakota Brown,North,Furniture,Ergonomic Mesh Chair,10,279.99,140.0,0.0,Bank Transfer
+ORD-10740,2026-04-11,CUST-1240,Reese Martinez,West,Home & Kitchen,Stainless Steel Travel Mug,1,24.99,9.5,0.1,Credit Card
+ORD-10740,2026-04-11,CUST-1240,Reese Martinez,West,Apparel,Corporate Polo Shirt,3,34.99,15.0,0.0,Bank Transfer
+ORD-10740,2026-04-11,CUST-1240,Reese Martinez,West,Office Supplies,Heavy-Duty Stapler,6,19.99,8.5,0.0,Debit Card
+ORD-10741,2025-01-18,CUST-1241,Quinn Jackson,East,Electronics,Laptop Pro 15,9,999.99,650.0,0.0,Bank Transfer
+ORD-10742,2025-03-04,CUST-1242,Cameron Clark,North,Electronics,Laptop Pro 15,2,999.99,650.0,0.0,Bank Transfer
+ORD-10742,2025-03-04,CUST-1242,Cameron Clark,North,Furniture,Ergonomic Mesh Chair,9,279.99,140.0,0.1,PayPal
+ORD-10743,2025-01-04,CUST-1243,Skyler Johnson,East,Apparel,Corporate Polo Shirt,8,34.99,15.0,0.0,Bank Transfer
+ORD-10743,2025-01-04,CUST-1243,Skyler Johnson,East,Furniture,Ergonomic Mesh Chair,2,279.99,140.0,0.0,Debit Card
+ORD-10743,2025-01-04,CUST-1243,Skyler Johnson,East,Furniture,"Standing Desk 55""",4,429.99,230.0,0.1,Bank Transfer
+ORD-10744,2025-09-10,CUST-1244,Peyton Rodriguez,East,Office Supplies,Heavy-Duty Stapler,7,19.99,8.5,0.05,PayPal
+ORD-10745,2025-05-24,CUST-1245,Hayden Moore,Central,Furniture,Ergonomic Mesh Chair,5,279.99,140.0,0.05,PayPal
+ORD-10745,2025-05-24,CUST-1245,Hayden Moore,Central,Electronics,Laptop Pro 15,5,999.99,650.0,0.0,Bank Transfer
+ORD-10746,2026-01-08,CUST-1246,Jesse Gonzalez,East,Furniture,Ergonomic Mesh Chair,1,279.99,140.0,0.1,PayPal
+ORD-10746,2026-01-08,CUST-1246,Jesse Gonzalez,East,Electronics,Laptop Pro 15,6,999.99,650.0,0.05,PayPal
+ORD-10747,2026-05-31,CUST-1247,Kendall Hall,Central,Furniture,Ergonomic Mesh Chair,5,279.99,140.0,0.05,Bank Transfer
+ORD-10747,2026-05-31,CUST-1247,Kendall Hall,Central,Furniture,"Standing Desk 55""",8,429.99,230.0,0.0,Bank Transfer
+ORD-10748,2025-11-27,CUST-1248,Harper Davis,East,Furniture,Ergonomic Mesh Chair,6,279.99,140.0,0.0,Debit Card
+ORD-10748,2025-11-27,CUST-1248,Harper Davis,East,Home & Kitchen,Stainless Steel Travel Mug,6,24.99,9.5,0.1,Credit Card
+ORD-10748,2025-11-27,CUST-1248,Harper Davis,East,Apparel,Corporate Polo Shirt,8,34.99,15.0,0.2,PayPal
+ORD-10749,2026-03-26,CUST-1249,Rowan Thomas,Central,Electronics,Laptop Pro 15,8,999.99,650.0,0.05,Debit Card
+ORD-10750,2026-01-18,CUST-1250,Revanth Lopez,Central,Electronics,Laptop Pro 15,5,999.99,650.0,0.0,PayPal
+ORD-10750,2026-01-18,CUST-1250,Revanth Lopez,Central,Apparel,Corporate Polo Shirt,5,34.99,15.0,0.1,Credit Card
+ORD-10750,2026-01-18,CUST-1250,Revanth Lopez,Central,Office Supplies,Heavy-Duty Stapler,10,19.99,8.5,0.0,PayPal
+ORD-10751,2025-12-08,CUST-1251,Elena Walker,North,Apparel,Corporate Polo Shirt,8,34.99,15.0,0.1,PayPal
+ORD-10751,2025-12-08,CUST-1251,Elena Walker,North,Furniture,Ergonomic Mesh Chair,4,279.99,140.0,0.0,Debit Card
+ORD-10751,2025-12-08,CUST-1251,Elena Walker,North,Furniture,"Standing Desk 55""",4,429.99,230.0,0.1,Credit Card
+ORD-99001,2025-05-12,,Ghost Customer,North,Electronics,Wireless Mouse,2,29.99,12.5,0.0,Credit Card
+ORD-99002,2025-06-18,CUST-1099,Taylor Swift,East,Furniture,Desk Lamp LED,1,,18.0,0.05,PayPal
+ORD-99003,2026-15-45,CUST-1042,Marcus Davis,West,Office Supplies,Printer Paper (5 Reams),3,44.99,22.0,0.1,Debit Card
+ORD-99004,2025-09-22,CUST-1115,Elena Rostova,South,Apparel,Corporate Polo Shirt,-4,34.99,15.0,0.0,Credit Card
+ORD-99005,2025-11-04,CUST-1201,Aria Stark,Central,Home & Kitchen,Compact Espresso Machine,1,159.99,90.0,1.65,Bank Transfer
+ORD-10027,2025-07-14,CUST-1127,Kendall Hall,East,Furniture,"Standing Desk 55""",5,429.99,230.0,0.2,Debit Card
