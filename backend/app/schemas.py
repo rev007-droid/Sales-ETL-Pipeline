@@ -2,173 +2,230 @@
 schemas.py
 ----------
 Pydantic response and request models for SalesPulse API.
+Includes Authentication, RBAC, Analytics, ETL, and Transactions.
 """
 
+# import date classes
 from datetime import date, datetime
+# import typing helpers
 from typing import List, Optional, Dict, Any
+# import pydantic base
 from pydantic import BaseModel, Field, ConfigDict
 
 
-# Health Schema
+# user registration schema
+class UserRegisterRequest(BaseModel):
+    email: str = Field(..., pattern=r"^[^@]+@[^@]+\.[^@]+$", description="Valid user email") # user email field
+    username: str = Field(..., min_length=3, max_length=50, description="Unique username") # username field
+    password: str = Field(..., min_length=6, max_length=128, description="User password") # password field
+    full_name: Optional[str] = Field(None, description="Full name of user") # full name field
+    role: Optional[str] = Field("analyst", description="Role: admin, analyst, or viewer") # rbac role
+
+
+# user login schema
+class UserLoginRequest(BaseModel):
+    email_or_username: str = Field(..., description="Email address or username") # login identifier
+    password: str = Field(..., description="User password") # login password
+
+
+# user read schema
+class UserRead(BaseModel):
+    model_config = ConfigDict(from_attributes=True) # orm attributes mode
+
+    id: int # user id
+    email: str # email string
+    username: str # username string
+    full_name: Optional[str] = None # full name
+    role: str # user role
+    is_active: bool # active status
+    created_at: Optional[datetime] = None # creation time
+
+
+# token response schema
+class TokenResponse(BaseModel):
+    access_token: str # jwt access token
+    refresh_token: str # opaque refresh token
+    token_type: str = "bearer" # token type bearer
+    expires_in: int # seconds to expire
+    user: UserRead # current user profile
+
+
+# refresh token request
+class RefreshTokenRequest(BaseModel):
+    refresh_token: str # refresh token string
+
+
+# health schema
 class HealthResponse(BaseModel):
-    status: str
-    version: str
-    timestamp: str
-    database: str
-    environment: str
+    status: str # health status
+    version: str # app version
+    timestamp: str # check timestamp
+    database: str # database status
+    environment: str # active environment
 
 
-# Analytics Schemas
+# analytics summary schema
 class SalesSummaryKPIs(BaseModel):
-    total_revenue: float = Field(..., description="Sum of NetSales")
-    total_profit: float = Field(..., description="Sum of Profit")
-    total_orders: int = Field(..., description="Count of distinct OrderID")
-    units_sold: int = Field(..., description="Sum of Quantity")
-    average_order_value: float = Field(..., description="Total Revenue / Total Orders")
-    profit_margin_pct: float = Field(..., description="(Total Profit / Total Revenue) * 100")
+    total_revenue: float = Field(..., description="Sum of NetSales") # total net sales
+    total_profit: float = Field(..., description="Sum of Profit") # total net profit
+    total_orders: int = Field(..., description="Count of distinct OrderID") # distinct order count
+    units_sold: int = Field(..., description="Sum of Quantity") # total units count
+    average_order_value: float = Field(..., description="Total Revenue / Total Orders") # revenue per order
+    profit_margin_pct: float = Field(..., description="(Total Profit / Total Revenue) * 100") # profit margin pct
 
 
+# sales trend schema
 class SalesTrendItem(BaseModel):
-    period: str
-    revenue: float
-    profit: float
-    units_sold: int
-    orders_count: int
+    period: str # period label
+    revenue: float # period revenue
+    profit: float # period profit
+    units_sold: int # units count
+    orders_count: int # orders count
 
 
+# regional performance schema
 class RegionPerformanceItem(BaseModel):
-    region: str
-    revenue: float
-    profit: float
-    orders_count: int
-    profit_margin_pct: float
+    region: str # region name
+    revenue: float # region revenue
+    profit: float # region profit
+    orders_count: int # orders count
+    profit_margin_pct: float # margin percent
 
 
+# category performance schema
 class CategoryPerformanceItem(BaseModel):
-    category: str
-    revenue: float
-    profit: float
-    units_sold: int
-    revenue_share_pct: float
+    category: str # category name
+    revenue: float # category revenue
+    profit: float # category profit
+    units_sold: int # units sold
+    revenue_share_pct: float # category share
 
 
+# top product schema
 class TopProductItem(BaseModel):
-    product: str
-    category: str
-    units_sold: int
-    revenue: float
-    profit: float
-    profit_margin_pct: float
+    product: str # product title
+    category: str # product category
+    units_sold: int # sold units
+    revenue: float # total revenue
+    profit: float # total profit
+    profit_margin_pct: float # margin rate
 
 
-# Transaction Schemas
+# transaction read schema
 class SalesTransactionRead(BaseModel):
-    model_config = ConfigDict(from_attributes=True)
+    model_config = ConfigDict(from_attributes=True) # orm mode
 
-    id: int
-    transaction_key: str
-    order_id: str
-    order_date: date
-    customer_id: str
-    customer_name: Optional[str] = None
-    region: str
-    category: str
-    product: str
-    quantity: int
-    unit_price: float
-    cost_price: float
-    discount: float
-    gross_sales: float
-    discount_amount: float
-    net_sales: float
-    total_cost: float
-    profit: float
-    payment_method: str
-    job_id: Optional[str] = None
-    created_at: Optional[datetime] = None
+    id: int # transaction id
+    transaction_key: str # composite key
+    order_id: str # order number
+    order_date: date # order date
+    customer_id: str # customer number
+    customer_name: Optional[str] = None # customer name
+    region: str # sales region
+    category: str # product category
+    product: str # product name
+    quantity: int # sold quantity
+    unit_price: float # unit price
+    cost_price: float # unit cost
+    discount: float # discount fraction
+    gross_sales: float # gross sales
+    discount_amount: float # discount value
+    net_sales: float # net revenue
+    total_cost: float # total cost
+    profit: float # total profit
+    payment_method: str # payment method
+    job_id: Optional[str] = None # source job
+    created_at: Optional[datetime] = None # inserted time
 
 
+# sales list pagination
 class SalesListResponse(BaseModel):
-    items: List[SalesTransactionRead]
-    total: int
-    page: int
-    page_size: int
-    total_pages: int
+    items: List[SalesTransactionRead] # items page
+    total: int # total count
+    page: int # current page
+    page_size: int # page size
+    total_pages: int # pages count
 
 
+# preview response schema
 class SalesPreviewResponse(BaseModel):
-    filename: str
-    file_size_bytes: int
-    total_rows: int
-    columns: List[str]
-    preview_rows: List[Dict[str, Any]]
+    filename: str # source name
+    file_size_bytes: int # file bytes
+    total_rows: int # total rows
+    columns: List[str] # schema columns
+    preview_rows: List[Dict[str, Any]] # sample rows
 
 
-# Upload & ETL Schemas
+# upload response schema
 class UploadResponse(BaseModel):
-    file_id: str
-    filename: str
-    file_size_bytes: int
-    columns: List[str]
-    preview_rows: List[Dict[str, Any]]
-    total_rows: int
-    message: str
+    file_id: str # file uuid
+    filename: str # file name
+    file_size_bytes: int # byte size
+    columns: List[str] # column headers
+    preview_rows: List[Dict[str, Any]] # sample rows
+    total_rows: int # row count
+    message: str # status text
 
 
+# etl run request
 class ETLRunRequest(BaseModel):
-    file_path: Optional[str] = None
-    file_id: Optional[str] = None
-    run_mode: Optional[str] = "sync"  # "sync" or "async"
+    file_path: Optional[str] = None # optional path
+    file_id: Optional[str] = None # optional id
+    run_mode: Optional[str] = "sync" # sync or async
 
 
+# etl job read
 class ETLJobRead(BaseModel):
-    model_config = ConfigDict(from_attributes=True)
+    model_config = ConfigDict(from_attributes=True) # orm mode
 
-    id: str
-    job_name: str
-    file_name: str
-    file_size_bytes: int
-    status: str
-    total_rows: int
-    valid_rows: int
-    rejected_rows: int
-    duplicate_rows: int
-    inserted_rows: int
-    updated_rows: int
-    skipped_rows: int
-    duration_seconds: float
-    quality_score_pct: float
-    start_time: Optional[datetime] = None
-    end_time: Optional[datetime] = None
-    error_message: Optional[str] = None
-    created_at: Optional[datetime] = None
+    id: str # job id
+    job_name: str # job title
+    file_name: str # file title
+    file_size_bytes: int # file bytes
+    status: str # job status
+    total_rows: int # extracted rows
+    valid_rows: int # accepted rows
+    rejected_rows: int # rejected rows
+    duplicate_rows: int # duplicate rows
+    inserted_rows: int # inserted rows
+    updated_rows: int # updated rows
+    skipped_rows: int # skipped rows
+    duration_seconds: float # duration float
+    quality_score_pct: float # quality rate
+    start_time: Optional[datetime] = None # start time
+    end_time: Optional[datetime] = None # end time
+    error_message: Optional[str] = None # error text
+    created_at: Optional[datetime] = None # creation time
 
 
+# etl job list
 class ETLJobListResponse(BaseModel):
-    jobs: List[ETLJobRead]
-    total: int
+    jobs: List[ETLJobRead] # job items
+    total: int # total jobs
 
 
+# rejection detail schema
 class RejectionDetailRead(BaseModel):
-    model_config = ConfigDict(from_attributes=True)
+    model_config = ConfigDict(from_attributes=True) # orm mode
 
-    id: int
-    job_id: str
-    row_number: int
-    order_id: Optional[str] = None
-    product: Optional[str] = None
-    rejection_reason: str
-    raw_data: Optional[str] = None
-    created_at: Optional[datetime] = None
+    id: int # rejection id
+    job_id: str # foreign job id
+    row_number: int # row number
+    order_id: Optional[str] = None # order id
+    product: Optional[str] = None # product name
+    rejection_reason: str # failure reason
+    raw_data: Optional[str] = None # raw payload
+    created_at: Optional[datetime] = None # logged time
 
 
+# data quality summary
 class DataQualitySummaryResponse(BaseModel):
-    execution_timestamp: str
-    total_extracted_rows: int
-    valid_rows_count: int
-    rejected_rows_count: int
-    reconciliation_passed: bool
-    data_quality_score_pct: float
-    rejection_breakdown: Dict[str, int]
-    financial_aggregates: Dict[str, Any]
-    recent_rejections: List[RejectionDetailRead] = []
+    execution_timestamp: str # run timestamp
+    total_extracted_rows: int # total extracted
+    valid_rows_count: int # clean rows
+    rejected_rows_count: int # rejected rows
+    reconciliation_passed: bool # balance status
+    data_quality_score_pct: float # quality score
+    rejection_breakdown: Dict[str, int] # reasons count
+    financial_aggregates: Dict[str, Any] # totals dict
+    recent_rejections: List[RejectionDetailRead] = [] # audit rows

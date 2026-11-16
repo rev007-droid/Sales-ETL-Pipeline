@@ -1,6 +1,78 @@
 // define api base
 const API_BASE = import.meta.env.VITE_API_BASE_URL || '/api';
 
+// token localstorage key
+const ACCESS_TOKEN_KEY = 'salespulse_access_token';
+const REFRESH_TOKEN_KEY = 'salespulse_refresh_token';
+const USER_KEY = 'salespulse_user';
+
+// get stored token
+export const getAccessToken = () => localStorage.getItem(ACCESS_TOKEN_KEY);
+// get stored refresh
+export const getRefreshToken = () => localStorage.getItem(REFRESH_TOKEN_KEY);
+// get stored user
+export const getStoredUser = () => {
+  try {
+    const u = localStorage.getItem(USER_KEY);
+    return u ? JSON.parse(u) : null;
+  } catch (e) {
+    return null;
+  }
+};
+
+// set auth session
+export const setAuthSession = (tokenData) => {
+  if (tokenData?.access_token) localStorage.setItem(ACCESS_TOKEN_KEY, tokenData.access_token);
+  if (tokenData?.refresh_token) localStorage.setItem(REFRESH_TOKEN_KEY, tokenData.refresh_token);
+  if (tokenData?.user) localStorage.setItem(USER_KEY, JSON.stringify(tokenData.user));
+};
+
+// clear auth session
+export const clearAuthSession = () => {
+  localStorage.removeItem(ACCESS_TOKEN_KEY);
+  localStorage.removeItem(REFRESH_TOKEN_KEY);
+  localStorage.removeItem(USER_KEY);
+};
+
+// authenticated fetch helper
+const authFetch = async (url, options = {}) => {
+  const token = getAccessToken(); // get token
+  const headers = {
+    ...(options.headers || {}) // copy existing
+  };
+
+  // attach bearer header
+  if (token) {
+    headers['Authorization'] = `Bearer ${token}`;
+  }
+
+  // execute fetch call
+  let res = await fetch(url, { ...options, headers });
+
+  // handle 401 token refresh
+  if (res.status === 401 && getRefreshToken()) {
+    try {
+      const refRes = await fetch(`${API_BASE}/auth/refresh`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ refresh_token: getRefreshToken() })
+      });
+      if (refRes.ok) {
+        const newData = await refRes.json();
+        setAuthSession(newData); // update session
+        headers['Authorization'] = `Bearer ${newData.access_token}`;
+        res = await fetch(url, { ...options, headers }); // retry request
+      } else {
+        clearAuthSession(); // clear invalid
+      }
+    } catch (e) {
+      clearAuthSession(); // clear on error
+    }
+  }
+
+  return res;
+};
+
 // helper query string
 const buildQuery = (params) => {
   if (!params) return ''; // no params
@@ -13,9 +85,57 @@ const buildQuery = (params) => {
 
 // api service methods
 export const api = {
+  // register user account
+  async register(data) {
+    const res = await fetch(`${API_BASE}/auth/register`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(data)
+    });
+    if (!res.ok) {
+      const err = await res.json().catch(() => ({}));
+      throw new Error(err.detail || 'Registration failed');
+    }
+    const tokenData = await res.json();
+    setAuthSession(tokenData);
+    return tokenData;
+  },
+
+  // login user credentials
+  async login(credentials) {
+    const res = await fetch(`${API_BASE}/auth/login`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(credentials)
+    });
+    if (!res.ok) {
+      const err = await res.json().catch(() => ({}));
+      throw new Error(err.detail || 'Login failed');
+    }
+    const tokenData = await res.json();
+    setAuthSession(tokenData);
+    return tokenData;
+  },
+
+  // logout current user
+  async logout() {
+    try {
+      await authFetch(`${API_BASE}/auth/logout`, { method: 'POST' });
+    } finally {
+      clearAuthSession();
+    }
+  },
+
+  // get current user profile
+  async getMe() {
+    const res = await authFetch(`${API_BASE}/auth/me`);
+    if (!res.ok) throw new Error('Failed to fetch profile');
+    return res.json();
+  },
+
   // get health status
   async getHealth() {
-    const res = await fetch(`${API_BASE}/health`); // call health
+    const res = await authFetch(`${API_BASE}/health`); // call health
     if (!res.ok) throw new Error('Health check failed'); // check error
     return res.json(); // return json
   },
@@ -23,7 +143,7 @@ export const api = {
   // get dashboard summary
   async getDashboardSummary(params = {}) {
     const qs = buildQuery(params); // build qs
-    const res = await fetch(`${API_BASE}/dashboard/summary${qs}`); // call summary
+    const res = await authFetch(`${API_BASE}/dashboard/summary${qs}`); // call summary
     if (!res.ok) throw new Error('Failed to load dashboard summary'); // check error
     return res.json(); // return json
   },
@@ -31,7 +151,7 @@ export const api = {
   // get sales trend
   async getSalesTrend(params = {}) {
     const qs = buildQuery(params); // build qs
-    const res = await fetch(`${API_BASE}/dashboard/sales-trend${qs}`); // call trend
+    const res = await authFetch(`${API_BASE}/dashboard/sales-trend${qs}`); // call trend
     if (!res.ok) throw new Error('Failed to load sales trend'); // check error
     return res.json(); // return json
   },
@@ -39,7 +159,7 @@ export const api = {
   // get region performance
   async getRegionPerformance(params = {}) {
     const qs = buildQuery(params); // build qs
-    const res = await fetch(`${API_BASE}/dashboard/region-performance${qs}`); // call regions
+    const res = await authFetch(`${API_BASE}/dashboard/region-performance${qs}`); // call regions
     if (!res.ok) throw new Error('Failed to load regional performance'); // check error
     return res.json(); // return json
   },
@@ -47,7 +167,7 @@ export const api = {
   // get category performance
   async getCategoryPerformance(params = {}) {
     const qs = buildQuery(params); // build qs
-    const res = await fetch(`${API_BASE}/dashboard/category-performance${qs}`); // call categories
+    const res = await authFetch(`${API_BASE}/dashboard/category-performance${qs}`); // call categories
     if (!res.ok) throw new Error('Failed to load category performance'); // check error
     return res.json(); // return json
   },
@@ -55,7 +175,7 @@ export const api = {
   // get top products
   async getTopProducts(params = {}) {
     const qs = buildQuery(params); // build qs
-    const res = await fetch(`${API_BASE}/dashboard/top-products${qs}`); // call top products
+    const res = await authFetch(`${API_BASE}/dashboard/top-products${qs}`); // call top products
     if (!res.ok) throw new Error('Failed to load top products'); // check error
     return res.json(); // return json
   },
@@ -63,14 +183,14 @@ export const api = {
   // get paginated sales
   async getSales(params = {}) {
     const qs = buildQuery(params); // build qs
-    const res = await fetch(`${API_BASE}/sales${qs}`); // call sales
+    const res = await authFetch(`${API_BASE}/sales${qs}`); // call sales
     if (!res.ok) throw new Error('Failed to load sales transactions'); // check error
     return res.json(); // return json
   },
 
   // get sales preview
   async getSalesPreview(limit = 10) {
-    const res = await fetch(`${API_BASE}/sales/preview?limit=${limit}`); // call preview
+    const res = await authFetch(`${API_BASE}/sales/preview?limit=${limit}`); // call preview
     if (!res.ok) throw new Error('Failed to load preview'); // check error
     return res.json(); // return json
   },
@@ -79,7 +199,7 @@ export const api = {
   async uploadFile(file) {
     const formData = new FormData(); // create formdata
     formData.append('file', file); // attach file
-    const res = await fetch(`${API_BASE}/upload`, {
+    const res = await authFetch(`${API_BASE}/upload`, {
       method: 'POST', // post method
       body: formData // send file
     });
@@ -92,7 +212,7 @@ export const api = {
 
   // trigger etl execution
   async runEtl(payload = {}) {
-    const res = await fetch(`${API_BASE}/etl/run`, {
+    const res = await authFetch(`${API_BASE}/etl/run`, {
       method: 'POST', // post request
       headers: { 'Content-Type': 'application/json' }, // json header
       body: JSON.stringify(payload) // send payload
@@ -106,28 +226,28 @@ export const api = {
 
   // get etl jobs
   async getEtlJobs(limit = 20) {
-    const res = await fetch(`${API_BASE}/etl/jobs?limit=${limit}`); // call jobs
+    const res = await authFetch(`${API_BASE}/etl/jobs?limit=${limit}`); // call jobs
     if (!res.ok) throw new Error('Failed to load ETL jobs'); // check error
     return res.json(); // return json
   },
 
   // get single job
   async getEtlJobDetail(jobId) {
-    const res = await fetch(`${API_BASE}/etl/jobs/${jobId}`); // call job detail
+    const res = await authFetch(`${API_BASE}/etl/jobs/${jobId}`); // call job detail
     if (!res.ok) throw new Error(`Failed to load ETL job ${jobId}`); // check error
     return res.json(); // return json
   },
 
   // get latest results
   async getLatestEtlResults() {
-    const res = await fetch(`${API_BASE}/etl/results`); // call results
+    const res = await authFetch(`${API_BASE}/etl/results`); // call results
     if (!res.ok) throw new Error('Failed to load ETL results'); // check error
     return res.json(); // return json
   },
 
   // get quality report
   async getDataQualityReport() {
-    const res = await fetch(`${API_BASE}/reports/data-quality`); // call reports
+    const res = await authFetch(`${API_BASE}/reports/data-quality`); // call reports
     if (!res.ok) throw new Error('Failed to load data quality report'); // check error
     return res.json(); // return json
   },

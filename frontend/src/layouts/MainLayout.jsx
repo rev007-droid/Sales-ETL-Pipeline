@@ -1,5 +1,5 @@
-// import react module
-import React, { useState } from 'react';
+// import react hooks
+import React, { useState, useEffect } from 'react';
 // import sidebar component
 import Sidebar from '../components/Sidebar';
 // import navbar component
@@ -10,6 +10,8 @@ import UploadPage from '../pages/UploadPage';
 import MonitoringPage from '../pages/MonitoringPage';
 import SalesExplorerPage from '../pages/SalesExplorerPage';
 import DataQualityPage from '../pages/DataQualityPage';
+// import auth helper
+import { getStoredUser, api } from '../services/api';
 
 // page metadata dictionary
 const PAGE_CONFIG = {
@@ -38,8 +40,19 @@ const PAGE_CONFIG = {
 export default function MainLayout() {
   // state active page tab
   const [activeTab, setActiveTab] = useState('dashboard');
+  // state current auth user
+  const [currentUser, setCurrentUser] = useState(getStoredUser());
   // state refresh key
   const [refreshKey, setRefreshKey] = useState(0);
+
+  // sync auth user on mount
+  useEffect(() => {
+    if (getStoredUser()) {
+      api.getMe()
+        .then((u) => setCurrentUser(u))
+        .catch(() => setCurrentUser(null));
+    }
+  }, []);
 
   // handle pipeline completion
   const handleRefreshAll = () => {
@@ -61,13 +74,15 @@ export default function MainLayout() {
         <Navbar
           title={currentConfig.title} // active title
           subtitle={currentConfig.subtitle} // active subtitle
+          currentUser={currentUser} // current user state
+          setCurrentUser={setCurrentUser} // set user state
           onRefreshAll={handleRefreshAll} // refresh callback
         />
 
         {/* page canvas container */}
         <main className="content-canvas" key={refreshKey}>
           {activeTab === 'dashboard' && <DashboardPage />} {/* render dashboard */}
-          {activeTab === 'upload' && <UploadPage onEtlCompleted={handleRefreshAll} />} {/* render upload */}
+          {activeTab === 'upload' && <UploadPage currentUser={currentUser} onEtlCompleted={handleRefreshAll} />} {/* render upload */}
           {activeTab === 'monitoring' && <MonitoringPage />} {/* render monitoring */}
           {activeTab === 'explorer' && <SalesExplorerPage />} {/* render explorer */}
           {activeTab === 'quality' && <DataQualityPage />} {/* render quality */}

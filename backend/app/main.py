@@ -20,12 +20,15 @@ from backend.app.config import settings
 # import database initializer
 from backend.app.database import init_db, SessionLocal
 # import sales model
-from backend.app.models import SalesTransaction
+from backend.app.models import SalesTransaction, User
 # import etl runner
 from backend.app.services.etl_service import execute_etl_pipeline
+# import auth service
+from backend.app.services.auth_service import hash_password
 
 # import api routers
 from backend.app.routers import (
+    auth, # authentication rbac
     health, # health check
     dashboard, # analytics endpoints
     sales, # sales data
@@ -40,6 +43,43 @@ from backend.app.routers import (
 async def lifespan(app: FastAPI):
     # build db schema
     init_db()
+
+    # seed default admin if no users exist
+    db = SessionLocal()
+    try:
+        user_count = db.query(User).count()
+        if user_count == 0:
+            admin_user = User(
+                email="admin@salespulse.io",
+                username="admin",
+                hashed_password=hash_password("admin123"), # default demo password
+                full_name="System Administrator",
+                role="admin",
+                is_active=True
+            )
+            analyst_user = User(
+                email="analyst@salespulse.io",
+                username="analyst",
+                hashed_password=hash_password("analyst123"),
+                full_name="Sales Analyst",
+                role="analyst",
+                is_active=True
+            )
+            viewer_user = User(
+                email="viewer@salespulse.io",
+                username="viewer",
+                hashed_password=hash_password("viewer123"),
+                full_name="Executive Viewer",
+                role="viewer",
+                is_active=True
+            )
+            db.add_all([admin_user, analyst_user, viewer_user])
+            db.commit()
+    except Exception as e:
+        db.rollback()
+    finally:
+        db.close()
+
     yield # run app lifespan
 
 
@@ -47,7 +87,7 @@ async def lifespan(app: FastAPI):
 app = FastAPI(
     title=settings.PROJECT_NAME,
     version=settings.VERSION,
-    description="Production-grade Sales Data ETL & Analytics Platform backend API.",
+    description="Production-grade Sales Data ETL & Analytics Platform backend API with JWT Auth & RBAC.",
     lifespan=lifespan
 )
 
@@ -85,6 +125,8 @@ async def global_exception_handler(request: Request, exc: Exception):
     )
 
 
+# register auth routes
+app.include_router(auth.router, prefix=settings.API_PREFIX)
 # register health routes
 app.include_router(health.router, prefix=settings.API_PREFIX)
 # register dashboard routes
